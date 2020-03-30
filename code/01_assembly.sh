@@ -3,7 +3,7 @@
 #SBATCH -A g2020008
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 12:00:00
+#SBATCH -t 17:00:00
 #SBATCH -J 01_assembly
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user nuria.garrigaalonso.5928@student.uu.se
