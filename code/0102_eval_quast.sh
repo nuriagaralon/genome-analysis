@@ -12,4 +12,7 @@ cd quast-5.0.2
 ./setup.py install
 
 #run quast
-./quast.py analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta -r data/lferriphilum_ref.fasta -o analyses/01_genome_assembly/02_eval_quast/ 
+./quast.py \
+../analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
+-r ../data/OBMB01.fasta \
+-o ../analyses/01_genome_assembly/02_eval_quast/ 
