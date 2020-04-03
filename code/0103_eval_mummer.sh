@@ -14,15 +14,17 @@ module load MUMmer/3.23
 
 # running MUMmer
 mummer -mum -b -c \
-data/lferriphilum_ref.fasta \ 
-analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
-> analyses/01_genome_assembly/03_eval_mummer/ref_qry.mums 
+~/genome-analysis/data/OBMB01.fasta \ 
+~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
+> analyses/01_genome_assembly/03_eval_mummer/lferriphilum.mums 
+
+cd ~/genome-analysis/analyses/01_genome_assembly/03_eval_mummer/
 
 # running mummerplot
 mummerplot \
--Q analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
--R data/lferriphilum_ref.fasta \
-analyses/01_genome_assembly/03_eval_mummer/lferriphilum.mums \
+-Q ~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
+-R ~/genome-analysis/data/lferriphilum_ref.fasta \
+~/genome-analysis/analyses/01_genome_assembly/03_eval_mummer/lferriphilum.mums \
 --postscript --prefix=lferriphilum
 
 gnuplot lferriphilum.gp
