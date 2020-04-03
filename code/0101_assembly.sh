@@ -15,9 +15,9 @@ module load canu
 # running canu
 canu \
  -p lferriphilum \
- -d genome-analysis/analyses/01_genome_assembly/01_assembly_canu \
+ -d analyses/01_genome_assembly/01_assembly_canu \
  genomeSize=2.6m \
  stopOnReadQuality=false \
  maxThreads=4 \
- -pacbio-raw genome-analysis/data/DNA_raw_data/ERR2028*.fastq.gz 
+ -pacbio-raw data/DNA_raw_data/ERR2028*.fastq.gz 
 
