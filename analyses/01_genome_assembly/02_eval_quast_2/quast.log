@@ -1,30 +1,29 @@
-./quast.py ../analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta -r ../data/reference/lferriphilum_ref.fasta -o ../analyses/01_genome_assembly/02_eval_quast_2/ --gene-finding
+/sw/bioinfo/quast/4.5.4/rackham/bin/quast.py /home/nuga5928/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta -R /home/nuga5928/genome-analysis/data/reference/lferriphilum_ref.fasta -o /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/ --gene-finding
 
-Version: 5.0.2, 1940edd
+Version: 4.5.4
 
 System information:
-  OS: Linux-5.3.0-45-generic-x86_64-with-Ubuntu-18.04-bionic (linux_64)
-  Python version: 2.7.17
-  CPUs number: 4
+  OS: Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 20
 
-Started: 2020-04-05 11:32:50
+Started: 2020-04-05 12:51:48
 
-Logging to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast.log
-NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+Logging to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast.log
+NOTICE: Maximum number of threads is set to 5 (use --threads option to set it manually)
 
-CWD: /home/nuria/Documents/Genome_Analysis/genome-analysis/quast-5.0.2
+CWD: /domus/h1/nuga5928/genome-analysis
 Main parameters: 
-  MODE: default, threads: 1, minimum contig length: 500, minimum alignment length: 65, \
-  ambiguity: one, threshold for extensive misassembly size: 1000
+  Threads: 5, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
 
 Reference:
-  /home/nuria/Documents/Genome_Analysis/genome-analysis/data/reference/lferriphilum_ref.fasta ==> lferriphilum_ref
+  /home/nuga5928/genome-analysis/data/reference/lferriphilum_ref.fasta ==> lferriphilum_ref
 
 Contigs:
   Pre-processing...
-  ../analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta ==> tig00004064
+  /home/nuga5928/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta ==> tig00004064
 
-2020-04-05 11:32:51
+2020-04-05 12:51:50
 Running Basic statistics processor...
   Reference genome:
     lferriphilum_ref.fasta, length = 2610531, num fragments = 2, GC % = 54.14
@@ -33,97 +32,117 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     tig00004064, N50 = 2563357, L50 = 1, Total length = 2563357, GC % = 54.21, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/Nx_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/NGx_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/cumulative_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/GC_content_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/GC_content_plot.pdf
   Drawing tig00004064 GC content plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/tig00004064_GC_content_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/basic_stats/tig00004064_GC_content_plot.pdf
 Done.
 
-2020-04-05 11:32:53
+2020-04-05 12:51:53
 Running Contig analyzer...
   tig00004064
-  Logging to files /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stdout and contigs_report_tig00004064.stderr...
+  Logging to files /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stdout and contigs_report_tig00004064.stderr...
   Aligning contigs to the reference
-  quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s \
-  65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast_corrected_input/lferriphilum_ref.fasta \
-  /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast_corrected_input/tig00004064.fasta \
-  > /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/minimap_output/tig00004064.coords_tmp \
-  2>> /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/nucmer \
+  -c 65 -l 65 --maxmatch -p /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064 \
+  --emem -t 5 /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast_corrected_input/lferriphilum_ref.fasta \
+  /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast_corrected_input/tig00004064.fasta \
+  >> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stdout \
+  2>> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/delta-filter \
+  -i 95.0 -l 0 /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.delta \
+  > /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.fdelta \
+  2> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/mummerplot \
+  --html --layout -p /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064 \
+  /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.delta \
+  > /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stdout \
+  2> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/gnuplot/src/gnuplot \
+  /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.gp \
+  > /dev/null 2> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
+  MUMmer plot saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/tig00004064_mummerplot.html
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/show-coords \
+  /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.delta \
+  > /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.coords_tmp \
+  2> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
+  /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/MUMmer/show-snps \
+  -S -T -H /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.delta \
+  < /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.coords.headless \
+  > /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.all_snps \
+  2> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/contigs_report_tig00004064.stderr
   Analysis is finished.
 
+  Gzipping /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.all_snps to reduce disk space usage...
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/nucmer_output/tig00004064.all_snps.gz
   Creating total report...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/misassemblies_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2020-04-05 11:32:55
+2020-04-05 12:52:00
 Running NA-NGA calculation...
   tig00004064, Largest alignment = 1463673, NA50 = 1463673, NGA50 = 1463673, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/aligned_stats/cumulative_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/aligned_stats/NAx_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/aligned_stats/NGAx_plot.pdf
+    saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/aligned_stats/NGAx_plot.pdf
 Done.
 
-2020-04-05 11:32:56
+2020-04-05 12:52:02
 Running Genome analyzer...
-  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
-
-  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
   tig00004064
   Analysis is finished.
   Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
 Done.
 
-2020-04-05 11:32:56
+2020-04-05 12:52:03
 Running GeneMarkS...
   tig00004064
-    perl quast_libs/genemark/linux_64/gmsn.pl --name tig00004064 --clean --out /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tmp/tmpljAMyc \
-    /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast_corrected_input/tig00004064.fasta \
-    > /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tig00004064_genemark.stderr \
-    2> /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tig00004064_genemark.stderr
-    The tool returned non-zero. See ../analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tig00004064_genemark.stderr for stderr.
+    perl /sw/bioinfo/quast/4.5.4/rackham/lib/python2.7/site-packages/quast_libs/genemark/linux_64/gmsn.pl \
+    --name tig00004064 --clean --out /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tmp/tmpbGuBBS \
+    /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast_corrected_input/tig00004064.fasta \
+    > /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tig00004064_genemark.stderr \
+    2> /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tig00004064_genemark.stderr
+    The tool returned non-zero. See ../../../../home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/predicted_genes/tig00004064_genemark.stderr for stderr.
 
-WARNING: License period for GeneMark has ended! 
-To update license, please visit http://exon.gatech.edu/GeneMark/license_download.cgi page and fill in the form.
-You should choose GeneMarkS tool and your operating system (note that GeneMark is free for non-commercial use).
-Download the license key and replace your ~/.gm_key with the updated version. After that you can restart QUAST.
+ERROR!   Failed predicting genes in tig00004064. 
+Done.
 
-
-NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
-
-2020-04-05 11:32:57
+2020-04-05 12:52:03
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2020-04-05 11:32:58
+2020-04-05 12:52:06
 RESULTS:
-  Text versions of total report are saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/report.html
-  PDF version (tables and plots) is saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/report.pdf
-  Icarus (contig browser) is saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/icarus.html
-  Log is saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast.log
+  Text versions of total report are saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/report.html
+  PDF version (tables and plots) is saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/report.pdf
+  Icarus (contig browser) is saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/icarus.html
+  Log saved to /home/nuga5928/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/quast.log
 
-Finished: 2020-04-05 11:32:58
-Elapsed time: 0:00:07.840179
-NOTICEs: 4; WARNINGs: 1; non-fatal ERRORs: 0
+Finished: 2020-04-05 12:52:06
+Elapsed time: 0:00:18.174057
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 1
 
 Thank you for using QUAST!

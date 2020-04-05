@@ -1,23 +1,25 @@
 #!/bin/bash -l
 
-#install requirements
-#sudo apt-get install zlib1g-dev
+#SBATCH -A g2020008
+#SBATCH -p core
+#SBATCH -n 1
+#SBATCH -t 00:20:00
+#SBATCH -J 0102_eval_quast_2
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user nuria.garrigaalonso.5928@student.uu.se
 
-# sudo apt-get install -y pkg-config libfreetype6-dev libpng-dev python-matplotlib
-
-#install quast
-#wget https://downloads.sourceforge.net/project/quast/quast-5.0.2.tar.gz
-#tar -xzf quast-5.0.2.tar.gz
-cd quast-5.0.2
-#./setup.py install
+# Load modules
+module load bioinfo-tools
+module load quast
 
 # variables
-INPUT="../analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta"
-OUTPUT="../analyses/01_genome_assembly/02_eval_quast_2/ "
-REF="../data/reference/lferriphilum_ref.fasta"
+INPUT="~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta"
+OUTPUT="~/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/"
+REF="~/genome-analysis/data/reference/lferriphilum_ref.fasta"
 
 #run quast
-./quast.py -f\
-$INPUT \
--r $REF \
--o $OUTPUT 
+quast.py \
+~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta \
+-R ~/genome-analysis/data/reference/lferriphilum_ref.fasta \
+-o ~/genome-analysis/analyses/01_genome_assembly/02_eval_quast_2/ \
+--gene-finding

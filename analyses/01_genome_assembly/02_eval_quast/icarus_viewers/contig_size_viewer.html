@@ -59,6 +59,7 @@ THE SOFTWARE.
         
         #legend .block {
             float: right;
+            width: 230px;
         }
         
         #legend.collapsed p {
@@ -256,12 +257,6 @@ THE SOFTWARE.
         .COV .notCovered path {
             stroke: blue;
             stroke-width: 5px;
-        }
-        
-        .gc path {
-            stroke: #3d6f15;
-            stroke-width: 1px;
-            fill: none;
         }
         
         .coverage text {
@@ -2490,11 +2485,9 @@ THE SOFTWARE.
 <button id="hideBtnAnnoMini" class="btn moving_button btn-mini" style="display: none; position: absolute;">Hide</button>
 <button id="hideBtnAnnoMain" class="btn moving_button btn-mini" style="display: none; position: absolute;">Show annotation</button>
 <button id="hideBtnCovMini" class="btn moving_button btn-mini" style="display: none; position: absolute;">Hide</button>
-<button id="hideBtnCovMain" class="btn moving_button btn-mini" style="display: none; position: absolute;">Show read coverage and GC distribution</button>
+<button id="hideBtnCovMain" class="btn moving_button btn-mini" style="display: none; position: absolute;">Show read coverage</button>
 <button id="hideBtnPhysCovMain" class="btn moving_button btn-mini" style="display: none; position: absolute;">Show physical</button>
 <button id="hideBtnPhysCovMini" class="btn moving_button btn-mini" style="display: none; position: absolute;">Show physical</button>
-<button id="hideBtnGCMain" class="btn moving_button btn-mini" style="display: none; position: absolute;">Hide GC %</button>
-<button id="hideBtnGCMini" class="btn moving_button btn-mini" style="display: none; position: absolute;">Hide GC %</button>
 <div id="covMainControls" style="display: none; position: absolute;">
 <button id="zoomInCoverageMain" class="btn moving_button btn-mini" onclick="changeMaxMainCoverage(true)">+</button>
 <button id="zoomOutCoverageMain" class="btn moving_button btn-mini" onclick="changeMaxMainCoverage()" disabled="true">-</button>
@@ -2523,10 +2516,10 @@ assemblies_n50["lferriphilum.contigs"] = "2563357";
 var contig_data = {};
 var chromosome;
 contig_data["lferriphilum.contigs"] = [ 
-{name:"tig00004064",size:2563357, marks: "N50, N75, NG50, NG75",contig_type: "misassembled",structure:[{contig:"tig00004064",corr_start: 1447260,corr_end: 2547009,start:1447260,end:2547009,start_in_contig:1,end_in_contig:1099684,size:2563357,IDY:99.99,chr:"ENA_OBMB01000001_OBMB01000001.1"},{contig_type: "M", mstype: "real", msg: "relocation, inconsistency = -2547009"},{contig:"tig00004064",corr_start: 1,corr_end: 1463745,start:1,end:1463745,start_in_contig:1099685,end_in_contig:2563357,size:2563357,IDY:99.99,chr:"ENA_OBMB01000001_OBMB01000001.1"},],genes:[]},
-{name:"tig00000059",size:48946,contig_type: "unaligned",structure:[],genes:[]},
-{name:"tig00004063",size:21143,contig_type: "correct",structure:[{contig:"tig00004063",corr_start: 1447176,corr_end: 1468272,start:1447176,end:1468272,start_in_contig:1,end_in_contig:21143,size:21143,IDY:99.12,chr:"ENA_OBMB01000001_OBMB01000001.1"},],genes:[]},
-{name:"tig00000061",size:2597,contig_type: "unaligned",structure:[],genes:[]}];
+{name:"tig00004064_len_2563357_reads_4832_covStat_5290.83_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_yes",size:2563357, marks: "N50, N75, NG50, NG75",contig_type: "misassembled",structure:[{contig:"tig00004064_len_2563357_reads_4832_covStat_5290.83_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_yes",corr_start: 1447260,corr_end: 2547001,start:1447260,end:2547001,start_in_contig:1,end_in_contig:1099684,size:2563357,IDY:99.99,chr:"ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver"},{contig_type: "M", mstype: "real", msg: "relocation, inconsistency = -2547001"},{contig:"tig00004064_len_2563357_reads_4832_covStat_5290.83_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_yes",corr_start: 1,corr_end: 1463745,start:1,end:1463745,start_in_contig:1099685,end_in_contig:2563357,size:2563357,IDY:99.99,chr:"ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver"},],genes:[]},
+{name:"tig00000059_len_48946_reads_20_covStat_75.14_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_no",size:48946,contig_type: "unaligned",structure:[],genes:[]},
+{name:"tig00004063_len_21143_reads_1_covStat_0.00_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_no",size:21143,contig_type: "correct",structure:[{contig:"tig00004063_len_21143_reads_1_covStat_0.00_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_no",corr_start: 1447176,corr_end: 1468272,start:1447176,end:1468272,start_in_contig:1,end_in_contig:21143,size:21143,IDY:99.13,chr:"ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver"},],genes:[]},
+{name:"tig00000061_len_2597_reads_5_covStat_1.35_gappedBases_no_class_contig_suggestRepeat_no_suggestCircular_no",size:2597,contig_type: "unaligned",structure:[],genes:[]}];
 
 var contigLines = [];
 
@@ -12401,16 +12394,14 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             annotationsMiniOffsetY = miniOffsetY + miniHeight + (featuresHidden ? 0 : spaceAfterTrack);
             covMiniOffsetY = annotationsMiniOffsetY + annotationsMiniHeight + spaceAfterTrack;
         
-            var covBtnOffsetY = 25;
+            var physCovBtnOffsetY = 25;
         
             hideBtnAnnotationsMiniOffsetY = annotationsMiniOffsetY + chartOffsetY;
             hideBtnAnnotationsMainOffsetY = annotationsMainOffsetY + chartOffsetY;
             hideBtnCoverageMiniOffsetY = covMiniOffsetY + chartOffsetY;
             hideBtnCoverageMainOffsetY = covMainOffsetY + chartOffsetY;
-            hideBtnPhysicalMiniCoverageOffsetY = hideBtnCoverageMiniOffsetY + covBtnOffsetY;
-            hideBtnPhysicalCoverageOffsetY = hideBtnCoverageMainOffsetY + covBtnOffsetY;
-            hideBtnGCMiniOffsetY = hideBtnPhysicalMiniCoverageOffsetY + covBtnOffsetY;
-            hideBtnGCMainOffsetY = hideBtnPhysicalCoverageOffsetY + covBtnOffsetY;
+            hideBtnPhysicalMiniCoverageOffsetY = hideBtnCoverageMiniOffsetY + physCovBtnOffsetY;
+            hideBtnPhysicalCoverageOffsetY = hideBtnCoverageMainOffsetY + physCovBtnOffsetY;
         }
         
         function setupBtns() {
@@ -12420,7 +12411,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 if (typeof physical_coverage_data !== 'undefined')
                     addPhysicalCovTrackButtons();
                 addCoverageButtons();
-                addGCButtons();
             }
             moveExpandBtns();
         }
@@ -12466,10 +12456,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                     showMisassemblies();
                 });
             }
-            if (checkboxes.length > 1) {
-                checkboxes[checkboxes.length - 1].checked = false;
-                showMisassemblies();
-            }
             window.onresize = function(){ location.reload(); };
             display();
         }
@@ -12500,7 +12486,7 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                         .remove();
                     addClickContigText(info);
                     setBaseChartHeight();
-                    $('.show_mis_span').text('(show)');
+                    arrows = [];
                     mini.selectAll('.arrow').remove();
                     mini.selectAll('.arrow_selected').remove();
                     removeTooltip();
@@ -12740,31 +12726,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             setTrackBtnPos(hideBtnCoverageMain, hideBtnCoverageMainOffsetY, 'cov', 'main', false);
         }
         
-        function addGCButtons() {
-            hideBtnGCMini = document.getElementById('hideBtnGCMini');
-            hideBtnGCMain = document.getElementById('hideBtnGCMain');
-            setTrackBtnPos(hideBtnGCMini, hideBtnGCMiniOffsetY, 'cov', 'mini', true);
-            setTrackBtnPos(hideBtnGCMain, hideBtnGCMainOffsetY, 'cov', 'main', false);
-            hideBtnGCMain.style.display = 'none';
-        
-            var showText = 'Show GC %';
-            var hideText = 'Hide GC %';
-            addGCTooltip(hideBtnGCMini);
-            addGCTooltip(hideBtnGCMain);
-        
-            hideBtnGCMini.onclick = function() {
-                gcMiniHidden = !gcMiniHidden;
-                hideBtnGCMini.innerHTML = gcMiniHidden ? showText : hideText;
-                mini_cov.select('.gc').classed('invisible', gcMiniHidden);
-            };
-            hideBtnGCMain.onclick = function() {
-                gcHidden = !gcHidden;
-                hideBtnGCMain.innerHTML = gcHidden ? showText : hideText;
-                main_cov.select('.gc').classed('invisible', gcHidden);
-                display();
-            };
-        }
-        
         function addPhysicalCovTrackButtons() {
             hideBtnPhysicalCoverageMini = document.getElementById('hideBtnPhysCovMini');
             hideBtnPhysicalCoverageMain = document.getElementById('hideBtnPhysCovMain');
@@ -12787,16 +12748,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 hideBtnPhysicalCoverageMain.innerHTML = physicalCoverageHidden ? showCovText : hideCovText;
                 main_cov.select('.phys_covered').classed('invisible', physicalCoverageHidden);
                 display();
-            };
-        }
-        
-        function addGCTooltip(hideBtn) {
-            var description = 'GC content was calculated based on non-overlapping ' + gcFactor + ' bp windows.';
-            hideBtn.onmouseover = function() {
-                addTooltip(null, description, event);
-            };
-            hideBtn.onmouseout = function() {
-                removeTooltip();
             };
         }
         
@@ -12825,7 +12776,7 @@ var minContigSize = 500;var links_to_chromosomes;</script>
         }
         
         function setTrackBtnPos(hideBtn, offsetY, track, pane, doHide) {
-            var hideBtnExpandWidth = 150;
+            var hideBtnExpandWidth = 130;
             hideBtn.style.display = "";
             hideBtn.style.left = (margin.left - hideBtnExpandWidth) + "px";
             hideBtn.style.top = offsetY + "px";
@@ -13149,7 +13100,7 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             covMainControls = document.getElementById('covMainControls');
             setTrackBtnPos(covMiniControls, hideBtnCoverageMiniOffsetY - 10);
             setTrackBtnPos(covMainControls, hideBtnCoverageMainOffsetY - 10);
-            btnsWidth = 110;
+            btnsWidth = 100;
             covMiniControls.style.left = (margin.left + width - btnsWidth) + "px";
             covMainControls.style.left = (margin.left + width - btnsWidth) + "px";
             covMainControls.style.display = 'none';
@@ -13185,8 +13136,8 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             chart.attr('height', curChartHeight);
         
             var changedTracks = [annotationsMain, main_cov, mini, annotationsMini, mini_cov];
-            var changedBtns = [hideBtnAnnotationsMain, hideBtnCoverageMain, hideBtnPhysicalCoverageMain, hideBtnGCMain, covMainControls,
-                hideBtnAnnotationsMini, hideBtnCoverageMini, hideBtnPhysicalCoverageMini, hideBtnGCMini, covMiniControls];
+            var changedBtns = [hideBtnAnnotationsMain, hideBtnCoverageMain, hideBtnPhysicalCoverageMain, covMainControls, hideBtnAnnotationsMini,
+                hideBtnCoverageMini, hideBtnPhysicalCoverageMini, covMiniControls];
             for (var track_n = 0; track_n < changedTracks.length; track_n++)
                 setTrackPos(changedTracks[track_n])
             for (var btn_n = 0; btn_n < changedBtns.length; btn_n++)
@@ -13662,9 +13613,11 @@ var minContigSize = 500;var links_to_chromosomes;</script>
         }
         
         function showArrows(block) {
-            $('.show_mis_span').text('(show)');
+            var verticalShift = -7;
+            arrows = [];
             mini.selectAll('.arrow').remove();
             mini.selectAll('.arrow_selected').remove();
+            var y = y_mini(block.lane) - 1;
             var structure = getBlockStructure(block);
             if (structure) {
                 for (var i = 0; i < structure.length; ++i) {
@@ -13672,97 +13625,42 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                     if (nextBlock.contig_type != "M" && !nextBlock.notActive) {
                         if (!(nextBlock.corr_start <= block.corr_start && block.corr_end <= nextBlock.corr_end) &&
                             (isContigSizePlot || chrContigs.indexOf(nextBlock.chr) != -1)) {
-                            addArrow((nextBlock.corr_end + nextBlock.corr_start) / 2, block.lane);
+                            arrows.push({start: nextBlock.corr_start, end: nextBlock.corr_end, lane: block.lane, selected: false});
+                            mini.append('g')
+                                .attr('transform', 'translate(' + x_mini((nextBlock.corr_end + nextBlock.corr_start) / 2) + ',' + verticalShift +')')
+                                .attr('class', 'arrow')
+                                .append("svg:path")
+                                .attr("d", 'M0,0V' + (Math.abs(verticalShift) + 1 + block.lane * miniLanesHeight))
+                                .attr("class", function () {
+                                    return "path arrow";
+                                })
+                                .attr("marker-start", function () {
+                                    return "url(#start_arrow)";
+                                })
+                                .attr("marker-end", function () {
+                                    return "url(#arrow)";
+                                });
                         }
                     }
                 }
             }
-            addArrow((block.corr_end + block.corr_start) / 2, block.lane, true);
-            display();
-        }
         
-        function showMisassembliesArrows(assemblyNum) {
-            var coords = [];
-            var arrowClass = 'assembly' + assemblyNum;
-            mini.selectAll('.arrow.blocks').remove();
-            mini.selectAll('.arrow_selected.blocks').remove();
-            mini.selectAll('.arrow.' + arrowClass).remove();
-            mini.selectAll('.arrow_selected.' + arrowClass).remove();
-            for (var numItem = 0; numItem < items.length; numItem++) {
-                if (items[numItem].misassemblies) {
-                    block = items[numItem];
-                    if (block.lane != assemblyNum)
-                        continue;
-                    var structure = getBlockStructure(block);
-                    if (structure) {
-                        for (var i = 0; i < structure.length; i++) {
-                            if (structure[i].contig_type != "M" || structure[i].mstype != 'real')
-                                continue;
-                            typeMisassemblyNum = structure[i].msg.split(',')[0];
-                            if (typeMisassemblyNum.indexOf('local') == 0) typeMisassemblyNum = 'local';
-        
-                            if (document.getElementById(typeMisassemblyNum).checked) {
-                                if (chrContigs.indexOf(structure[i - 1].chr) != -1) {
-                                    ms_start = (structure[i - 1].start_in_contig < structure[i - 1].end_in_contig) ?
-                                        structure[i - 1].corr_end : structure[i - 1].corr_start;
-                                    coords.push([ms_start, block.lane]);
-                                }
-                                if (chrContigs.indexOf(structure[i + 1].chr) != -1) {
-                                    ms_end = (structure[i + 1].start_in_contig < structure[i + 1].end_in_contig) ?
-                                        structure[i + 1].corr_start : structure[i + 1].corr_end;
-                                    coords.push([ms_end, block.lane]);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            var prev_x = -1,
-                prev_y = -1;
-            for (var arrow_n = 0; arrow_n < coords.length; arrow_n++) {
-                var x = coords[arrow_n][0],
-                    y = coords[arrow_n][1];
-                if (y != prev_y || Math.abs(x_mini(x - prev_x)) > 3) {
-                    addArrow(x, y, false, arrowClass);
-                    prev_x = x;
-                    prev_y = y;
-                }
-            }
-        }
-        
-        function hideMisassembliesArrows(assemblyNum) {
-            var arrowClass = 'assembly' + assemblyNum;
-            mini.selectAll('.arrow.' + arrowClass).remove();
-            mini.selectAll('.arrow_selected.' + arrowClass).remove();
-        }
-        
-        function addArrow(x, y, selected, additionalClass) {
-            var verticalShift = -7;
-            var arrowClass = selected ? 'arrow_selected' : 'arrow';
+            arrows.push({start: block.corr_start, end: block.corr_end, lane: block.lane, selected: true});
             mini.append('g')
-                .attr('transform', 'translate(' + x_mini(x) + ',' + verticalShift +')')
-                .attr('class', 'arrow')
+                .attr('transform', 'translate(' + x_mini((block.corr_end + block.corr_start) / 2) + ',' + verticalShift +')')
+                .attr('class', 'arrow_selected')
                 .append("svg:path")
-                .attr("d", 'M0,0V' + (Math.abs(verticalShift) + 1 + y * miniLanesHeight))
+                .attr("d", 'M0,0V' + (Math.abs(verticalShift) + 1 + block.lane * miniLanesHeight))
                 .attr("class", function () {
-                    return "path " + arrowClass + ' ' + (additionalClass !== undefined ? additionalClass : 'blocks');
+                    return "path arrow_selected";
                 })
                 .attr("marker-start", function () {
-                    return "url(#start_" + arrowClass + ")";
+                    return "url(#start_arrow_selected)";
                 })
                 .attr("marker-end", function () {
-                    return "url(#" + arrowClass + ")";
+                    return "url(#arrow_selected)";
                 });
-        }
-        
-        function refreshMisArrows() {
-            var showMisSelectors = document.getElementsByClassName('show_mis_span');
-            for(var i = 0; i < showMisSelectors.length; i++) {
-                if ($(showMisSelectors[i]).text() == '(hide)') {
-                    assemblyNum = parseInt(showMisSelectors[i].getAttribute("class").split(' ')[1]);
-                    showMisassembliesArrows(assemblyNum);
-                }
-            }
+            display();
         }
         
         function showMisassemblies() {
@@ -13778,7 +13676,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             }
             hideUncheckedMisassemblies(itemsContainer);
             hideUncheckedMisassemblies(chart);
-            refreshMisArrows();
         }
         
         function changeMisassembledStatus(block) {
@@ -13846,7 +13743,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
         
         function wrap(text, width, cutText, addStdoutLink, offsetX, separator) {
             var stdoutLinkWidth = getSize('(text)') + 10;
-            var showMisassembliesWidth = getSize('(show)');
             text.each(function() {
                 var text = d3.select(this),
                     words = text.text().split(separator).reverse(),
@@ -13881,7 +13777,7 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                                 .attr('fill', '#0000EE')
                                 .style("cursor", "pointer")
                                 .text('(text)')
-                                .on('click', function(d) {
+                                .on('click',function(d) {
                                     window.open(d.link, '_blank');
                                     d3.event.stopPropagation();
                                 });
@@ -13889,10 +13785,9 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                         firstLine = false;
                         if (word.search("\\+") != -1) {
                             tspan = text.append('tspan')
-                                .attr('x', offsetX - showMisassembliesWidth)
+                                .attr('x', offsetX)
                                 .attr('y', y)
                                 .attr('dy', ++lineNumber * lineHeight + dy + 'em')
-                                .attr('text-decoration', 'underline')
                                 .text(word);
                             var msWords = word.split('+');
                             var misassemblies = msWords[0];
@@ -13905,26 +13800,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                             tspan.on('mouseout',function(d) {
                                 removeTooltip();
                             });
-                            text.append('tspan')
-                                .attr('x', offsetX)
-                                .attr('y', y)
-                                .attr('dy', lineNumber * lineHeight + dy + 'em')
-                                .attr('fill', '#0000EE')
-                                .attr('class', function(d) {
-                                    return 'show_mis_span ' + d.id;
-                                })
-                                .style('cursor', 'pointer')
-                                .text('(show)')
-                                .on('click', function (d) {
-                                    if ($(this).text() == "(show)") {
-                                        $(this).text("(hide)");
-                                        showMisassembliesArrows(d.id);
-                                    }
-                                    else {
-                                        $(this).text("(show)");
-                                        hideMisassembliesArrows(d.id);
-                                    }
-                                });
                         }
                         else {
                             tspan = text.append('tspan')
@@ -14200,7 +14075,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 drawCoverageLine(x_mini.domain()[0], x_mini.domain()[1], false,
                     physical_coverage_data, '.phys_covered');
             drawCoverageLine(x_mini.domain()[0], x_mini.domain()[1], false, coverage_data, '.covered');
-            drawCoverageLine(x_mini.domain()[0], x_mini.domain()[1], false, gc_data, '.gc');
         }
         
         function resetMaxMainCoverage() {
@@ -14209,7 +14083,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             setYScaleLabels(main_cov, y_cov_main_A, y_cov_main_S);
             updateMainCoverage();
             document.getElementById('zoomOutCoverageMain').disabled = true;
-            document.getElementById('zoomInCoverageMain').disabled = false;
         }
         
         function resetMaxMiniCoverage() {
@@ -14218,7 +14091,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             setYScaleLabels(mini_cov, y_cov_mini_A, y_cov_mini_S);
             updateMiniCoverage();
             document.getElementById('zoomOutCoverageMini').disabled = true;
-            document.getElementById('zoomInCoverageMini').disabled = false;
         }
         
         function setYScaleCoverage(maxValue) {
@@ -14234,7 +14106,7 @@ var minContigSize = 500;var links_to_chromosomes;</script>
         
         function setYScaleLabels(track, axis, scale) {
             axis.scale(scale);
-            track.select('.y.cov').call(axis);
+            track.select('.y').call(axis);
         }
         
         function setBaseChartHeight() {
@@ -14640,14 +14512,12 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 maxExtent = Math.min(brush.extent()[1], x_mini.domain()[1]);
             if (!physicalCoverageHidden)
                 drawCoverageLine(minExtent, maxExtent, true, physical_coverage_data, '.phys_covered');
-            if (!coverageMainHidden) {
+            if (!coverageMainHidden)
                 drawCoverageLine(minExtent, maxExtent, true, coverage_data, '.covered');
-                drawCoverageLine(minExtent, maxExtent, true, gc_data, '.gc');
-            }
             //main_cov.select('.y').call(y_cov_main_A);
         }
         
-        function getNextCovValue(covData, startIdx, endIdx, maxValue, xScale, yScale, minExtent, maxExtent, startPos, plotFactor) {
+        function getNextCovValue(covData, startIdx, endIdx, maxValue, xScale, yScale, minExtent, startPos) {
             var coverage = covData[chromosome].slice(startIdx, endIdx);
             var covDots = coverage.length;
             if (covDots == 0) return;
@@ -14656,20 +14526,17 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             var yValue = Math.min(avgCoverage, maxValue);
         
             if (startIdx == startPos) start = minExtent;
-            else start = startIdx * plotFactor;
-            end = Math.min(endIdx * plotFactor, maxExtent);
+            else start = startIdx * coverageFactor;
+            end = endIdx * coverageFactor;
             if (avgCoverage < 1) yValue = 0.1;
             return [xScale(start), yScale(yValue), xScale(end)];
         }
         
         function drawCoverageLine(minExtent, maxExtent, useMainCov, covData, plotClass) {
             var line = '',
-                isGC = plotClass == '.gc',
-                plotFactor = isGC ? gcFactor : coverageFactor,
-                l = (maxExtent - minExtent) / plotFactor,
+                l = (maxExtent - minExtent) / coverageFactor,
                 cov_main_dots_amount = Math.min(maxCovDots, l),
                 step = Math.round(l / cov_main_dots_amount);
-        
             if (useMainCov) {
                 track = main_cov;
                 xScale = x_main;
@@ -14682,34 +14549,29 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 yScale = y_cov_mini_S;
                 maxValue = totalMaxYMini;
             }
-            if (isGC) {
-                maxValue = 100;
-                yScale = d3.scale.linear().domain([maxValue, .1]).range([0, coverageHeight]);
-            }
         
             var cov_lines = [];
-            var startPos = Math.floor(minExtent / plotFactor / step) * step;
+            var startPos = Math.floor(minExtent / coverageFactor / step) * step;
             var nextPos;
-            var lastPos = maxExtent / plotFactor;
+            var lastPos = maxExtent / coverageFactor;
             for (var i = startPos; i < lastPos; i += step) {
                 nextPos = i + step;
-                cov_line = getNextCovValue(covData, i, nextPos, maxValue, xScale, yScale, minExtent, maxExtent, startPos, plotFactor);
+                cov_line = getNextCovValue(covData, i, nextPos, maxValue, xScale, yScale, minExtent, startPos);
                 if (!cov_line) break;
                 cov_lines.push(cov_line);
             }
             if (nextPos < lastPos) {
-                cov_line = getNextCovValue(covData, nextPos, lastPos, maxValue, xScale, yScale, minExtent, maxExtent, startPos, plotFactor);
+                cov_line = getNextCovValue(covData, nextPos, lastPos, maxValue, xScale, yScale, minExtent);
                 cov_lines.push(cov_line);
             }
         
             var cov_line;
-            var startY = isGC ? cov_lines[0][1] : yScale(0.1);
-            line += ['M', cov_lines[0][0], startY].join(' ');
+            line += ['M', cov_lines[0][0], yScale(0.1)].join(' ');
             for (i = 0; i < cov_lines.length; i++) {
                 cov_line = cov_lines[i];
                 if (cov_line) line += 'V' + ' ' + cov_line[1] + 'H' + ' ' + cov_line[2];
             }
-            if (!isGC) line += ['V', yScale(0.1), 'Z'].join(' ');
+            line += ['V', yScale(0.1), 'Z'].join(' ');
             track.select(plotClass).select('path').attr('d', line);
         }
         
@@ -14933,35 +14795,32 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 if (mainPane) {
                     featuresMainHidden = doHide;
                     changedTracks = [main_cov, mini, annotationsMini, mini_cov];
-                    changedBtns = [hideBtnCoverageMain, hideBtnPhysicalCoverageMain, hideBtnGCMain, covMainControls,
-                        hideBtnAnnotationsMini, hideBtnCoverageMini, hideBtnPhysicalCoverageMini, hideBtnGCMini, covMiniControls];
+                    changedBtns = [hideBtnCoverageMain, hideBtnPhysicalCoverageMain, covMainControls, hideBtnAnnotationsMini,
+                        hideBtnCoverageMini, hideBtnPhysicalCoverageMini, covMiniControls];
                 }
                 else {
                     changedTracks = [mini_cov];
-                    changedBtns = [hideBtnCoverageMini, hideBtnPhysicalCoverageMini, hideBtnGCMini, covMiniControls];
+                    changedBtns = [hideBtnCoverageMini, hideBtnPhysicalCoverageMini, covMiniControls];
                 }
             }
             else if (track == 'cov') {
-                textToShow = 'Show read coverage and GC distribution';
+                textToShow = 'Show read coverage';
                 paneToHide = mainPane ? main_cov : mini_cov;
                 hideBtn = mainPane ? hideBtnCoverageMain : hideBtnCoverageMini;
-                hidePhysicalCovBtn = mainPane ? hideBtnPhysicalCoverageMain : hideBtnPhysicalCoverageMini;
-                hideGCBtn = mainPane ? hideBtnGCMain : hideBtnGCMini;
+                hideCovBtn = mainPane ? hideBtnPhysicalCoverageMain : hideBtnPhysicalCoverageMini;
                 coverageBtns = mainPane ? covMainControls : covMiniControls;
                 newOffset = coverageHeight;
                 if (mainPane) {
                     coverageMainHidden = doHide;
                     changedTracks = [mini, annotationsMini, mini_cov];
-                    changedBtns = [hideBtnAnnotationsMini, hideBtnCoverageMini, hideBtnPhysicalCoverageMini, hideBtnGCMini, covMiniControls];
+                    changedBtns = [hideBtnAnnotationsMini, hideBtnCoverageMini, hideBtnPhysicalCoverageMini, covMiniControls];
                 }
                 if (doHide) {
-                    hidePhysicalCovBtn.style.display = 'none';
-                    hideGCBtn.style.display = 'none';
+                    hideCovBtn.style.display = 'none';
                     coverageBtns.style.display = 'none';
                 }
                 else {
-                    hidePhysicalCovBtn.style.display = '';
-                    hideGCBtn.style.display = '';
+                    hideCovBtn.style.display = '';
                     coverageBtns.style.display = '';
                 }
             }
@@ -15084,13 +14943,11 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             var lanes = data.lanes, items = data.items;
             var shortRefNames = typeof chrContigs !== "undefined" ? trimChrNames(chrContigs) : null;
         
-            var contigInfoWidth = 240;
-            var marginTop = 20, marginRight = 15, marginBottom = 15, marginLeft = 155;
-        
-            var w = ((window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth)
-                     - contigInfoWidth - marginRight - marginLeft - 50);
+            var w = 0.9 * (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) - 300;
             var margin = {
-                        top: marginTop, right: marginRight, bottom: marginBottom, left: marginLeft
+                        top: 20, right: 15, bottom: 15, left: /*Math.max(d3.max(lanes, function (d) {
+                         return getTextSize(d.label);
+                         }), 120)*/ 145
                     },
                     mainLanesHeight = 45,
                     miniLanesHeight = 18,
@@ -15147,7 +15004,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             var y_main = d3.scale.linear().domain([ext[0], ext[1] + 1]).range([0, mainHeight]);
             var y_mini = d3.scale.linear().domain([ext[0], ext[1] + 1]).range([0, miniHeight]);
             var hideBtnAnnotationsMini, hideBtnAnnotationsMain, hideBtnCoverageMini, hideBtnCoverageMain,
-                hideBtnGCMain, hideBtnGCMini,
                 hideBtnPhysicalCoverageMini, hideBtnPhysicalCoverageMain, covMiniControls, covMainControls;
         
             var letterSize = getSize('w') - 1;
@@ -15165,23 +15021,19 @@ var minContigSize = 500;var links_to_chromosomes;</script>
               var y_anno = d3.scale.linear().domain([ext[0], ext[1] + 1]).range([0, annotationsHeight]);
             }
         
-            var coverageFactor = 10, gcFactor = 100, maxCovDots = chartWidth * 4;
+            var coverageFactor = 9, maxCovDots = chartWidth * 4;
             var featuresHidden = false, drawCoverage = false;
-            var coverageMainHidden = true, physicalCoverageHidden = true, physicalMiniCoverageHidden = true,
-                gcHidden = false, gcMiniHidden = false;
+            var coverageMainHidden = true, physicalCoverageHidden = true, physicalMiniCoverageHidden = true;
             if (!featuresData || featuresData.features.length == 0)
               featuresHidden = true;
             if (typeof coverage_data != "undefined")
                 drawCoverage = true;
-            if (typeof gc_window_size != "undefined")
-                gcFactor = gc_window_size;
             var featuresMainHidden = featuresHidden || lanes.length > 3;
             var brush, brush_cov, brush_anno;
-            var offsetX = 20;
         
             var chart = d3.select('body').append('div').attr('id', 'chart')
                     .append('svg:svg')
-                    .attr('width', width + margin.right + margin.left + offsetX)
+                    .attr('width', width + margin.right + margin.left)
                     .attr('class', 'chart');
         
             var main = chart.append('g')
@@ -15195,9 +15047,8 @@ var minContigSize = 500;var links_to_chromosomes;</script>
             var spaceAfterTrack = 40;
         
             var baseOffsetY, annotationsMiniOffsetY, annotationsMainOffsetY, covMiniOffsetY, covMainOffsetY, extraOffsetY;
-            var hideBtnAnnotationsMiniOffsetY, hideBtnAnnotationsMainOffsetY,
-                hideBtnCoverageMiniOffsetY, hideBtnCoverageMainOffsetY, hideBtnGCMiniOffsetY, hideBtnGCMainOffsetY,
-                hideBtnPhysicalMiniCoverageOffsetY, hideBtnPhysicalCoverageOffsetY;
+            var hideBtnAnnotationsMiniOffsetY,hideBtnAnnotationsMainOffsetY,hideBtnCoverageMiniOffsetY,
+                hideBtnCoverageMainOffsetY,hideBtnPhysicalMiniCoverageOffsetY,hideBtnPhysicalCoverageOffsetY;
         
             setInterfaceCoordinates();
         
@@ -15545,9 +15396,8 @@ var minContigSize = 500;var links_to_chromosomes;</script>
         
             function getBreakpointLines() {
                 var lines = [];
-                var prevPos = 0;
-                var prevBreakpointPos = 0;
-                var prevLineType = null;
+                var contigStart = true;
+                var prev_pos = 0;
                 var fullsizeBlock = false;
                 for (var i = 0; i < items.length; i++) {
                 	block = items[i];
@@ -15557,25 +15407,22 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                             continue;
                         }
                         fullsizeBlock = false;
-                        y = y_main(block.lane) + .25 * lanesInterval + 10;
-                        if (prevBreakpointPos && Math.abs(prevBreakpointPos - block.corr_start) > 2) {
-                            lines.push({pos: block.corr_start, y: y, type: prevLineType});
-                        }
-                        var linePos = block.corr_end;
-                        if (Math.abs(prevPos - linePos) > 2) {
-                            if (block.mstype != "skip" && block.contig_type != "correct") {
-                                prevBreakpointPos = linePos;
-                                prevLineType = block.mstype;
-                                lines.push({pos: linePos, y: y, type: block.mstype});
-                            }
-                            else prevBreakpointPos = null;
-                        }
-                        else prevBreakpointPos = null;
-                        prevPos = linePos;
+                    	y = y_main(block.lane) + .25 * lanesInterval + 10;
+                    	if (!contigStart) {
+                            var linePos = block.start_in_contig < block.end_in_contig ? block.corr_start : block.corr_end;
+                    		if (Math.abs(prev_pos - linePos) > 2) {
+                                if (block.mstype != "indel")
+                                    lines.push({pos: linePos, y: y, type: block.mstype});
+                    		}
+                    	}
+                    	else contigStart = false;
+                    	prev_pos = block.corr_end;
+                        if (block.mstype != "indel")
+                    	    lines.push({pos: block.corr_end, y: y, type: block.mstype});
                     }
                     else {
-                        if (!fullsizeBlock && prevBreakpointPos) lines.pop();
-                        prevBreakpointPos = null;
+                    	contigStart = true;
+                        if (!fullsizeBlock) lines.pop();
                     }
                 }
                 return lines;
@@ -15598,7 +15445,7 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                         description += 'length: ' + assemblies_len[assemblyName] + '\n';
                         description += 'contigs: ' + assemblies_contigs[assemblyName] + '\n';
                         if (!isContigSizePlot)
-                            description += 'mis: ' + assemblies_misassemblies[assemblyName];
+                            description += 'misassemblies: ' + assemblies_misassemblies[assemblyName];
                         else
                             description += 'N50: ' + assemblies_n50[assemblyName];
                         lanes[laneNum].description = description;
@@ -15776,58 +15623,27 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 y_cov_mini_S = setYScaleCoverage();
                 y_cov_main_S = y_cov_mini_S;
         
-                y_gc_scale = d3.scale.linear().domain([100, .1]).range([0, coverageHeight]);
-                y_gc_ticks = [20, 40, 60, 80, 100];
-                y_gc_axis = d3.svg.axis()
-                    .orient('right')
-                    .tickFormat(function(val, i) {
-                        return i < y_gc_ticks.length - 1 ? val + '%' : "GC";
+                y_cov_mini_A = d3.svg.axis()
+                    .orient('left')
+                    .tickFormat(function(tickValue) {
+                        return tickValue;
                     })
                     .tickSize(2, 0)
-                    .tickValues(y_gc_ticks);
-                y_gc_axis.scale(y_gc_scale);
+                    .ticks(numYTicks);
                 mini_cov = chart.append('g')
                     .attr('class', 'coverage')
                     .attr('transform', 'translate(' + margin.left + ', ' + covMiniOffsetY + ')');
                 mini_cov.append('g')
-                    .attr('class', 'y cov')
-                    .style("fill", "steelblue");
-                mini_cov.append('g')
-                    .attr('class', 'y gc_plot')
-                    .style("fill", "#3d6f15")
-                    .attr('transform', 'translate(' + width + ', 0)');
-                mini_cov.select('.y.gc_plot').call(y_gc_axis);
+                    .attr('class', 'y');
         
-                function calculateTicks(scale) {
-                    var maxValue = scale.domain()[0];
-                    var covTicks = d3.scale.linear().domain(scale.domain()).ticks(4);
-                    var tickStep = covTicks[1] - covTicks[0];
-                    covTicks = covTicks.filter(function (x) {
-                        return x < maxValue - tickStep / 2;
-                    });
-                    covTicks.push(maxValue);
-                    return covTicks;
-                }
                 // draw main coverage
-                y_cov_mini_A = d3.svg.axis()
+                y_cov_main_A = y_cov_mini_A = d3.svg.axis()
                     .orient('left')
-                    .tickFormat(function(val, i, n) {
-                        return val < y_cov_mini_S.domain()[0] ? val + 'x' : "Cov";
+                    .tickFormat(function(tickValue) {
+                        return tickValue;
                     })
                     .tickSize(2, 0)
-                    .tickValues(function () {
-                        return calculateTicks(y_cov_mini_S);
-                    });
-        
-                y_cov_main_A = d3.svg.axis()
-                    .orient('left')
-                    .tickFormat(function(val, i, n) {
-                        return val < y_cov_main_S.domain()[0] ? val + 'x' : "Cov";
-                    })
-                    .tickSize(2, 0)
-                    .tickValues(function () {
-                        return calculateTicks(y_cov_main_S);
-                    });
+                    .ticks(numYTicks);
         
                 var x_cov_main_A = xMainAxis;
                 main_cov = chart.append('g')
@@ -15836,13 +15652,8 @@ var minContigSize = 500;var links_to_chromosomes;</script>
         
                 main_cov.attr('display', 'none');
                 main_cov.append('g')
-                    .attr('class', 'y gc_plot')
-                    .style("fill", "#3d6f15")
-                    .attr('transform', 'translate(' + width + ', 0)');
-                main_cov.select('.y.gc_plot').call(y_gc_axis);
-                main_cov.append('g')
-                    .attr('class', 'y cov')
-                    .style("fill", "steelblue");
+                    .attr('class', 'y')
+                    .attr('transform', 'translate(0, 0)');
         
                 setYScaleLabels(mini_cov, y_cov_mini_A, y_cov_mini_S);
                 setYScaleLabels(main_cov, y_cov_main_A, y_cov_main_S);
@@ -15855,7 +15666,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                     togglePhysCoverageMini();
                 }
                 drawCoverageLine(x_mini.domain()[0], x_mini.domain()[1], false, coverage_data, '.covered');
-                drawCoverageLine(x_mini.domain()[0], x_mini.domain()[1], false, gc_data, '.gc');
             }
         
             function appendPaths(track) {
@@ -15864,9 +15674,6 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                     .append('path');
                 track.append('g')
                     .attr('class', 'covered')
-                    .append('path');
-                track.append('g')
-                    .attr('class', 'gc')
                     .append('path');
             }
         
@@ -16161,9 +15968,8 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 d3.select('body').selectAll('.expandBtn')
                         .data(expandableLanes)
                         .enter().append('div')
-                        .style('display', 'none')
                         .style('position', 'absolute')
-                        .style('left', (margin.left + chartWidth + 5) + 'px')
+                        .style('left', margin.left + chartWidth + 5)
                         .style('width', '10px')
                         .style('height', '15px')
                         .attr('class', 'expandBtn collapsedBtn btn btn-mini btn-inverse')
@@ -16194,9 +16000,8 @@ var minContigSize = 500;var links_to_chromosomes;</script>
                 d3.select('body').selectAll('.expandBtn')
                                  .style('top', function (lane) {
                                     var y = getExpandedLanesCount(lane.id);
-                                    return (y_main(y) + mainOffsetY + 3) + 'px';
-                                 })
-                                 .style('display', '');
+                                    return y_main(y) + mainOffsetY + 3;
+                                 });
             }
     </script>
 </body>
