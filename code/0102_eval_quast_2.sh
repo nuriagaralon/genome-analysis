@@ -12,8 +12,8 @@ cd quast-5.0.2
 #./setup.py install
 
 # variables
-INPUT="../analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta"
-OUTPUT="../analyses/01_genome_assembly/02_eval_quast/"
+INPUT="../analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta"
+OUTPUT="../analyses/01_genome_assembly/02_eval_quast_2/ "
 REF="../data/reference/lferriphilum_ref.fasta"
 
 #run quast

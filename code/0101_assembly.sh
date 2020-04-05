@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 17:00:00
-#SBATCH -J 01_assembly
+#SBATCH -J 0101_assembly
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user nuria.garrigaalonso.5928@student.uu.se
 
@@ -12,12 +12,15 @@
 module load bioinfo-tools
 module load canu
 
+# variables
+INPUT="data/DNA_raw_data/ERR2028*.fastq.gz"
+OUTPUT="analyses/01_genome_assembly/01_assembly_canu"
+
 # running canu
 canu \
  -p lferriphilum \
- -d analyses/01_genome_assembly/01_assembly_canu \
+ -d $OUTPUT \
  genomeSize=2.6m \
  stopOnReadQuality=false \
  maxThreads=4 \
- -pacbio-raw data/DNA_raw_data/ERR2028*.fastq.gz 
-
+ -pacbio-raw $INPUT

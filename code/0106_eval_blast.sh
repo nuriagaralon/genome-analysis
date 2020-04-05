@@ -12,8 +12,11 @@
 module load bioinfo-tools
 module load blast
 
+# variables contig 59
+INPUT="~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00000059.fasta"
+OUTPUT="~/genome-analysis/analyses/01_genome_assembly/06_eval_blast/blast_tig59.txt"
+
 # Run blast
-# contig 59
 blastn -db nt_v5 \
--query ~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00000059.fasta \
--out blast_tig59.txt
+-query $INPUT \
+-out $OUTPUT

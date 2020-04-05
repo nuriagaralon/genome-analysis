@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 40:00:00
-#SBATCH -J 011_circularization
+#SBATCH -J 0105_circularisation
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user nuria.garrigaalonso.5928@student.uu.se
 
@@ -12,17 +12,14 @@
 module load bioinfo-tools
 module load circlator
 
+# variables
+ASSEMBLY="~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta"
+READS="~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.correctedReads.fasta.gz"
+OUTPUT="~/genome-analysis/analyses/01_genome_assembly/05_circularization_circlator"
+
 # running circlator
 circlator all \
-~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
-~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.correctedReads.fasta.gz \
-~/genome-analysis/analyses/01_genome_assembly/05_circularization_circlator \
+$ASSEMBLY \
+$READS \
+$OUTPUT \
 --threads=4
-
-#cd ~/genome-analysis/analyses/01_genome_assembly/04_circularisation_circlator
-
-#circlator clean \
-#~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
-#lferriphilum_clean 
-
-#circlator fixstart ~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta lferriphilum_circ
