@@ -17,7 +17,7 @@ OUTPUT="../analyses/01_genome_assembly/02_eval_quast_2/ "
 REF="../data/reference/lferriphilum_ref.fasta"
 
 #run quast
-./quast.py \
+./quast.py -f\
 $INPUT \
 -r $REF \
 -o $OUTPUT 

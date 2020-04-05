@@ -2487,7 +2487,7 @@ THE SOFTWARE.
     </table>
 </div>
 <div class="content" style="padding-bottom: 0;">
-    <div class="reftitle"><b>Contig alignment viewer</b>. Contigs aligned to OBMB01
+    <div class="reftitle"><b>Contig alignment viewer</b>. Contigs aligned to lferriphilum ref
     </div>
 </div>
 
@@ -2527,7 +2527,7 @@ assemblies_links["lferriphilum.contigs"] = "../contigs_reports/contigs_report_lf
 assemblies_len["lferriphilum.contigs"] = 2584500;
 assemblies_contigs["lferriphilum.contigs"] = 2;
 assemblies_misassemblies["lferriphilum.contigs"] = "1+0";
-chromosome = "OBMB01";
+chromosome = "lferriphilum_ref";
 var chrContigs = ["ENA_OBMB01000001_OBMB01000001.1","ENA_OBMB01000002_OBMB01000002.1"];
 var features_data = [];
 var chromosomes_len = {};
@@ -2536,25 +2536,28 @@ chromosomes_len["ENA_OBMB01000002_OBMB01000002.1"] = 41174;
 var links_to_chromosomes;
 var oneHtml = true;
 var contig_data = {};
-contig_data["OBMB01"] = {};
-contig_data["OBMB01"]["lferriphilum.contigs"] = [ 
+contig_data["lferriphilum_ref"] = {};
+contig_data["lferriphilum_ref"]["lferriphilum.contigs"] = [ 
 {name:"tig00004064",corr_start:1,corr_end:1463745,start:1,end:1463745,misassemblies:"relocation;",mis_ends:"L",is_best:"True"
 ,overlaps:[ 
 {contig:"tig00004063",corr_start: 1447176,corr_end: 1468272,start:1447176,end:1468272,start_in_contig:1,end_in_contig:21143,chr: "0"}
-]},
+]
+,genes:[]},
 {name:"tig00004063",corr_start:1447176,corr_end:1468272,start:1447176,end:1468272,misassemblies:"",mis_ends:"",is_best:"True"
 ,overlaps:[ 
 {contig:"tig00004064",corr_start: 1,corr_end: 1463745,start:1,end:1463745,start_in_contig:1099685,end_in_contig:2563357,chr: "0"},{contig:"tig00004064",corr_start: 1447260,corr_end: 2547009,start:1447260,end:2547009,start_in_contig:1,end_in_contig:1099684,chr: "0"}
-]},
+]
+,genes:[]},
 {name:"tig00004064",corr_start:1447260,corr_end:2547009,start:1447260,end:2547009,misassemblies:";relocation",mis_ends:";R",is_best:"True"
 ,overlaps:[ 
 {contig:"tig00004063",corr_start: 1447176,corr_end: 1468272,start:1447176,end:1468272,start_in_contig:1,end_in_contig:21143,chr: "0"}
-]}];
+]
+,genes:[]}];
 var gc_window_size = 100;
 var gc_data = {};
 var max_gc = {};
-max_gc["OBMB01"] = 100;
-gc_data["OBMB01"] = [ 
+max_gc["lferriphilum_ref"] = 100;
+gc_data["lferriphilum_ref"] = [ 
 
 49,53,51,53,49,51,47,56,46,45,48,50,47,50,58,51,52,53,62,53,62,64,43,46,62,55,42,48,48,47,49,47,49,53,19,41,55,36,52,42,49,47,57,55,56,54,29,42,53,45,44,50,48,53,57,52,45,46,52,42,44,44,55,49,49,39,44,45,47,61,53,56,53,54,51,46,54,51,52,51,55,61,47,50,64,55,57,56,50,50,53,55,57,56,47,54,52,58,55,44,
 61,59,43,53,54,53,45,53,54,62,48,44,49,49,54,50,45,53,54,44,45,55,46,45,50,46,39,45,56,47,55,54,50,53,56,53,50,61,48,49,54,49,57,53,57,58,43,55,49,48,46,59,50,50,47,54,51,49,50,58,45,51,52,48,57,45,50,46,50,46,46,39,34,45,40,60,56,56,56,51,55,55,51,49,54,40,51,54,45,60,44,55,55,60,57,45,50,50,48,43,

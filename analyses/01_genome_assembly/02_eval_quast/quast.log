@@ -1,4 +1,4 @@
-./quast.py ../analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta -r ../data/OBMB01.fasta -o ../analyses/01_genome_assembly/02_eval_quast/
+./quast.py ../analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta -r ../data/reference/lferriphilum_ref.fasta -o ../analyses/01_genome_assembly/02_eval_quast/ --gene-finding
 
 Version: 5.0.2, 1940edd
 
@@ -7,7 +7,7 @@ System information:
   Python version: 2.7.17
   CPUs number: 4
 
-Started: 2020-04-03 11:17:31
+Started: 2020-04-05 11:31:37
 
 Logging to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/quast.log
 NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
@@ -18,16 +18,16 @@ Main parameters:
   ambiguity: one, threshold for extensive misassembly size: 1000
 
 Reference:
-  /home/nuria/Documents/Genome_Analysis/genome-analysis/data/OBMB01.fasta ==> OBMB01
+  /home/nuria/Documents/Genome_Analysis/genome-analysis/data/reference/lferriphilum_ref.fasta ==> lferriphilum_ref
 
 Contigs:
   Pre-processing...
   ../analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta ==> lferriphilum.contigs
 
-2020-04-03 11:17:32
+2020-04-05 11:31:38
 Running Basic statistics processor...
   Reference genome:
-    OBMB01.fasta, length = 2610531, num fragments = 2, GC % = 54.14
+    lferriphilum_ref.fasta, length = 2610531, num fragments = 2, GC % = 54.14
   Contig files: 
     lferriphilum.contigs
   Calculating N50 and L50...
@@ -44,13 +44,13 @@ Running Basic statistics processor...
     saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/basic_stats/lferriphilum.contigs_GC_content_plot.pdf
 Done.
 
-2020-04-03 11:17:34
+2020-04-05 11:31:39
 Running Contig analyzer...
   lferriphilum.contigs
   Logging to files /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/contigs_reports/contigs_report_lferriphilum-contigs.stdout and contigs_report_lferriphilum-contigs.stderr...
   Aligning contigs to the reference
   quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s \
-  65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/quast_corrected_input/OBMB01.fasta \
+  65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/quast_corrected_input/lferriphilum_ref.fasta \
   /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/quast_corrected_input/lferriphilum_contigs.fasta \
   > /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/contigs_reports/minimap_output/lferriphilum-contigs.coords_tmp \
   2>> /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/contigs_reports/contigs_report_lferriphilum-contigs.stderr
@@ -68,7 +68,7 @@ Running Contig analyzer...
     saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2020-04-03 11:17:36
+2020-04-05 11:31:41
 Running NA-NGA calculation...
   lferriphilum.contigs, Largest alignment = 1463673, NA50 = 1463673, NGA50 = 1463673, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
@@ -79,7 +79,7 @@ Running NA-NGA calculation...
     saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/aligned_stats/NGAx_plot.pdf
 Done.
 
-2020-04-03 11:17:37
+2020-04-05 11:31:42
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -89,16 +89,32 @@ Running Genome analyzer...
   Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
 Done.
 
+2020-04-05 11:31:43
+Running GeneMarkS...
+  lferriphilum.contigs
+    perl quast_libs/genemark/linux_64/gmsn.pl --name lferriphilum_contigs --clean \
+    --out /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/predicted_genes/tmp/tmpFv8ayI \
+    /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/quast_corrected_input/lferriphilum_contigs.fasta \
+    > /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/predicted_genes/lferriphilum-contigs_genemark.stderr \
+    2> /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/predicted_genes/lferriphilum-contigs_genemark.stderr
+    The tool returned non-zero. See ../analyses/01_genome_assembly/02_eval_quast/predicted_genes/lferriphilum-contigs_genemark.stderr for stderr.
+
+WARNING: License period for GeneMark has ended! 
+To update license, please visit http://exon.gatech.edu/GeneMark/license_download.cgi page and fill in the form.
+You should choose GeneMarkS tool and your operating system (note that GeneMark is free for non-commercial use).
+Download the license key and replace your ~/.gm_key with the updated version. After that you can restart QUAST.
+
+
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2020-04-03 11:17:38
+2020-04-05 11:31:43
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2020-04-03 11:17:40
+2020-04-05 11:31:45
 RESULTS:
   Text versions of total report are saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/report.txt, report.tsv, and report.tex
   Text versions of transposed total report are saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
@@ -107,8 +123,8 @@ RESULTS:
   Icarus (contig browser) is saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/icarus.html
   Log is saved to /home/nuria/Documents/Genome_Analysis/genome-analysis/analyses/01_genome_assembly/02_eval_quast/quast.log
 
-Finished: 2020-04-03 11:17:40
-Elapsed time: 0:00:08.776103
-NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+Finished: 2020-04-05 11:31:45
+Elapsed time: 0:00:08.120941
+NOTICEs: 4; WARNINGs: 1; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
