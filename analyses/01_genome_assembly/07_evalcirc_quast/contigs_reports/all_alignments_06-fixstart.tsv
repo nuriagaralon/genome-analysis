@@ -1,0 +1,5 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1463930	2547001	1	1083023	ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064	99.99		True
+relocation, inconsistency = -2547001
+1	1463929	1083024	2546872	ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064	99.99		True
+CONTIG	tig00004064	2546872	misassembled

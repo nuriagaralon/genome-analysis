@@ -1,0 +1,93 @@
+gnuplot 4.6 patchlevel 2
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Parsing coords...
+Loading reference...
+	Loaded [ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver]
+	Loaded [ENA_OBMB01000002_OBMB01000002.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_1_quiver]
+Loading SNPs...
+	Total Regions: 2
+	Total Region Length: 2610531
+Analyzing contigs...
+CONTIG: tig00004064 (2546872bp)
+Best alignment score: 1463702.6 (LEN: 1463849, IDY: 99.99)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 717172 718462 | 15515 16805 | 1291 1291 | 100.0 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 716119 716377 | 393342 393600 | 259 259 | 98.07 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1135444 1136835 | 393604 392213 | 1392 1392 | 99.93 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1135448 1136835 | 907427 906040 | 1388 1388 | 100.0 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 716119 716377 | 907169 907427 | 259 259 | 98.07 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 18575 41174 | 1100945 1078350 | 22600 22596 | 99.8 | ENA_OBMB01000002_OBMB01000002.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_1_quiver tig00004064
+		Skipping redundant alignment 1 18977 | 1121146 1102156 | 18977 18991 | 99.89 | ENA_OBMB01000002_OBMB01000002.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_1_quiver tig00004064
+		Skipping redundant alignment 182886 183147 | 1263983 1263723 | 262 261 | 98.47 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 180709 180969 | 1266161 1265900 | 261 262 | 98.47 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 436250 441728 | 1454788 1449312 | 5479 5477 | 99.95 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 366308 371785 | 1524729 1519251 | 5478 5479 | 99.96 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1857299 1857557 | 1799107 1799365 | 259 259 | 98.07 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 2371149 2371407 | 1799107 1799365 | 259 259 | 98.07 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1135447 1135706 | 1799366 1799107 | 260 260 | 98.08 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1479444 1480734 | 1800160 1801450 | 1291 1291 | 100.0 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 725386 725487 | 1806460 1806359 | 102 102 | 99.02 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1429156 1429262 | 1806566 1806460 | 107 107 | 98.13 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 723371 723472 | 1808475 1808374 | 102 102 | 99.02 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 716119 716378 | 2218669 2218410 | 260 260 | 98.08 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 1856170 1857561 | 2219798 2218407 | 1392 1392 | 99.93 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 2370020 2371407 | 2219798 2218411 | 1388 1388 | 100.0 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+		Skipping redundant alignment 723472 723578 | 2512206 2512100 | 107 107 | 98.13 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+			The best set is below. Score: 2546117.3, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled. 24 total aligns.
+			Excluding internal overlap of size 22356 between Alignment 1 and 2: 1463930 2569357 | 1 1105379 | 1105428 1105379 --> 1463930 2547001 | 1 1083023 | 1083072 1083023
+			Real Alignment 1: 1463930 2547001 | 1 1083023 | 1083072 1083023 | 99.99 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+			  Extensive misassembly (relocation, inconsistency = -2547001) between these two alignments
+			Real Alignment 2: 1 1463929 | 1083024 2546872 | 1463929 1463849 | 99.99 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+
+Analyzing coverage...
+Writing SNPs into /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.used_snps.gz
+WARNING: Reference ENA_OBMB01000002_OBMB01000002.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_1_quiver does not have any alignments! 
+	Reference ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver: 2 total alignments. 1 total regions.
+		Region: 1 to 2569357 (2569357 bp)
+			Align 1: 1 1463929 tig00004064 1083024 2546872
+				Next Alignment: 1463930 2547001 tig00004064 1 1083023
+
+			Align 2: 1463930 2547001 tig00004064 1 1083023
+			END in gap: 2547001 to 2569357 (22356 bp).
+
+Analysis is finished!
+Founded SNPs were written into /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 1
+		Relocations: 1
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 2546872
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 2547001
+
+	SNPs: 3
+	Insertions: 18
+	Deletions: 155
+
+	Positive Gaps: 1
+		Internal Gaps: 0
+		External Gaps: 1
+		External Gap Total: 22356
+		External Gap Average: 22356
+	Negative Gaps: 0
+		Internal Overlaps: 0
+		External Overlaps: 0
+		External Overlaps Total: 0
+		External Overlaps Average: 0
+	Contigs with Redundant Alignments: 0 (0)

@@ -1,0 +1,26 @@
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+       1  1463929  |  1083024  2546872  |  1463929  1463849  |    99.99  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  180709   180969  |  1266161  1265900  |      261      262  |    98.47  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  182886   183147  |  1263983  1263723  |      262      261  |    98.47  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  366308   371785  |  1524729  1519251  |     5478     5479  |    99.96  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  436250   441728  |  1454788  1449312  |     5479     5477  |    99.95  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  716119   716377  |   393342   393600  |      259      259  |    98.07  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  716119   716378  |  2218669  2218410  |      260      260  |    98.08  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  716119   716377  |   907169   907427  |      259      259  |    98.07  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  717172   718462  |    15515    16805  |     1291     1291  |   100.00  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  723371   723472  |  1808475  1808374  |      102      102  |    99.02  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  723472   723578  |  2512206  2512100  |      107      107  |    98.13  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+  725386   725487  |  1806460  1806359  |      102      102  |    99.02  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1135448  1136835  |   907427   906040  |     1388     1388  |   100.00  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1135444  1136835  |   393604   392213  |     1392     1392  |    99.93  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1135447  1135706  |  1799366  1799107  |      260      260  |    98.08  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1429156  1429262  |  1806566  1806460  |      107      107  |    98.13  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1463930  2569357  |        1  1105379  |  1105428  1105379  |    99.99  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1479444  1480734  |  1800160  1801450  |     1291     1291  |   100.00  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1856170  1857561  |  2219798  2218407  |     1392     1392  |    99.93  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 1857299  1857557  |  1799107  1799365  |      259      259  |    98.07  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 2370020  2371407  |  2219798  2218411  |     1388     1388  |   100.00  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+ 2371149  2371407  |  1799107  1799365  |      259      259  |    98.07  | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver	tig00004064
+       1    18977  |  1121146  1102156  |    18977    18991  |    99.89  | ENA_OBMB01000002_OBMB01000002.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_1_quiver	tig00004064
+   18575    41174  |  1100945  1078350  |    22600    22596  |    99.80  | ENA_OBMB01000002_OBMB01000002.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_1_quiver	tig00004064

@@ -1,0 +1,5 @@
+Writing filtered delta file /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.filter
+Reading delta file /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.delta
+Writing plot files /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.fplot, /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.rplot
+Writing gnuplot script /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.gp
+Rendering plot /home/nuga5928/genome-analysis/analyses/01_genome_assembly/07_evalcirc_quast/contigs_reports/nucmer_output/06-fixstart.html

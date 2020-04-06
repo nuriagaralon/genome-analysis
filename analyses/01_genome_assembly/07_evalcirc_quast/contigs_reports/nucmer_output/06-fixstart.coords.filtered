@@ -1,0 +1,4 @@
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+1463930 2547001 | 1 1083023 | 1083072 1083023 | 99.99 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
+1 1463929 | 1083024 2546872 | 1463929 1463849 | 99.99 | ENA_OBMB01000001_OBMB01000001.1_Leptospirillum_ferriphilum_isolate_pb_238_genome_assembly__contig__unitig_0_quiver tig00004064
