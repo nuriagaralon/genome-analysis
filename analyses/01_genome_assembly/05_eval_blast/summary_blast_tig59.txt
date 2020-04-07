@@ -1,0 +1,118 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           55,358,024 sequences; 253,052,128,426 total letters
+
+
+
+Query= tig00000059 len=48946 reads=20 covStat=75.14 gappedBases=no
+class=contig suggestRepeat=no suggestCircular=no
+
+Length=48946
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+AP021729.1 Prunus dulcis DNA, unplaced-scaffold_1392                  10805      0.0   
+MG551957.1 Synthetic construct PacBio unrolled DNA internal contr...  7450       0.0   
+MG495226.1 Synthetic construct PacBio DNA internal control sequence   3631       0.0   
+CP023042.1 Komagataeibacter saccharivorans strain CV1 plasmid unn...  3446       0.0   
+CP022501.1 Salmonella enterica subsp. enterica serovar Kentucky s...  3430       0.0   
+XM_020155599.1 PREDICTED: Castor canadensis collagen alpha-1(I) c...  566        4e-155
+AP019682.1 Xanthomonas campestris pv. campestris MAFF106712 DNA, ...  259        8e-63 
+LR664366.1 Coregonus sp. 'balchen' genome assembly, chromosome: 23    89.8       1e-11 
+CP013732.1 Burkholderia cepacia JBK9 chromosome 3, complete sequence  65.8       2e-04 
+FJ535720.1 Lates calcarifer clone LcaE111 microsatellite sequence     54.7       0.43  
+LR664381.1 Coregonus sp. 'balchen' genome assembly, chromosome: 38    52.8       1.5   
+LR031571.1 Brassica rapa genome, scaffold: A01                        52.8       1.5   
+
+
+>AP021729.1 Prunus dulcis DNA, unplaced-scaffold_1392
+Length=5955
+
+ Score = 10805 bits (5851),  Expect = 0.0
+ Identities = 5939/5977 (99%), Gaps = 23/5977 (0%)
+ Strand=Plus/Plus
+--
+>MG551957.1 Synthetic construct PacBio unrolled DNA internal control sequence
+Length=4034
+
+ Score = 7450 bits (4034),  Expect = 0.0
+ Identities = 4034/4034 (100%), Gaps = 0/4034 (0%)
+ Strand=Plus/Minus
+--
+>MG495226.1 Synthetic construct PacBio DNA internal control sequence
+Length=1966
+
+ Score = 3631 bits (1966),  Expect = 0.0
+ Identities = 1966/1966 (100%), Gaps = 0/1966 (0%)
+ Strand=Plus/Minus
+--
+>CP023042.1 Komagataeibacter saccharivorans strain CV1 plasmid unnamed6
+Length=1866
+
+ Score = 3446 bits (1866),  Expect = 0.0
+ Identities = 1866/1866 (100%), Gaps = 0/1866 (0%)
+ Strand=Plus/Minus
+--
+>CP022501.1 Salmonella enterica subsp. enterica serovar Kentucky str. SA20030505 
+plasmid unnamed1, complete sequence
+Length=1857
+
+ Score = 3430 bits (1857),  Expect = 0.0
+ Identities = 1857/1857 (100%), Gaps = 0/1857 (0%)
+--
+>XM_020155599.1 PREDICTED: Castor canadensis collagen alpha-1(I) chain-like (LOC109681002), 
+mRNA
+Length=2694
+
+ Score = 566 bits (306),  Expect = 4e-155
+ Identities = 314/317 (99%), Gaps = 3/317 (1%)
+--
+>AP019682.1 Xanthomonas campestris pv. campestris MAFF106712 DNA, complete 
+genome
+Length=5002720
+
+ Score = 259 bits (140),  Expect = 8e-63
+ Identities = 145/147 (99%), Gaps = 2/147 (1%)
+--
+>LR664366.1 Coregonus sp. 'balchen' genome assembly, chromosome: 23
+Length=52020451
+
+ Score = 89.8 bits (48),  Expect = 1e-11
+ Identities = 90/109 (83%), Gaps = 7/109 (6%)
+ Strand=Plus/Minus
+--
+>CP013732.1 Burkholderia cepacia JBK9 chromosome 3, complete sequence
+Length=1290392
+
+ Score = 65.8 bits (35),  Expect = 2e-04
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+--
+>FJ535720.1 Lates calcarifer clone LcaE111 microsatellite sequence
+Length=275
+
+ Score = 54.7 bits (29),  Expect = 0.43
+ Identities = 29/29 (100%), Gaps = 0/29 (0%)
+ Strand=Plus/Plus
+--
+>LR664381.1 Coregonus sp. 'balchen' genome assembly, chromosome: 38
+Length=36774138
+
+ Score = 52.8 bits (28),  Expect = 1.5
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+--
+>LR031571.1 Brassica rapa genome, scaffold: A01
+Length=37915545
+
+ Score = 52.8 bits (28),  Expect = 1.5
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
