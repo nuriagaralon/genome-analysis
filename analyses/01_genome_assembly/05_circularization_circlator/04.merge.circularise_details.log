@@ -1,0 +1,15 @@
+[merge circularise_details]	tig00004064	Checking 2 nucmer hits
+[merge circularise_details]	tig00004064	potential pair of nucmer hits for circularization:
+[merge circularise_details]	tig00004064		1	50009	50017	1	50009	50017	99.97	2563357	86489	1	tig00004064	NODE_1_length_86489_cov_28.248_ID_3987
+[merge circularise_details]	tig00004064		2510393	2563357	86489	33533	52965	52957	99.93	2563357	86489	1	tig00004064	NODE_1_length_86489_cov_28.248_ID_3987
+[merge circularise_details]	tig00004064	can use this pair of hits
+[merge circularise_details]
+[merge circularise_details]	spades reassembly contigs that are circular: None
+[merge circularise_details]
+[merge circularise_details]	tig00004064	Trying to circularize. Has nucmer hits to check...
+[merge circularise_details]	tig00004064	No matches to SPAdes circular contigs
+[merge circularise_details]	tig00004064	Could not circularize using matches to spades circular contigs
+[merge circularise_details]	tig00004064	Circularizing using this pair of nucmer matches to spades contig:
+[merge circularise_details]	tig00004064		1	50009	50017	1	50009	50017	99.97	2563357	86489	1	tig00004064	NODE_1_length_86489_cov_28.248_ID_3987
+[merge circularise_details]	tig00004064		2510393	2563357	86489	33533	52965	52957	99.93	2563357	86489	1	tig00004064	NODE_1_length_86489_cov_28.248_ID_3987
+[merge circularise_details]	tig00004064	Circularized: yes

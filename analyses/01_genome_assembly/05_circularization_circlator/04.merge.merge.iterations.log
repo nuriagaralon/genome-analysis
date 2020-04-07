@@ -1,0 +1,8 @@
+[merge iterative_merge 1]	Using nucmer matches from 04.merge.merge.iter.1.coords
+[merge iterative_merge 1]	You can view the nucmer matches with ACT using: ./04.merge.merge.iter.1.start_act.sh
+[merge iterative_merge 1]	NODE_1_length_86489_cov_28.248_ID_3987: checking nucmer matches
+[merge iterative_merge 1]	NODE_1_length_86489_cov_28.248_ID_3987: no potential pairs of hits to merge contigs
+[merge iterative_merge 1]	Potential contigs to use for merging: 
+[merge iterative_merge 1]	Contigs to use for merging after uniqueness filtering: 
+[merge iterative_merge 1]	Made at least one contig join: False
+[merge iterative_merge 1]	No contig merges were made

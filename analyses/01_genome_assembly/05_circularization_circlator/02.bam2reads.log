@@ -1,0 +1,2 @@
+[bamfilter]	#contig	length	reads_kept
+[bamfilter]	tig00004064	2563357	1-50000;2513358-2563357

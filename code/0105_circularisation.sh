@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 40:00:00
-#SBATCH -J 011_circularization
+#SBATCH -J 0105_circularization
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user nuria.garrigaalonso.5928@student.uu.se
 
@@ -14,8 +14,8 @@ module load circlator
 
 # running circlator
 circlator all \
-~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.contigs.fasta \
-~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.correctedReads.fasta.gz \
+~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/contigs/tig00004064.fasta \
+~/genome-analysis/analyses/01_genome_assembly/01_assembly_canu/lferriphilum.trimmedReads.fasta.gz \
 ~/genome-analysis/analyses/01_genome_assembly/05_circularization_circlator \
 --threads=4
 
