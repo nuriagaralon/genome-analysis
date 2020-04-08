@@ -12,8 +12,8 @@
 module load bioinfo-tools
 module load blast
 
-# variables contig 59
-FOLDER="~/genome-analysis/analyses/01_genome_assembly/08_evalcirc_blast"
+# go to folder
+cd ~/genome-analysis/analyses/01_genome_assembly/08_evalcirc_blast
 
 # Run blast
 blastx -db refseq_protein_v5 \
