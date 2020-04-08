@@ -1,0 +1,2272 @@
+BLASTX 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: NCBI Protein Reference Sequences
+           155,334,636 sequences; 58,941,098,972 total letters
+
+
+
+Query= tig00004064
+
+Length=1740
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WP_036083940.1 chromosomal replication initiator protein DnaA [Le...  933        0.0   
+WP_014959779.1 chromosomal replication initiator protein DnaA [Le...  919        0.0   
+WP_023524521.1 chromosomal replication initiator protein DnaA [Le...  916        0.0   
+WP_014448227.1 chromosomal replication initiator protein DnaA [Le...  589        0.0   
+WP_088535756.1 chromosomal replication initiator protein DnaA [Ge...  383        1e-124
+WP_012645108.1 chromosomal replication initiator protein DnaA [Ge...  371        8e-120
+WP_015718363.1 chromosomal replication initiator protein DnaA [Ge...  370        4e-119
+WP_053377948.1 chromosomal replication initiator protein DnaA [Ni...  365        1e-117
+WP_011936948.1 chromosomal replication initiator protein DnaA [Ge...  365        2e-117
+WP_087473868.1 chromosomal replication initiator protein DnaA [Ni...  365        2e-117
+WP_072286572.1 chromosomal replication initiator protein DnaA [Pe...  363        8e-117
+WP_026841302.1 chromosomal replication initiator protein DnaA [Ge...  363        1e-116
+WP_012528443.1 chromosomal replication initiator protein DnaA [Ge...  363        1e-116
+WP_012773716.1 chromosomal replication initiator protein DnaA [Ge...  363        1e-116
+WP_121988918.1 chromosomal replication initiator protein DnaA [Ni...  362        2e-116
+WP_085814478.1 chromosomal replication initiator protein DnaA [Ge...  361        6e-116
+WP_155970565.1 chromosomal replication initiator protein DnaA [Ni...  361        7e-116
+WP_029914434.1 chromosomal replication initiator protein DnaA [Pe...  361        7e-116
+WP_148896314.1 chromosomal replication initiator protein DnaA [Ge...  361        8e-116
+WP_040198527.1 chromosomal replication initiator protein DnaA [Ge...  361        8e-116
+WP_136524184.1 chromosomal replication initiator protein DnaA [Ge...  361        1e-115
+WP_135868986.1 MULTISPECIES: chromosomal replication initiator pr...  360        1e-115
+WP_090895339.1 chromosomal replication initiator protein DnaA [Ca...  360        1e-115
+WP_062483692.1 chromosomal replication initiator protein DnaA [Ca...  360        2e-115
+WP_078697445.1 chromosomal replication initiator protein DnaA [Ca...  360        2e-115
+WP_129125070.1 chromosomal replication initiator protein DnaA [Ge...  359        4e-115
+WP_108101606.1 chromosomal replication initiator protein DnaA [Ge...  358        8e-115
+WP_090744250.1 chromosomal replication initiator protein DnaA [Ca...  358        8e-115
+WP_004513720.1 chromosomal replication initiator protein DnaA [Ge...  357        2e-114
+WP_089965234.1 chromosomal replication initiator protein DnaA [Li...  357        2e-114
+WP_066353750.1 chromosomal replication initiator protein DnaA [Fe...  357        3e-114
+WP_039739333.1 chromosomal replication initiator protein DnaA [Ge...  356        4e-114
+WP_044035683.1 chromosomal replication initiator protein DnaA [Cl...  356        7e-114
+WP_013246619.1 chromosomal replication initiator protein DnaA [Ni...  355        7e-114
+WP_080879516.1 chromosomal replication initiator protein DnaA [Ni...  355        8e-114
+WP_012468099.1 chromosomal replication initiator protein DnaA [Ge...  355        1e-113
+WP_066729553.1 chromosomal replication initiator protein DnaA [De...  355        2e-113
+WP_138979664.1 chromosomal replication initiator protein DnaA [Ca...  355        2e-113
+WP_085011121.1 chromosomal replication initiator protein DnaA [Ge...  355        2e-113
+WP_014807912.1 chromosomal replication initiator protein DnaA [De...  354        2e-113
+WP_103115133.1 chromosomal replication initiator protein DnaA [Ge...  354        2e-113
+WP_133629153.1 chromosomal replication initiator protein DnaA [Fo...  354        3e-113
+WP_053549065.1 chromosomal replication initiator protein DnaA [De...  354        4e-113
+WP_066358232.1 chromosomal replication initiator protein DnaA [Ge...  353        5e-113
+WP_072284172.1 chromosomal replication initiator protein DnaA [Pe...  353        7e-113
+WP_039647512.1 chromosomal replication initiator protein DnaA [Ge...  353        8e-113
+WP_010940678.1 chromosomal replication initiator protein DnaA [Ge...  353        9e-113
+WP_031306207.1 chromosomal replication initiator protein DnaA [Br...  353        1e-112
+WP_045667799.1 chromosomal replication initiator protein DnaA [Ge...  352        1e-112
+WP_148866520.1 chromosomal replication initiator protein DnaA [Th...  352        1e-112
+WP_122914324.1 chromosomal replication initiator protein DnaA [Br...  353        1e-112
+WP_141260840.1 chromosomal replication initiator protein DnaA [Br...  353        1e-112
+WP_103105048.1 chromosomal replication initiator protein DnaA [Br...  353        1e-112
+WP_053959727.1 chromosomal replication initiator protein DnaA [Su...  353        1e-112
+WP_064202748.1 chromosomal replication initiator protein DnaA [Br...  352        1e-112
+WP_026963729.1 chromosomal replication initiator protein DnaA [Al...  352        2e-112
+WP_087349423.1 chromosomal replication initiator protein DnaA [Br...  352        2e-112
+WP_018923293.1 chromosomal replication initiator protein DnaA [Sa...  352        2e-112
+WP_011339646.1 chromosomal replication initiator protein DnaA [Pe...  352        2e-112
+WP_142497271.1 chromosomal replication initiator protein DnaA [Ly...  352        2e-112
+WP_138790697.1 chromosomal replication initiator protein DnaA [Pa...  352        2e-112
+WP_020375201.1 chromosomal replication initiator protein DnaA [Su...  352        3e-112
+WP_029071952.1 MULTISPECIES: chromosomal replication initiator pr...  352        3e-112
+WP_119334000.1 chromosomal replication initiator protein DnaA [Ge...  351        3e-112
+WP_145020995.1 chromosomal replication initiator protein DnaA [Ge...  351        5e-112
+WP_069656483.1 chromosomal replication initiator protein DnaA [Vu...  351        5e-112
+WP_103131042.1 chromosomal replication initiator protein DnaA [De...  351        5e-112
+WP_106835594.1 chromosomal replication initiator protein DnaA [Br...  351        6e-112
+WP_073253939.1 chromosomal replication initiator protein DnaA [Ca...  351        6e-112
+WP_027309363.1 MULTISPECIES: chromosomal replication initiator pr...  351        7e-112
+WP_013274850.1 chromosomal replication initiator protein DnaA [Th...  350        8e-112
+WP_103082988.1 chromosomal replication initiator protein DnaA [Ps...  350        8e-112
+WP_085972479.1 chromosomal replication initiator protein DnaA [Br...  350        1e-111
+WP_018664106.1 chromosomal replication initiator protein DnaA [Th...  350        1e-111
+WP_013777140.1 chromosomal replication initiator protein DnaA [Te...  350        1e-111
+WP_049720746.1 chromosomal replication initiator protein DnaA [Th...  350        1e-111
+WP_063231697.1 chromosomal replication initiator protein DnaA [Br...  350        1e-111
+WP_016739361.1 MULTISPECIES: chromosomal replication initiator pr...  350        1e-111
+WP_017246844.1 unnamed protein product                                350        1e-111
+WP_106784234.1 MULTISPECIES: chromosomal replication initiator pr...  350        2e-111
+WP_122962226.1 chromosomal replication initiator protein DnaA [Br...  350        2e-111
+WP_005828320.1 MULTISPECIES: chromosomal replication initiator pr...  350        2e-111
+WP_085965027.1 MULTISPECIES: chromosomal replication initiator pr...  350        2e-111
+WP_154531575.1 chromosomal replication initiator protein DnaA [Cl...  349        2e-111
+WP_106341847.1 MULTISPECIES: chromosomal replication initiator pr...  350        2e-111
+WP_102991122.1 chromosomal replication initiator protein DnaA [La...  350        3e-111
+WP_040214768.1 chromosomal replication initiator protein DnaA [Cl...  349        3e-111
+WP_033100490.1 chromosomal replication initiator protein DnaA [Th...  349        3e-111
+WP_127017660.1 chromosomal replication initiator protein DnaA [An...  349        3e-111
+WP_055266814.1 chromosomal replication initiator protein DnaA [Cl...  349        3e-111
+WP_068747707.1 chromosomal replication initiator protein DnaA [Th...  349        3e-111
+WP_124726253.1 chromosomal replication initiator protein DnaA [Th...  349        3e-111
+WP_037998240.1 MULTISPECIES: chromosomal replication initiator pr...  349        4e-111
+WP_065067554.1 chromosomal replication initiator protein DnaA [Br...  349        4e-111
+WP_029100574.1 MULTISPECIES: chromosomal replication initiator pr...  348        4e-111
+WP_155874605.1 chromosomal replication initiator protein DnaA [De...  348        5e-111
+WP_088910123.1 chromosomal replication initiator protein DnaA [Br...  348        5e-111
+WP_055227736.1 chromosomal replication initiator protein DnaA [Cl...  348        5e-111
+WP_039312324.1 chromosomal replication initiator protein DnaA [Cl...  348        5e-111
+WP_057979528.1 chromosomal replication initiator protein DnaA [Ca...  348        6e-111
+WP_146142415.1 chromosomal replication initiator protein DnaA [Br...  348        6e-111
+WP_045725271.1 chromosomal replication initiator protein DnaA [Cl...  348        7e-111
+WP_122905485.1 chromosomal replication initiator protein DnaA [Br...  348        7e-111
+WP_005212802.1 chromosomal replication initiator protein DnaA [Cl...  348        8e-111
+WP_088554915.1 chromosomal replication initiator protein DnaA [Ca...  348        8e-111
+WP_003388867.1 chromosomal replication initiator protein DnaA [Br...  348        8e-111
+WP_131847749.1 chromosomal replication initiator protein DnaA [Ba...  349        8e-111
+WP_032123301.1 chromosomal replication initiator protein DnaA [Cl...  348        9e-111
+WP_042397186.1 MULTISPECIES: chromosomal replication initiator pr...  348        9e-111
+WP_092036335.1 chromosomal replication initiator protein DnaA [Pl...  347        1e-110
+WP_055071999.1 chromosomal replication initiator protein DnaA [Cl...  348        1e-110
+WP_122920172.1 chromosomal replication initiator protein DnaA [Br...  347        1e-110
+WP_040095933.1 chromosomal replication initiator protein DnaA [Ge...  347        1e-110
+WP_026332551.1 chromosomal replication initiator protein DnaA [De...  348        1e-110
+WP_139492508.1 chromosomal replication initiator protein DnaA [Br...  347        1e-110
+WP_139203248.1 chromosomal replication initiator protein DnaA [Th...  347        2e-110
+WP_073093098.1 chromosomal replication initiator protein DnaA [Th...  347        2e-110
+WP_011529153.1 MULTISPECIES: chromosomal replication initiator pr...  348        2e-110
+WP_122013731.1 chromosomal replication initiator protein DnaA [Th...  347        2e-110
+WP_054876687.1 chromosomal replication initiator protein DnaA [Ox...  347        2e-110
+WP_032116815.1 chromosomal replication initiator protein DnaA [Cl...  347        3e-110
+WP_074366595.1 chromosomal replication initiator protein DnaA [Cl...  346        3e-110
+WP_120765150.1 chromosomal replication initiator protein DnaA [Th...  347        3e-110
+WP_027637262.1 chromosomal replication initiator protein DnaA [Cl...  346        3e-110
+WP_138204216.1 chromosomal replication initiator protein DnaA [Ha...  346        3e-110
+WP_043853453.1 chromosomal replication initiator protein DnaA [Cl...  346        4e-110
+WP_012691920.1 chromosomal replication initiator protein DnaA [De...  346        5e-110
+WP_006000556.1 chromosomal replication initiator protein DnaA [De...  345        5e-110
+WP_008909332.1 chromosomal replication initiator protein DnaA [Ca...  345        5e-110
+WP_072909088.1 chromosomal replication initiator protein DnaA [Ma...  346        5e-110
+WP_119360276.1 chromosomal replication initiator protein DnaA [Me...  345        5e-110
+WP_083771698.1 chromosomal replication initiator protein DnaA [Me...  346        5e-110
+WP_002582819.1 MULTISPECIES: chromosomal replication initiator pr...  345        6e-110
+WP_103896396.1 chromosomal replication initiator protein DnaA [Ca...  345        7e-110
+WP_024614018.1 chromosomal replication initiator protein DnaA [Cl...  345        7e-110
+WP_003406672.1 chromosomal replication initiator protein DnaA [Cl...  345        8e-110
+WP_090748316.1 chromosomal replication initiator protein DnaA [Ba...  345        9e-110
+WP_003333984.1 MULTISPECIES: chromosomal replication initiator pr...  345        9e-110
+WP_139902016.1 chromosomal replication initiator protein DnaA [Cl...  345        1e-109
+WP_122960434.1 chromosomal replication initiator protein DnaA [Br...  345        1e-109
+WP_092271097.1 MULTISPECIES: chromosomal replication initiator pr...  345        1e-109
+WP_114799058.1 chromosomal replication initiator protein DnaA [Me...  345        1e-109
+WP_027888184.1 MULTISPECIES: chromosomal replication initiator pr...  344        1e-109
+WP_073340377.1 chromosomal replication initiator protein DnaA [Cl...  345        2e-109
+WP_060669394.1 chromosomal replication initiator protein DnaA [Cl...  345        2e-109
+WP_042262936.1 chromosomal replication initiator protein DnaA [Cl...  344        2e-109
+WP_113758153.1 chromosomal replication initiator protein DnaA [Br...  345        2e-109
+WP_025748739.1 MULTISPECIES: chromosomal replication initiator pr...  344        2e-109
+WP_116477625.1 chromosomal replication initiator protein DnaA [ca...  344        2e-109
+WP_090013072.1 chromosomal replication initiator protein DnaA [Cl...  344        2e-109
+WP_079440850.1 chromosomal replication initiator protein DnaA [Cl...  344        2e-109
+WP_133015129.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_008419046.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_131441829.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_107138447.1 chromosomal replication initiator protein DnaA [De...  344        3e-109
+WP_034806190.1 MULTISPECIES: chromosomal replication initiator pr...  344        3e-109
+WP_066826142.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_148806119.1 chromosomal replication initiator protein DnaA [Di...  343        3e-109
+WP_003466065.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_096517078.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_060796116.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_011391551.1 chromosomal replication initiator protein DnaA [Mo...  343        3e-109
+WP_003451025.1 chromosomal replication initiator protein DnaA [Cl...  344        3e-109
+WP_102399229.1 chromosomal replication initiator protein DnaA [Ha...  343        4e-109
+WP_119969758.1 chromosomal replication initiator protein DnaA [Cl...  343        4e-109
+WP_012582428.1 chromosomal replication initiator protein DnaA [Di...  343        4e-109
+WP_027877873.1 chromosomal replication initiator protein DnaA [Me...  343        4e-109
+WP_103373996.1 chromosomal replication initiator protein DnaA [Su...  344        4e-109
+WP_106060444.1 chromosomal replication initiator protein DnaA [Cl...  343        4e-109
+WP_018671240.1 MULTISPECIES: chromosomal replication initiator pr...  343        4e-109
+WP_072832742.1 chromosomal replication initiator protein DnaA [Cl...  343        4e-109
+WP_143597516.1 chromosomal replication initiator protein DnaA [Th...  343        4e-109
+WP_011591196.1 chromosomal replication initiator protein DnaA [Cl...  343        4e-109
+WP_063387746.1 MULTISPECIES: chromosomal replication initiator pr...  343        5e-109
+WP_152889833.1 chromosomal replication initiator protein DnaA [Cl...  343        5e-109
+WP_007439964.1 MULTISPECIES: chromosomal replication initiator pr...  343        5e-109
+WP_136008219.1 chromosomal replication initiator protein DnaA [Cl...  343        5e-109
+WP_089972209.1 chromosomal replication initiator protein DnaA [Cl...  343        5e-109
+WP_013456637.1 chromosomal replication initiator protein DnaA [Oc...  343        5e-109
+WP_025648329.1 chromosomal replication initiator protein DnaA [Cl...  343        6e-109
+WP_143110982.1 chromosomal replication initiator protein DnaA [Mo...  343        6e-109
+WP_010169391.1 chromosomal replication initiator protein DnaA [Ba...  343        7e-109
+WP_043816302.1 chromosomal replication initiator protein DnaA [De...  343        7e-109
+WP_035293156.1 chromosomal replication initiator protein DnaA [Cl...  343        7e-109
+WP_081360864.1 chromosomal replication initiator protein DnaA [Mo...  342        8e-109
+WP_141602096.1 chromosomal replication initiator protein DnaA [Ur...  343        8e-109
+WP_039681503.1 MULTISPECIES: chromosomal replication initiator pr...  343        8e-109
+WP_103313365.1 chromosomal replication initiator protein DnaA [De...  343        8e-109
+WP_077860459.1 chromosomal replication initiator protein DnaA [Cl...  343        8e-109
+WP_072966111.1 chromosomal replication initiator protein DnaA [Ca...  342        1e-108
+WP_131923484.1 chromosomal replication initiator protein DnaA [Ha...  342        1e-108
+WP_072332204.1 chromosomal replication initiator protein DnaA [Th...  343        1e-108
+WP_027716053.1 chromosomal replication initiator protein DnaA [De...  342        1e-108
+WP_055746009.1 chromosomal replication initiator protein DnaA [Br...  342        1e-108
+WP_077840259.1 MULTISPECIES: chromosomal replication initiator pr...  342        1e-108
+WP_050606337.1 chromosomal replication initiator protein DnaA [Cl...  342        1e-108
+WP_059032079.1 chromosomal replication initiator protein DnaA [Te...  342        1e-108
+WP_073006166.1 chromosomal replication initiator protein DnaA [Cl...  342        1e-108
+WP_115791896.1 chromosomal replication initiator protein DnaA [Am...  342        1e-108
+WP_149679438.1 chromosomal replication initiator protein DnaA [Th...  342        1e-108
+WP_109206870.1 chromosomal replication initiator protein DnaA [Mo...  342        1e-108
+WP_072896316.1 chromosomal replication initiator protein DnaA [Cl...  342        1e-108
+WP_093882364.1 chromosomal replication initiator protein DnaA [Sy...  342        1e-108
+WP_026883402.1 chromosomal replication initiator protein DnaA [Cl...  342        1e-108
+WP_094234812.1 chromosomal replication initiator protein DnaA [Tu...  342        1e-108
+WP_014094027.1 chromosomal replication initiator protein DnaA [Ca...  342        2e-108
+WP_026887755.1 chromosomal replication initiator protein DnaA [Cl...  342        2e-108
+WP_092080081.1 chromosomal replication initiator protein DnaA [De...  342        2e-108
+WP_126424600.1 chromosomal replication initiator protein DnaA [Br...  342        2e-108
+WP_012547485.1 chromosomal replication initiator protein DnaA [Di...  341        2e-108
+WP_027099037.1 MULTISPECIES: chromosomal replication initiator pr...  342        2e-108
+WP_079428467.1 chromosomal replication initiator protein DnaA [Cl...  342        2e-108
+WP_119864092.1 chromosomal replication initiator protein DnaA [Cl...  342        2e-108
+WP_013702821.1 chromosomal replication initiator protein DnaA [Ma...  342        2e-108
+WP_017210024.1 unnamed protein product                                342        2e-108
+WP_147147388.1 chromosomal replication initiator protein DnaA [Oc...  341        2e-108
+WP_114165094.1 chromosomal replication initiator protein DnaA [Ex...  342        2e-108
+WP_099221665.1 chromosomal replication initiator protein DnaA [Li...  341        3e-108
+WP_058293230.1 MULTISPECIES: chromosomal replication initiator pr...  341        3e-108
+WP_013012302.1 chromosomal replication initiator protein DnaA [Me...  341        3e-108
+WP_104992093.1 chromosomal replication initiator protein DnaA [De...  342        3e-108
+WP_009167654.1 chromosomal replication initiator protein DnaA [Cl...  341        3e-108
+WP_078788980.1 chromosomal replication initiator protein DnaA [Ge...  342        3e-108
+WP_132769648.1 chromosomal replication initiator protein DnaA [Te...  341        3e-108
+WP_078810292.1 chromosomal replication initiator protein DnaA [Se...  341        3e-108
+WP_054936883.1 MULTISPECIES: chromosomal replication initiator pr...  341        3e-108
+WP_092347256.1 chromosomal replication initiator protein DnaA [De...  341        3e-108
+WP_019536875.1 chromosomal replication initiator protein DnaA [Pa...  341        4e-108
+WP_092054955.1 chromosomal replication initiator protein DnaA [De...  341        4e-108
+WP_011967366.1 chromosomal replication initiator protein DnaA [Cl...  341        4e-108
+WP_073154447.1 chromosomal replication initiator protein DnaA [Se...  341        4e-108
+WP_024371093.1 MULTISPECIES: chromosomal replication initiator pr...  341        4e-108
+WP_010279243.1 chromosomal replication initiator protein DnaA [Pa...  341        4e-108
+WP_026824742.1 chromosomal replication initiator protein DnaA [Ex...  341        5e-108
+WP_077830445.1 chromosomal replication initiator protein DnaA [Cl...  340        5e-108
+WP_029477218.1 chromosomal replication initiator protein DnaA [De...  341        6e-108
+WP_049179320.1 MULTISPECIES: chromosomal replication initiator pr...  340        6e-108
+WP_143318189.1 chromosomal replication initiator protein DnaA [Cl...  340        6e-108
+WP_119339618.1 chromosomal replication initiator protein DnaA [Me...  340        6e-108
+WP_130805448.1 chromosomal replication initiator protein DnaA [Se...  340        6e-108
+WP_053337700.1 chromosomal replication initiator protein DnaA [Cl...  340        6e-108
+WP_021282902.1 chromosomal replication initiator protein DnaA [Cl...  340        7e-108
+WP_152871569.1 chromosomal replication initiator protein DnaA [De...  340        7e-108
+WP_010298341.1 chromosomal replication initiator protein DnaA [Cl...  340        8e-108
+WP_072992624.1 chromosomal replication initiator protein DnaA [Cl...  340        8e-108
+WP_016207954.1 MULTISPECIES: chromosomal replication initiator pr...  340        9e-108
+WP_061328442.1 chromosomal replication initiator protein DnaA [Cl...  340        9e-108
+WP_066889317.1 chromosomal replication initiator protein DnaA [Cl...  340        9e-108
+WP_106344096.1 chromosomal replication initiator protein DnaA [Pl...  340        1e-107
+WP_022743383.1 chromosomal replication initiator protein DnaA [Cl...  340        1e-107
+WP_096045019.1 chromosomal replication initiator protein DnaA [Cl...  340        1e-107
+WP_027390453.1 chromosomal replication initiator protein DnaA [Ch...  340        1e-107
+WP_021067847.1 MULTISPECIES: chromosomal replication initiator pr...  340        1e-107
+WP_013504654.1 chromosomal replication initiator protein DnaA [De...  340        1e-107
+WP_090043107.1 chromosomal replication initiator protein DnaA [Cl...  340        1e-107
+WP_088810110.1 MULTISPECIES: chromosomal replication initiator pr...  340        1e-107
+WP_038062642.1 chromosomal replication initiator protein DnaA [Th...  339        1e-107
+WP_125154232.1 chromosomal replication initiator protein DnaA [Cl...  340        1e-107
+WP_079007519.1 chromosomal replication initiator protein DnaA [Cl...  339        1e-107
+WP_155477683.1 chromosomal replication initiator protein DnaA [He...  339        1e-107
+WP_061294678.1 chromosomal replication initiator protein DnaA [Cl...  339        1e-107
+WP_090092964.1 chromosomal replication initiator protein DnaA [Cl...  339        1e-107
+WP_061859099.1 MULTISPECIES: chromosomal replication initiator pr...  340        2e-107
+WP_041584531.1 chromosomal replication initiator protein DnaA [Sy...  339        2e-107
+WP_114313262.1 chromosomal replication initiator protein DnaA [Th...  339        2e-107
+WP_127065083.1 chromosomal replication initiator protein DnaA [Ce...  339        2e-107
+WP_014519422.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_029481203.1 chromosomal replication initiator protein DnaA [De...  340        2e-107
+WP_071610912.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_042266946.1 chromosomal replication initiator protein DnaA [Cl...  338        2e-107
+WP_088487656.1 chromosomal replication initiator protein DnaA [Sa...  339        2e-107
+WP_123052574.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_030032682.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_033064592.1 MULTISPECIES: chromosomal replication initiator pr...  339        2e-107
+WP_015390182.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_003359462.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_025775465.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_073045641.1 chromosomal replication initiator protein DnaA [De...  339        2e-107
+WP_077359634.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_125904439.1 chromosomal replication initiator protein DnaA [Ba...  335        2e-107
+WP_048570406.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_035386684.1 chromosomal replication initiator protein DnaA [Ex...  339        2e-107
+WP_055259154.1 chromosomal replication initiator protein DnaA [Cl...  339        2e-107
+WP_142946021.1 chromosomal replication initiator protein DnaA [Ba...  339        2e-107
+WP_131434334.1 MULTISPECIES: chromosomal replication initiator pr...  339        2e-107
+WP_011723269.1 MULTISPECIES: chromosomal replication initiator pr...  339        3e-107
+WP_012343824.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_003495534.1 MULTISPECIES: chromosomal replication initiator pr...  339        3e-107
+WP_106900498.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_039250899.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_066870224.1 chromosomal replication initiator protein DnaA [Cl...  339        3e-107
+WP_013779659.1 chromosomal replication initiator protein DnaA [Ma...  339        3e-107
+WP_110532491.1 MULTISPECIES: chromosomal replication initiator pr...  338        3e-107
+WP_077895342.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_051935588.1 chromosomal replication initiator protein DnaA [De...  339        3e-107
+WP_008676185.1 MULTISPECIES: chromosomal replication initiator pr...  339        3e-107
+WP_077834880.1 MULTISPECIES: chromosomal replication initiator pr...  338        3e-107
+WP_003488043.1 MULTISPECIES: chromosomal replication initiator pr...  338        3e-107
+WP_132946816.1 chromosomal replication initiator protein DnaA [Tu...  339        3e-107
+WP_010074408.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_068548459.1 chromosomal replication initiator protein DnaA [Th...  338        3e-107
+WP_041349335.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_028895903.1 chromosomal replication initiator protein DnaA [Sy...  338        3e-107
+WP_003366904.1 MULTISPECIES: chromosomal replication initiator pr...  338        3e-107
+WP_039256117.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_027626048.1 chromosomal replication initiator protein DnaA [Cl...  338        3e-107
+WP_007503521.1 chromosomal replication initiator protein DnaA [Ca...  338        4e-107
+WP_017435763.1 chromosomal replication initiator protein DnaA [Pa...  338        4e-107
+WP_016407223.1 chromosomal replication initiator protein DnaA [An...  338        4e-107
+WP_062280960.1 chromosomal replication initiator protein DnaA [Mo...  338        4e-107
+WP_033064386.1 chromosomal replication initiator protein DnaA [Cl...  338        4e-107
+WP_078683178.1 chromosomal replication initiator protein DnaA [Cl...  338        5e-107
+WP_027639424.1 chromosomal replication initiator protein DnaA [Cl...  338        5e-107
+WP_114298059.1 chromosomal replication initiator protein DnaA [An...  338        5e-107
+WP_124998846.1 chromosomal replication initiator protein DnaA [Cl...  338        5e-107
+WP_088775882.1 chromosomal replication initiator protein DnaA [Ca...  338        5e-107
+WP_071064649.1 chromosomal replication initiator protein DnaA [An...  338        5e-107
+WP_087679376.1 chromosomal replication initiator protein DnaA [Ga...  338        5e-107
+WP_116465284.1 chromosomal replication initiator protein DnaA [ca...  338        5e-107
+WP_040329773.1 chromosomal replication initiator protein DnaA [Cl...  338        5e-107
+WP_013655064.1 chromosomal replication initiator protein DnaA [Ce...  338        5e-107
+WP_128698870.1 chromosomal replication initiator protein DnaA [Va...  338        5e-107
+WP_082688881.1 chromosomal replication initiator protein DnaA [De...  338        5e-107
+WP_038093862.1 chromosomal replication initiator protein DnaA [Tu...  338        5e-107
+WP_038055031.1 chromosomal replication initiator protein DnaA [Th...  338        5e-107
+WP_109685852.1 chromosomal replication initiator protein DnaA [Tu...  338        5e-107
+WP_041458903.1 chromosomal replication initiator protein DnaA [Am...  338        6e-107
+WP_077721172.1 chromosomal replication initiator protein DnaA [No...  338        6e-107
+WP_090951997.1 chromosomal replication initiator protein DnaA [Pa...  338        6e-107
+WP_010963330.1 MULTISPECIES: chromosomal replication initiator pr...  338        6e-107
+WP_143123698.1 chromosomal replication initiator protein DnaA [Th...  339        6e-107
+WP_017415158.1 chromosomal replication initiator protein DnaA [Cl...  338        6e-107
+WP_055669989.1 chromosomal replication initiator protein DnaA [De...  338        7e-107
+WP_061996628.1 chromosomal replication initiator protein DnaA [Cl...  338        7e-107
+WP_002599136.1 chromosomal replication initiator protein DnaA [Cl...  338        7e-107
+WP_007474100.1 chromosomal replication initiator protein DnaA [Li...  338        7e-107
+WP_078024532.1 chromosomal replication initiator protein DnaA [Cl...  337        7e-107
+WP_131441357.1 chromosomal replication initiator protein DnaA [Ex...  338        7e-107
+WP_110832572.1 MULTISPECIES: chromosomal replication initiator pr...  338        7e-107
+WP_039634438.1 chromosomal replication initiator protein DnaA [Cl...  338        8e-107
+WP_065078778.1 chromosomal replication initiator protein DnaA [Cl...  338        8e-107
+WP_053467142.1 chromosomal replication initiator protein DnaA [Cl...  337        8e-107
+WP_007545092.1 chromosomal replication initiator protein DnaA [Li...  337        8e-107
+WP_070329330.1 MULTISPECIES: chromosomal replication initiator pr...  338        8e-107
+WP_011947895.1 chromosomal replication initiator protein DnaA [Cl...  337        8e-107
+WP_131919429.1 chromosomal replication initiator protein DnaA [He...  337        8e-107
+WP_096549965.1 chromosomal replication initiator protein DnaA [Ur...  337        9e-107
+WP_113023625.1 chromosomal replication initiator protein DnaA [Pa...  338        9e-107
+WP_068621650.1 chromosomal replication initiator protein DnaA [Pa...  337        9e-107
+WP_026975637.1 chromosomal replication initiator protein DnaA [Al...  337        9e-107
+WP_036063434.1 chromosomal replication initiator protein DnaA [Li...  337        9e-107
+WP_025027511.1 chromosomal replication initiator protein DnaA [Ba...  337        9e-107
+WP_082181672.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_003353422.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_025093667.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_115639921.1 chromosomal replication initiator protein DnaA [Cl...  333        1e-106
+WP_013277000.1 chromosomal replication initiator protein DnaA [Ac...  337        1e-106
+WP_119675144.1 chromosomal replication initiator protein DnaA [De...  337        1e-106
+WP_019120830.1 chromosomal replication initiator protein DnaA [Br...  337        1e-106
+WP_012282183.1 chromosomal replication initiator protein DnaA [He...  337        1e-106
+WP_068784302.1 chromosomal replication initiator protein DnaA [Pa...  337        1e-106
+WP_101298442.1 chromosomal replication initiator protein DnaA [Hu...  337        1e-106
+WP_148231834.1 chromosomal replication initiator protein DnaA [De...  338        1e-106
+WP_059041215.1 chromosomal replication initiator protein DnaA [Pa...  337        1e-106
+WP_024718426.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_059374812.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_020678235.1 chromosomal replication initiator protein DnaA [Ge...  337        1e-106
+WP_003361827.1 chromosomal replication initiator protein DnaA [Cl...  337        1e-106
+WP_053955126.1 chromosomal replication initiator protein DnaA [In...  337        1e-106
+WP_018111885.1 chromosomal replication initiator protein DnaA [Th...  337        1e-106
+WP_024424073.1 MULTISPECIES: chromosomal replication initiator pr...  337        1e-106
+WP_008347594.1 MULTISPECIES: chromosomal replication initiator pr...  337        1e-106
+WP_141263580.1 MULTISPECIES: chromosomal replication initiator pr...  337        1e-106
+WP_156272572.1 chromosomal replication initiator protein DnaA [Mo...  337        1e-106
+WP_066616219.1 chromosomal replication initiator protein DnaA [Cl...  337        1e-106
+WP_036618207.1 MULTISPECIES: chromosomal replication initiator pr...  337        1e-106
+WP_088001662.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_077849792.1 chromosomal replication initiator protein DnaA [Cl...  337        1e-106
+WP_041092146.1 MULTISPECIES: chromosomal replication initiator pr...  337        1e-106
+WP_044333183.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_046524985.1 chromosomal replication initiator protein DnaA [Ba...  337        1e-106
+WP_018086827.1 chromosomal replication initiator protein DnaA [De...  337        1e-106
+WP_128630870.1 chromosomal replication initiator protein DnaA [Pa...  337        2e-106
+WP_021718821.1 MULTISPECIES: chromosomal replication initiator pr...  337        2e-106
+WP_114648723.1 chromosomal replication initiator protein DnaA [Cl...  333        2e-106
+WP_039256435.1 chromosomal replication initiator protein DnaA [Cl...  337        2e-106
+WP_125668908.1 chromosomal replication initiator protein DnaA [Ph...  337        2e-106
+WP_147521915.1 chromosomal replication initiator protein DnaA [Cl...  337        2e-106
+WP_104059871.1 chromosomal replication initiator protein DnaA [Je...  337        2e-106
+WP_135230618.1 chromosomal replication initiator protein DnaA [De...  337        2e-106
+WP_155983225.1 chromosomal replication initiator protein DnaA [Th...  336        2e-106
+WP_027622362.1 chromosomal replication initiator protein DnaA [Hu...  337        2e-106
+WP_011064403.1 chromosomal replication initiator protein DnaA [Oc...  337        2e-106
+WP_060698960.1 chromosomal replication initiator protein DnaA [Ba...  337        2e-106
+WP_119764259.1 chromosomal replication initiator protein DnaA [De...  337        2e-106
+WP_008360911.1 MULTISPECIES: chromosomal replication initiator pr...  337        2e-106
+WP_013726704.1 chromosomal replication initiator protein DnaA [Cl...  337        2e-106
+WP_033017854.1 MULTISPECIES: chromosomal replication initiator pr...  337        2e-106
+WP_088072068.1 chromosomal replication initiator protein DnaA [Ba...  337        2e-106
+WP_150457848.1 chromosomal replication initiator protein DnaA [Pa...  337        2e-106
+WP_053242847.1 chromosomal replication initiator protein DnaA [Cl...  337        2e-106
+WP_134685367.1 chromosomal replication initiator protein DnaA [Br...  337        2e-106
+WP_034323840.1 MULTISPECIES: chromosomal replication initiator pr...  336        2e-106
+WP_148135716.1 chromosomal replication initiator protein DnaA [Pe...  337        2e-106
+WP_072903114.1 chromosomal replication initiator protein DnaA [Ha...  337        2e-106
+WP_038048545.1 chromosomal replication initiator protein DnaA [Th...  336        2e-106
+WP_066673863.1 chromosomal replication initiator protein DnaA [Cl...  337        2e-106
+WP_017798764.1 MULTISPECIES: chromosomal replication initiator pr...  336        2e-106
+WP_150844913.1 chromosomal replication initiator protein DnaA [Cl...  336        2e-106
+WP_065820433.1 chromosomal replication initiator protein DnaA [Th...  336        2e-106
+WP_127719435.1 chromosomal replication initiator protein DnaA [Cl...  336        2e-106
+WP_015357734.1 chromosomal replication initiator protein DnaA [Th...  336        2e-106
+WP_117728097.1 chromosomal replication initiator protein DnaA [Ba...  336        2e-106
+WP_111644862.1 chromosomal replication initiator protein DnaA [An...  336        2e-106
+WP_132012517.1 chromosomal replication initiator protein DnaA [Hy...  336        3e-106
+WP_091350982.1 chromosomal replication initiator protein DnaA [An...  336        3e-106
+WP_026328994.1 chromosomal replication initiator protein DnaA [Th...  336        3e-106
+WP_036943255.1 chromosomal replication initiator protein DnaA [Ps...  336        3e-106
+WP_043906387.1 chromosomal replication initiator protein DnaA [Pa...  336        3e-106
+WP_088042134.1 chromosomal replication initiator protein DnaA [Ba...  336        3e-106
+WP_010246648.1 chromosomal replication initiator protein DnaA [Hu...  336        3e-106
+WP_077602792.1 chromosomal replication initiator protein DnaA [Oc...  336        3e-106
+WP_054392165.1 chromosomal replication initiator protein DnaA [Th...  336        3e-106
+WP_135377497.1 chromosomal replication initiator protein DnaA [De...  336        3e-106
+WP_105367573.1 chromosomal replication initiator protein DnaA [Hu...  336        3e-106
+WP_013236715.1 MULTISPECIES: chromosomal replication initiator pr...  336        3e-106
+WP_074950498.1 chromosomal replication initiator protein DnaA [Al...  337        3e-106
+WP_105316722.1 chromosomal replication initiator protein DnaA [Th...  336        3e-106
+WP_012446491.1 chromosomal replication initiator protein DnaA [Na...  336        3e-106
+WP_058978451.1 chromosomal replication initiator protein DnaA [De...  336        3e-106
+WP_144491798.1 chromosomal replication initiator protein DnaA [Ba...  336        3e-106
+WP_093337624.1 chromosomal replication initiator protein DnaA [Sa...  336        3e-106
+WP_087456291.1 chromosomal replication initiator protein DnaA [Tu...  336        3e-106
+WP_063557111.1 chromosomal replication initiator protein DnaA [Cl...  336        3e-106
+WP_115603852.1 chromosomal replication initiator protein DnaA [Cl...  332        3e-106
+WP_129077355.1 chromosomal replication initiator protein DnaA [Ba...  336        3e-106
+WP_033027785.1 MULTISPECIES: chromosomal replication initiator pr...  336        3e-106
+WP_135257254.1 chromosomal replication initiator protein DnaA [Th...  335        3e-106
+WP_053768575.1 chromosomal replication initiator protein DnaA [Th...  335        3e-106
+WP_074034076.1 chromosomal replication initiator protein DnaA [Ex...  336        4e-106
+WP_040684645.1 chromosomal replication initiator protein DnaA [Th...  335        4e-106
+WP_003247333.1 MULTISPECIES: chromosomal replication initiator pr...  336        4e-106
+WP_034599285.1 chromosomal replication initiator protein DnaA [De...  336        4e-106
+WP_035151753.1 chromosomal replication initiator protein DnaA [Cl...  336        4e-106
+WP_129599568.1 chromosomal replication initiator protein DnaA [Cl...  336        4e-106
+WP_013486636.1 chromosomal replication initiator protein DnaA [Ba...  336        4e-106
+WP_152695702.1 chromosomal replication initiator protein DnaA [Li...  335        4e-106
+WP_138208880.1 chromosomal replication initiator protein DnaA [Ha...  332        4e-106
+WP_015715942.1 chromosomal replication initiator protein DnaA [Th...  336        4e-106
+WP_144524906.1 chromosomal replication initiator protein DnaA [Ba...  335        4e-106
+WP_144523545.1 chromosomal replication initiator protein DnaA [Ba...  335        4e-106
+WP_016839593.1 chromosomal replication initiator protein DnaA [Ur...  335        4e-106
+WP_075864451.1 chromosomal replication initiator protein DnaA [Ca...  336        4e-106
+WP_090927327.1 chromosomal replication initiator protein DnaA [Sa...  336        4e-106
+WP_094834665.1 chromosomal replication initiator protein DnaA [Ba...  335        4e-106
+WP_021876887.1 chromosomal replication initiator protein DnaA [Cl...  336        4e-106
+WP_027725502.1 chromosomal replication initiator protein DnaA [Tu...  336        4e-106
+WP_010238676.1 chromosomal replication initiator protein DnaA [Cl...  335        4e-106
+WP_028051865.1 MULTISPECIES: chromosomal replication initiator pr...  336        4e-106
+WP_012984572.1 MULTISPECIES: chromosomal replication initiator pr...  336        4e-106
+WP_152694175.1 chromosomal replication initiator protein DnaA [Li...  335        5e-106
+WP_069960367.1 chromosomal replication initiator protein DnaA [La...  336        5e-106
+WP_136390545.1 chromosomal replication initiator protein DnaA [De...  336        5e-106
+WP_020154673.1 chromosomal replication initiator protein DnaA [Ca...  335        5e-106
+WP_015880215.1 MULTISPECIES: chromosomal replication initiator pr...  336        5e-106
+WP_106005334.1 chromosomal replication initiator protein DnaA [Mo...  335        5e-106
+WP_014901041.1 chromosomal replication initiator protein DnaA [De...  335        5e-106
+WP_038406327.1 chromosomal replication initiator protein DnaA [Li...  335        5e-106
+WP_099682540.1 chromosomal replication initiator protein DnaA [Ba...  335        5e-106
+WP_120035774.1 chromosomal replication initiator protein DnaA [Ba...  335        5e-106
+WP_126410931.1 chromosomal replication initiator protein DnaA [Ba...  335        6e-106
+WP_129048059.1 chromosomal replication initiator protein DnaA [La...  335        6e-106
+WP_026234103.1 chromosomal replication initiator protein DnaA [Th...  335        6e-106
+WP_027882344.1 chromosomal replication initiator protein DnaA [Me...  335        6e-106
+WP_041123996.1 chromosomal replication initiator protein DnaA [Je...  335        6e-106
+WP_144493292.1 chromosomal replication initiator protein DnaA [Ba...  335        6e-106
+WP_099726331.1 chromosomal replication initiator protein DnaA [Ba...  335        6e-106
+WP_134375614.1 chromosomal replication initiator protein DnaA [Je...  335        6e-106
+WP_082204936.1 chromosomal replication initiator protein DnaA [De...  337        6e-106
+WP_145162237.1 MULTISPECIES: chromosomal replication initiator pr...  335        6e-106
+WP_092331643.1 chromosomal replication initiator protein DnaA [De...  335        6e-106
+WP_128123801.1 chromosomal replication initiator protein DnaA [Ex...  335        6e-106
+WP_042528650.1 chromosomal replication initiator protein DnaA [Oc...  335        6e-106
+WP_135259246.1 chromosomal replication initiator protein DnaA [Th...  335        6e-106
+WP_012008628.1 MULTISPECIES: chromosomal replication initiator pr...  335        6e-106
+WP_031648682.1 chromosomal replication initiator protein DnaA [Li...  335        6e-106
+WP_066228930.1 chromosomal replication initiator protein DnaA [Ge...  335        6e-106
+WP_085379147.1 chromosomal replication initiator protein DnaA [Li...  335        6e-106
+WP_115753562.1 MULTISPECIES: chromosomal replication initiator pr...  335        7e-106
+WP_051515012.1 chromosomal replication initiator protein DnaA [Fe...  336        7e-106
+WP_026487102.1 chromosomal replication initiator protein DnaA [Ca...  335        7e-106
+WP_035135511.1 chromosomal replication initiator protein DnaA [Cl...  335        7e-106
+WP_035408465.1 chromosomal replication initiator protein DnaA [Ba...  335        7e-106
+WP_073021299.1 chromosomal replication initiator protein DnaA [Cl...  335        7e-106
+WP_089023798.1 chromosomal replication initiator protein DnaA [Na...  335        7e-106
+WP_029161071.1 chromosomal replication initiator protein DnaA [Cl...  335        7e-106
+WP_114344909.1 chromosomal replication initiator protein DnaA [Ba...  335        7e-106
+WP_009223336.1 MULTISPECIES: chromosomal replication initiator pr...  335        7e-106
+WP_046845081.1 chromosomal replication initiator protein DnaA [De...  335        7e-106
+WP_073536985.1 chromosomal replication initiator protein DnaA [Cl...  335        8e-106
+
+
+>WP_036083940.1 chromosomal replication initiator protein DnaA [Leptospirillum 
+ferriphilum]
+Length=465
+
+ Score = 933 bits (2411),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 465/465 (100%), Positives = 465/465 (100%), Gaps = 0/465 (0%)
+--
+>WP_014959779.1 chromosomal replication initiator protein DnaA [Leptospirillum 
+ferriphilum]
+Length=465
+
+ Score = 919 bits (2376),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 458/465 (98%), Positives = 462/465 (99%), Gaps = 0/465 (0%)
+--
+>WP_023524521.1 chromosomal replication initiator protein DnaA [Leptospirillum 
+sp. Group II 'CF-1']
+Length=465
+
+ Score = 916 bits (2367),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 457/465 (98%), Positives = 462/465 (99%), Gaps = 0/465 (0%)
+--
+>WP_014448227.1 chromosomal replication initiator protein DnaA [Leptospirillum 
+ferrooxidans]
+Length=464
+
+ Score = 589 bits (1519),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 295/466 (63%), Positives = 364/466 (78%), Gaps = 3/466 (1%)
+--
+>WP_088535756.1 chromosomal replication initiator protein DnaA [Geobacter sp. 
+DSM 9736]
+Length=448
+
+ Score = 383 bits (984),  Expect = 1e-124, Method: Compositional matrix adjust.
+ Identities = 202/428 (47%), Positives = 289/428 (68%), Gaps = 15/428 (4%)
+--
+>WP_012645108.1 chromosomal replication initiator protein DnaA [Geobacter daltonii]
+Length=445
+
+ Score = 371 bits (952),  Expect = 8e-120, Method: Compositional matrix adjust.
+ Identities = 191/418 (46%), Positives = 282/418 (67%), Gaps = 14/418 (3%)
+ Frame = +1
+--
+>WP_015718363.1 chromosomal replication initiator protein DnaA [Geobacter sp. 
+M18]
+Length=465
+
+ Score = 370 bits (949),  Expect = 4e-119, Method: Compositional matrix adjust.
+ Identities = 200/435 (46%), Positives = 287/435 (66%), Gaps = 12/435 (3%)
+--
+>WP_053377948.1 chromosomal replication initiator protein DnaA [Nitrospira moscoviensis]
+Length=447
+
+ Score = 365 bits (938),  Expect = 1e-117, Method: Compositional matrix adjust.
+ Identities = 179/335 (53%), Positives = 252/335 (75%), Gaps = 1/335 (0%)
+ Frame = +1
+--
+>WP_011936948.1 chromosomal replication initiator protein DnaA [Geobacter uraniireducens]
+Length=449
+
+ Score = 365 bits (936),  Expect = 2e-117, Method: Compositional matrix adjust.
+ Identities = 192/422 (45%), Positives = 283/422 (67%), Gaps = 12/422 (3%)
+ Frame = +1
+--
+>WP_087473868.1 chromosomal replication initiator protein DnaA [Nitrospira cf. 
+moscoviensis SBR1015]
+Length=447
+
+ Score = 365 bits (936),  Expect = 2e-117, Method: Compositional matrix adjust.
+ Identities = 176/335 (53%), Positives = 251/335 (75%), Gaps = 1/335 (0%)
+--
+>WP_072286572.1 chromosomal replication initiator protein DnaA [Pelobacter acetylenicus]
+Length=450
+
+ Score = 363 bits (932),  Expect = 8e-117, Method: Compositional matrix adjust.
+ Identities = 182/357 (51%), Positives = 261/357 (73%), Gaps = 2/357 (1%)
+ Frame = +1
+--
+>WP_026841302.1 chromosomal replication initiator protein DnaA [Geobacter bremensis]
+Length=458
+
+ Score = 363 bits (932),  Expect = 1e-116, Method: Compositional matrix adjust.
+ Identities = 192/428 (45%), Positives = 281/428 (66%), Gaps = 15/428 (4%)
+ Frame = +1
+--
+>WP_012528443.1 chromosomal replication initiator protein DnaA [Geobacter bemidjiensis]
+Length=458
+
+ Score = 363 bits (931),  Expect = 1e-116, Method: Compositional matrix adjust.
+ Identities = 192/428 (45%), Positives = 281/428 (66%), Gaps = 15/428 (4%)
+ Frame = +1
+--
+>WP_012773716.1 chromosomal replication initiator protein DnaA [Geobacter sp. 
+M21]
+Length=460
+
+ Score = 363 bits (931),  Expect = 1e-116, Method: Compositional matrix adjust.
+ Identities = 197/434 (45%), Positives = 281/434 (65%), Gaps = 25/434 (6%)
+--
+>WP_121988918.1 chromosomal replication initiator protein DnaA [Nitrospira lenta]
+Length=446
+
+ Score = 362 bits (930),  Expect = 2e-116, Method: Compositional matrix adjust.
+ Identities = 174/335 (52%), Positives = 252/335 (75%), Gaps = 1/335 (0%)
+ Frame = +1
+--
+>WP_085814478.1 chromosomal replication initiator protein DnaA [Geobacter pelophilus]
+Length=462
+
+ Score = 361 bits (927),  Expect = 6e-116, Method: Compositional matrix adjust.
+ Identities = 175/335 (52%), Positives = 248/335 (74%), Gaps = 0/335 (0%)
+ Frame = +1
+--
+>WP_155970565.1 chromosomal replication initiator protein DnaA [Nitrospira japonica]
+Length=447
+
+ Score = 361 bits (926),  Expect = 7e-116, Method: Compositional matrix adjust.
+ Identities = 176/340 (52%), Positives = 255/340 (75%), Gaps = 1/340 (0%)
+ Frame = +1
+--
+>WP_029914434.1 chromosomal replication initiator protein DnaA [Pelobacter seleniigenes]
+Length=449
+
+ Score = 361 bits (926),  Expect = 7e-116, Method: Compositional matrix adjust.
+ Identities = 185/415 (45%), Positives = 281/415 (68%), Gaps = 18/415 (4%)
+ Frame = +1
+--
+>WP_148896314.1 chromosomal replication initiator protein DnaA [Geothermobacter 
+ehrlichii]
+Length=448
+
+ Score = 361 bits (926),  Expect = 8e-116, Method: Compositional matrix adjust.
+ Identities = 178/359 (50%), Positives = 257/359 (72%), Gaps = 3/359 (1%)
+--
+>WP_040198527.1 chromosomal replication initiator protein DnaA [Geoalkalibacter 
+subterraneus]
+Length=455
+
+ Score = 361 bits (926),  Expect = 8e-116, Method: Compositional matrix adjust.
+ Identities = 182/353 (52%), Positives = 259/353 (73%), Gaps = 3/353 (1%)
+--
+>WP_136524184.1 chromosomal replication initiator protein DnaA [Geomonas ferrireducens]
+Length=463
+
+ Score = 361 bits (926),  Expect = 1e-115, Method: Compositional matrix adjust.
+ Identities = 199/435 (46%), Positives = 284/435 (65%), Gaps = 14/435 (3%)
+ Frame = +1
+--
+>WP_135868986.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Geomonas]
+Length=463
+
+ Score = 360 bits (925),  Expect = 1e-115, Method: Compositional matrix adjust.
+ Identities = 199/435 (46%), Positives = 284/435 (65%), Gaps = 14/435 (3%)
+--
+>WP_090895339.1 chromosomal replication initiator protein DnaA [Candidatus Nitrospira 
+nitrificans]
+Length=447
+
+ Score = 360 bits (924),  Expect = 1e-115, Method: Compositional matrix adjust.
+ Identities = 181/365 (50%), Positives = 263/365 (72%), Gaps = 4/365 (1%)
+--
+>WP_062483692.1 chromosomal replication initiator protein DnaA [Candidatus Nitrospira 
+inopinata]
+Length=449
+
+ Score = 360 bits (923),  Expect = 2e-115, Method: Compositional matrix adjust.
+ Identities = 175/335 (52%), Positives = 251/335 (75%), Gaps = 1/335 (0%)
+--
+>WP_078697445.1 chromosomal replication initiator protein DnaA [Caloramator quimbayensis]
+Length=448
+
+ Score = 360 bits (923),  Expect = 2e-115, Method: Compositional matrix adjust.
+ Identities = 207/462 (45%), Positives = 303/462 (66%), Gaps = 23/462 (5%)
+ Frame = +1
+--
+>WP_129125070.1 chromosomal replication initiator protein DnaA [Geomonas oryzae]
+Length=459
+
+ Score = 359 bits (922),  Expect = 4e-115, Method: Compositional matrix adjust.
+ Identities = 175/335 (52%), Positives = 249/335 (74%), Gaps = 0/335 (0%)
+ Frame = +1
+--
+>WP_108101606.1 chromosomal replication initiator protein DnaA [Geobacter sp. 
+DSM 2909]
+Length=448
+
+ Score = 358 bits (919),  Expect = 8e-115, Method: Compositional matrix adjust.
+ Identities = 191/417 (46%), Positives = 279/417 (67%), Gaps = 11/417 (3%)
+--
+>WP_090744250.1 chromosomal replication initiator protein DnaA [Candidatus Nitrospira 
+nitrosa]
+Length=447
+
+ Score = 358 bits (919),  Expect = 8e-115, Method: Compositional matrix adjust.
+ Identities = 175/334 (52%), Positives = 249/334 (75%), Gaps = 1/334 (0%)
+--
+>WP_004513720.1 chromosomal replication initiator protein DnaA [Geobacter metallireducens]
+Length=450
+
+ Score = 357 bits (916),  Expect = 2e-114, Method: Compositional matrix adjust.
+ Identities = 193/414 (47%), Positives = 277/414 (67%), Gaps = 11/414 (3%)
+ Frame = +1
+--
+>WP_089965234.1 chromosomal replication initiator protein DnaA [Lihuaxuella thermophila]
+Length=445
+
+ Score = 357 bits (916),  Expect = 2e-114, Method: Compositional matrix adjust.
+ Identities = 197/461 (43%), Positives = 294/461 (64%), Gaps = 26/461 (6%)
+ Frame = +1
+--
+>WP_066353750.1 chromosomal replication initiator protein DnaA [Fervidicola ferrireducens]
+Length=449
+
+ Score = 357 bits (915),  Expect = 3e-114, Method: Compositional matrix adjust.
+ Identities = 207/467 (44%), Positives = 300/467 (64%), Gaps = 38/467 (8%)
+ Frame = +1
+--
+>WP_039739333.1 chromosomal replication initiator protein DnaA [Geobacter pickeringii]
+Length=450
+
+ Score = 356 bits (914),  Expect = 4e-114, Method: Compositional matrix adjust.
+ Identities = 181/351 (52%), Positives = 253/351 (72%), Gaps = 3/351 (1%)
+ Frame = +1
+--
+>WP_044035683.1 chromosomal replication initiator protein DnaA [Clostridium bornimense]
+Length=449
+
+ Score = 356 bits (913),  Expect = 7e-114, Method: Compositional matrix adjust.
+ Identities = 189/431 (44%), Positives = 289/431 (67%), Gaps = 19/431 (4%)
+ Frame = +1
+--
+>WP_013246619.1 chromosomal replication initiator protein DnaA [Nitrospira defluvii]
+Length=446
+
+ Score = 355 bits (912),  Expect = 7e-114, Method: Compositional matrix adjust.
+ Identities = 168/335 (50%), Positives = 255/335 (76%), Gaps = 1/335 (0%)
+ Frame = +1
+--
+>WP_080879516.1 chromosomal replication initiator protein DnaA [Nitrospira sp. 
+ND1]
+Length=446
+
+ Score = 355 bits (912),  Expect = 8e-114, Method: Compositional matrix adjust.
+ Identities = 168/335 (50%), Positives = 255/335 (76%), Gaps = 1/335 (0%)
+--
+>WP_012468099.1 chromosomal replication initiator protein DnaA [Geobacter lovleyi]
+Length=459
+
+ Score = 355 bits (912),  Expect = 1e-113, Method: Compositional matrix adjust.
+ Identities = 189/424 (45%), Positives = 282/424 (67%), Gaps = 8/424 (2%)
+ Frame = +1
+--
+>WP_066729553.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+sp. DDH964]
+Length=451
+
+ Score = 355 bits (911),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 187/415 (45%), Positives = 280/415 (67%), Gaps = 13/415 (3%)
+--
+>WP_138979664.1 chromosomal replication initiator protein DnaA [Caloramator sp. 
+E03]
+Length=448
+
+ Score = 355 bits (910),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 175/341 (51%), Positives = 256/341 (75%), Gaps = 1/341 (0%)
+--
+>WP_085011121.1 chromosomal replication initiator protein DnaA [Geothermobacter 
+sp. EPR-M]
+Length=448
+
+ Score = 355 bits (910),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 170/336 (51%), Positives = 248/336 (74%), Gaps = 0/336 (0%)
+--
+>WP_014807912.1 chromosomal replication initiator protein DnaA [Desulfomonile 
+tiedjei]
+Length=448
+
+ Score = 354 bits (909),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 172/339 (51%), Positives = 251/339 (74%), Gaps = 0/339 (0%)
+--
+>WP_103115133.1 chromosomal replication initiator protein DnaA [Geothermobacter 
+sp. HR-1]
+Length=448
+
+ Score = 354 bits (909),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 170/336 (51%), Positives = 248/336 (74%), Gaps = 0/336 (0%)
+--
+>WP_133629153.1 chromosomal replication initiator protein DnaA [Fonticella tunisiensis]
+Length=456
+
+ Score = 354 bits (909),  Expect = 3e-113, Method: Compositional matrix adjust.
+ Identities = 195/431 (45%), Positives = 291/431 (68%), Gaps = 22/431 (5%)
+ Frame = +1
+--
+>WP_053549065.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+soudanensis]
+Length=452
+
+ Score = 354 bits (908),  Expect = 4e-113, Method: Compositional matrix adjust.
+ Identities = 184/368 (50%), Positives = 258/368 (70%), Gaps = 12/368 (3%)
+--
+>WP_066358232.1 chromosomal replication initiator protein DnaA [Geobacter anodireducens]
+Length=445
+
+ Score = 353 bits (907),  Expect = 5e-113, Method: Compositional matrix adjust.
+ Identities = 171/340 (50%), Positives = 252/340 (74%), Gaps = 0/340 (0%)
+ Frame = +1
+--
+>WP_072284172.1 chromosomal replication initiator protein DnaA [Pelobacter sp. 
+SFB93]
+Length=451
+
+ Score = 353 bits (906),  Expect = 7e-113, Method: Compositional matrix adjust.
+ Identities = 177/335 (53%), Positives = 248/335 (74%), Gaps = 0/335 (0%)
+--
+>WP_039647512.1 chromosomal replication initiator protein DnaA [Geobacter soli]
+Length=445
+
+ Score = 353 bits (905),  Expect = 8e-113, Method: Compositional matrix adjust.
+ Identities = 171/340 (50%), Positives = 252/340 (74%), Gaps = 0/340 (0%)
+ Frame = +1
+--
+>WP_010940678.1 chromosomal replication initiator protein DnaA [Geobacter sulfurreducens]
+ YP_016331.1 chromosomal replication initiation protein [Geobacter sulfurreducens 
+PCA]
+Length=445
+
+ Score = 353 bits (905),  Expect = 9e-113, Method: Compositional matrix adjust.
+--
+>WP_031306207.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+panacihumi]
+Length=459
+
+ Score = 353 bits (906),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 196/460 (43%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_045667799.1 chromosomal replication initiator protein DnaA [Geobacter sulfurreducens]
+Length=445
+
+ Score = 352 bits (904),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 170/340 (50%), Positives = 252/340 (74%), Gaps = 0/340 (0%)
+ Frame = +1
+--
+>WP_148866520.1 chromosomal replication initiator protein DnaA [Thermosediminibacter 
+litoriperuensis]
+Length=449
+
+ Score = 352 bits (904),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 180/350 (51%), Positives = 256/350 (73%), Gaps = 5/350 (1%)
+--
+>WP_122914324.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+panacihumi]
+Length=459
+
+ Score = 353 bits (905),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 196/460 (43%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_141260840.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+reuszeri]
+Length=461
+
+ Score = 353 bits (905),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 197/462 (43%), Positives = 289/462 (63%), Gaps = 19/462 (4%)
+--
+>WP_103105048.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+reuszeri]
+Length=461
+
+ Score = 353 bits (905),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 197/462 (43%), Positives = 289/462 (63%), Gaps = 19/462 (4%)
+--
+>WP_053959727.1 chromosomal replication initiator protein DnaA [Sulfobacillus 
+thermosulfidooxidans]
+Length=463
+
+ Score = 353 bits (906),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 189/432 (44%), Positives = 283/432 (66%), Gaps = 26/432 (6%)
+--
+>WP_064202748.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+brevis]
+Length=453
+
+ Score = 352 bits (904),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 197/460 (43%), Positives = 292/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_026963729.1 chromosomal replication initiator protein DnaA [Alicyclobacillus 
+pomorum]
+Length=456
+
+ Score = 352 bits (904),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 186/413 (45%), Positives = 268/413 (65%), Gaps = 16/413 (4%)
+--
+>WP_087349423.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+brevis]
+Length=461
+
+ Score = 352 bits (904),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 197/460 (43%), Positives = 292/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_018923293.1 chromosomal replication initiator protein DnaA [Salsuginibacillus 
+kocurii]
+Length=450
+
+ Score = 352 bits (903),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 194/458 (42%), Positives = 297/458 (65%), Gaps = 17/458 (4%)
+--
+>WP_011339646.1 chromosomal replication initiator protein DnaA [Pelobacter carbinolicus]
+Length=450
+
+ Score = 352 bits (903),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 175/335 (52%), Positives = 248/335 (74%), Gaps = 0/335 (0%)
+ Frame = +1
+--
+>WP_142497271.1 chromosomal replication initiator protein DnaA [Lysinibacillus 
+sp. SDF0063]
+Length=461
+
+ Score = 352 bits (904),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 197/460 (43%), Positives = 292/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_138790697.1 chromosomal replication initiator protein DnaA [Paenibacillus 
+thermoaerophilus]
+Length=452
+
+ Score = 352 bits (903),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 197/463 (43%), Positives = 292/463 (63%), Gaps = 22/463 (5%)
+--
+>WP_020375201.1 chromosomal replication initiator protein DnaA [Sulfobacillus 
+thermosulfidooxidans]
+Length=463
+
+ Score = 352 bits (903),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 193/440 (44%), Positives = 287/440 (65%), Gaps = 31/440 (7%)
+--
+>WP_029071952.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Thermoactinomycetaceae]
+Length=449
+
+ Score = 352 bits (902),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 197/467 (42%), Positives = 296/467 (63%), Gaps = 26/467 (6%)
+--
+>WP_119334000.1 chromosomal replication initiator protein DnaA [Geobacter sulfurreducens]
+Length=445
+
+ Score = 351 bits (901),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 170/340 (50%), Positives = 252/340 (74%), Gaps = 0/340 (0%)
+ Frame = +1
+--
+>WP_145020995.1 chromosomal replication initiator protein DnaA [Geobacter argillaceus]
+Length=450
+
+ Score = 351 bits (900),  Expect = 5e-112, Method: Compositional matrix adjust.
+ Identities = 175/360 (49%), Positives = 252/360 (70%), Gaps = 1/360 (0%)
+ Frame = +1
+--
+>WP_069656483.1 chromosomal replication initiator protein DnaA [Vulcanibacillus 
+modesticaldus]
+Length=451
+
+ Score = 351 bits (900),  Expect = 5e-112, Method: Compositional matrix adjust.
+ Identities = 179/369 (49%), Positives = 260/369 (70%), Gaps = 3/369 (1%)
+--
+>WP_103131042.1 chromosomal replication initiator protein DnaA [Deinococcus aerius]
+Length=463
+
+ Score = 351 bits (901),  Expect = 5e-112, Method: Compositional matrix adjust.
+ Identities = 208/479 (43%), Positives = 293/479 (61%), Gaps = 26/479 (5%)
+ Frame = +1
+--
+>WP_106835594.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+porteri]
+Length=461
+
+ Score = 351 bits (901),  Expect = 6e-112, Method: Compositional matrix adjust.
+ Identities = 196/460 (43%), Positives = 293/460 (64%), Gaps = 19/460 (4%)
+--
+>WP_073253939.1 chromosomal replication initiator protein DnaA [Caldanaerovirga 
+acetigignens]
+Length=449
+
+ Score = 351 bits (900),  Expect = 6e-112, Method: Compositional matrix adjust.
+ Identities = 176/338 (52%), Positives = 251/338 (74%), Gaps = 1/338 (0%)
+--
+>WP_027309363.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Caloramator]
+Length=461
+
+ Score = 351 bits (900),  Expect = 7e-112, Method: Compositional matrix adjust.
+ Identities = 191/432 (44%), Positives = 287/432 (66%), Gaps = 17/432 (4%)
+--
+>WP_013274850.1 chromosomal replication initiator protein DnaA [Thermosediminibacter 
+oceani]
+Length=449
+
+ Score = 350 bits (899),  Expect = 8e-112, Method: Compositional matrix adjust.
+ Identities = 175/337 (52%), Positives = 251/337 (74%), Gaps = 1/337 (0%)
+--
+>WP_103082988.1 chromosomal replication initiator protein DnaA [Pseudoclostridium 
+thermosuccinogenes]
+Length=446
+
+ Score = 350 bits (899),  Expect = 8e-112, Method: Compositional matrix adjust.
+ Identities = 189/421 (45%), Positives = 278/421 (66%), Gaps = 26/421 (6%)
+--
+>WP_085972479.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+sp. BC25]
+Length=461
+
+ Score = 350 bits (899),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 198/465 (43%), Positives = 289/465 (62%), Gaps = 29/465 (6%)
+--
+>WP_018664106.1 chromosomal replication initiator protein DnaA [Thermobrachium 
+celere]
+Length=458
+
+ Score = 350 bits (899),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 191/426 (45%), Positives = 289/426 (68%), Gaps = 10/426 (2%)
+--
+>WP_013777140.1 chromosomal replication initiator protein DnaA [Tepidanaerobacter 
+acetatoxydans]
+Length=453
+
+ Score = 350 bits (898),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 201/469 (43%), Positives = 297/469 (63%), Gaps = 38/469 (8%)
+--
+>WP_049720746.1 chromosomal replication initiator protein DnaA [Thermoactinomyces 
+vulgaris]
+Length=451
+
+ Score = 350 bits (898),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 188/465 (40%), Positives = 296/465 (64%), Gaps = 20/465 (4%)
+--
+>WP_063231697.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+parabrevis]
+Length=453
+
+ Score = 350 bits (898),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 198/467 (42%), Positives = 290/467 (62%), Gaps = 33/467 (7%)
+--
+>WP_016739361.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Bacillales]
+Length=453
+
+ Score = 350 bits (898),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 195/460 (42%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_017246844.1 unnamed protein product
+Length=453
+
+ Score = 350 bits (898),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 195/460 (42%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+ Frame = +1
+--
+>WP_106784234.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Brevibacillus]
+Length=461
+
+ Score = 350 bits (898),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 195/460 (42%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_122962226.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+parabrevis]
+Length=461
+
+ Score = 350 bits (898),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 198/467 (42%), Positives = 290/467 (62%), Gaps = 33/467 (7%)
+--
+>WP_005828320.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Brevibacillus]
+Length=453
+
+ Score = 350 bits (897),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 196/460 (43%), Positives = 293/460 (64%), Gaps = 19/460 (4%)
+--
+>WP_085965027.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Brevibacillus]
+Length=461
+
+ Score = 350 bits (898),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 195/460 (42%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_154531575.1 chromosomal replication initiator protein DnaA [Clostridiaceae 
+bacterium WCA-383-APC-5B]
+Length=452
+
+ Score = 349 bits (896),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 186/430 (43%), Positives = 290/430 (67%), Gaps = 14/430 (3%)
+--
+>WP_106341847.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Laceyella]
+Length=485
+
+ Score = 350 bits (899),  Expect = 2e-111, Method: Compositional matrix adjust.
+ Identities = 195/464 (42%), Positives = 293/464 (63%), Gaps = 20/464 (4%)
+--
+>WP_102991122.1 chromosomal replication initiator protein DnaA [Laceyella sacchari]
+Length=485
+
+ Score = 350 bits (899),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 195/464 (42%), Positives = 293/464 (63%), Gaps = 20/464 (4%)
+ Frame = +1
+--
+>WP_040214768.1 chromosomal replication initiator protein DnaA [Clostridium polynesiense]
+Length=451
+
+ Score = 349 bits (895),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 190/455 (42%), Positives = 298/455 (65%), Gaps = 29/455 (6%)
+ Frame = +1
+--
+>WP_033100490.1 chromosomal replication initiator protein DnaA [Thermoactinomyces 
+daqus]
+Length=449
+
+ Score = 349 bits (895),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 168/337 (50%), Positives = 249/337 (74%), Gaps = 1/337 (0%)
+--
+>WP_127017660.1 chromosomal replication initiator protein DnaA [Anoxybacter fermentans]
+Length=455
+
+ Score = 349 bits (895),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 174/338 (51%), Positives = 250/338 (74%), Gaps = 1/338 (0%)
+ Frame = +1
+--
+>WP_055266814.1 chromosomal replication initiator protein DnaA [Clostridium disporicum]
+Length=453
+
+ Score = 349 bits (895),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 188/423 (44%), Positives = 284/423 (67%), Gaps = 21/423 (5%)
+ Frame = +1
+--
+>WP_068747707.1 chromosomal replication initiator protein DnaA [Thermovenabulum 
+gondwanense]
+Length=448
+
+ Score = 349 bits (895),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 173/337 (51%), Positives = 249/337 (74%), Gaps = 1/337 (0%)
+--
+>WP_124726253.1 chromosomal replication initiator protein DnaA [Thermoactinomycetaceae 
+bacterium SCSIO 07575]
+Length=451
+
+ Score = 349 bits (895),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 190/461 (41%), Positives = 299/461 (65%), Gaps = 22/461 (5%)
+--
+>WP_037998240.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Thermoactinomyces]
+Length=451
+
+ Score = 349 bits (895),  Expect = 4e-111, Method: Compositional matrix adjust.
+ Identities = 187/465 (40%), Positives = 296/465 (64%), Gaps = 20/465 (4%)
+--
+>WP_065067554.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+sp. WF146]
+Length=453
+
+ Score = 349 bits (895),  Expect = 4e-111, Method: Compositional matrix adjust.
+ Identities = 195/465 (42%), Positives = 290/465 (62%), Gaps = 29/465 (6%)
+--
+>WP_029100574.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Bacillales]
+Length=453
+
+ Score = 348 bits (894),  Expect = 4e-111, Method: Compositional matrix adjust.
+ Identities = 195/465 (42%), Positives = 290/465 (62%), Gaps = 29/465 (6%)
+--
+>WP_155874605.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+sp. AOP6]
+Length=453
+
+ Score = 348 bits (894),  Expect = 5e-111, Method: Compositional matrix adjust.
+ Identities = 187/412 (45%), Positives = 278/412 (67%), Gaps = 13/412 (3%)
+--
+>WP_088910123.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+formosus]
+Length=453
+
+ Score = 348 bits (894),  Expect = 5e-111, Method: Compositional matrix adjust.
+ Identities = 194/460 (42%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_055227736.1 chromosomal replication initiator protein DnaA [Clostridium baratii]
+Length=454
+
+ Score = 348 bits (894),  Expect = 5e-111, Method: Compositional matrix adjust.
+ Identities = 183/424 (43%), Positives = 288/424 (68%), Gaps = 12/424 (3%)
+ Frame = +1
+--
+>WP_039312324.1 chromosomal replication initiator protein DnaA [Clostridium baratii]
+Length=454
+
+ Score = 348 bits (894),  Expect = 5e-111, Method: Compositional matrix adjust.
+ Identities = 183/424 (43%), Positives = 288/424 (68%), Gaps = 12/424 (3%)
+ Frame = +1
+--
+>WP_057979528.1 chromosomal replication initiator protein DnaA [Caloramator mitchellensis]
+Length=443
+
+ Score = 348 bits (893),  Expect = 6e-111, Method: Compositional matrix adjust.
+ Identities = 173/353 (49%), Positives = 253/353 (72%), Gaps = 1/353 (0%)
+ Frame = +1
+--
+>WP_146142415.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+fortis]
+Length=461
+
+ Score = 348 bits (894),  Expect = 6e-111, Method: Compositional matrix adjust.
+ Identities = 194/460 (42%), Positives = 291/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_045725271.1 chromosomal replication initiator protein DnaA [Clostridium baratii]
+Length=454
+
+ Score = 348 bits (893),  Expect = 7e-111, Method: Compositional matrix adjust.
+ Identities = 183/424 (43%), Positives = 288/424 (68%), Gaps = 12/424 (3%)
+ Frame = +1
+--
+>WP_122905485.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+gelatini]
+Length=461
+
+ Score = 348 bits (894),  Expect = 7e-111, Method: Compositional matrix adjust.
+ Identities = 195/460 (42%), Positives = 293/460 (64%), Gaps = 19/460 (4%)
+--
+>WP_005212802.1 chromosomal replication initiator protein DnaA [Clostridium celatum]
+Length=452
+
+ Score = 348 bits (893),  Expect = 8e-111, Method: Compositional matrix adjust.
+ Identities = 188/418 (45%), Positives = 283/418 (68%), Gaps = 12/418 (3%)
+ Frame = +1
+--
+>WP_088554915.1 chromosomal replication initiator protein DnaA [Calderihabitans 
+maritimus]
+Length=448
+
+ Score = 348 bits (892),  Expect = 8e-111, Method: Compositional matrix adjust.
+ Identities = 196/453 (43%), Positives = 292/453 (64%), Gaps = 21/453 (5%)
+--
+>WP_003388867.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+borstelensis]
+Length=453
+
+ Score = 348 bits (893),  Expect = 8e-111, Method: Compositional matrix adjust.
+ Identities = 196/470 (42%), Positives = 292/470 (62%), Gaps = 39/470 (8%)
+--
+>WP_131847749.1 chromosomal replication initiator protein DnaA [Baia soyae]
+Length=480
+
+ Score = 349 bits (895),  Expect = 8e-111, Method: Compositional matrix adjust.
+ Identities = 188/450 (42%), Positives = 292/450 (65%), Gaps = 20/450 (4%)
+ Frame = +1
+--
+>WP_032123301.1 chromosomal replication initiator protein DnaA [Clostridium amazonitimonense]
+Length=451
+
+ Score = 348 bits (892),  Expect = 9e-111, Method: Compositional matrix adjust.
+ Identities = 182/425 (43%), Positives = 286/425 (67%), Gaps = 15/425 (4%)
+ Frame = +1
+--
+>WP_042397186.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=453
+
+ Score = 348 bits (892),  Expect = 9e-111, Method: Compositional matrix adjust.
+ Identities = 172/341 (50%), Positives = 254/341 (74%), Gaps = 1/341 (0%)
+--
+>WP_092036335.1 chromosomal replication initiator protein DnaA [Planifilum fulgidum]
+Length=445
+
+ Score = 347 bits (891),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 190/464 (41%), Positives = 291/464 (63%), Gaps = 25/464 (5%)
+ Frame = +1
+--
+>WP_055071999.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+ND2]
+Length=455
+
+ Score = 348 bits (892),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 186/423 (44%), Positives = 284/423 (67%), Gaps = 15/423 (4%)
+--
+>WP_122920172.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+fluminis]
+Length=453
+
+ Score = 347 bits (891),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 197/465 (42%), Positives = 285/465 (61%), Gaps = 29/465 (6%)
+--
+>WP_040095933.1 chromosomal replication initiator protein DnaA [Geoalkalibacter 
+ferrihydriticus]
+Length=452
+
+ Score = 347 bits (891),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 177/336 (53%), Positives = 243/336 (72%), Gaps = 0/336 (0%)
+--
+>WP_026332551.1 chromosomal replication initiator protein DnaA [Deinococcus apachensis]
+Length=463
+
+ Score = 348 bits (892),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 205/470 (44%), Positives = 288/470 (61%), Gaps = 24/470 (5%)
+ Frame = +1
+--
+>WP_139492508.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+sp. CHY01]
+Length=453
+
+ Score = 347 bits (891),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 193/460 (42%), Positives = 294/460 (64%), Gaps = 19/460 (4%)
+--
+>WP_139203248.1 chromosomal replication initiator protein DnaA [Thermoflavimicrobium 
+dichotomicum]
+Length=449
+
+ Score = 347 bits (890),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 191/462 (41%), Positives = 293/462 (63%), Gaps = 24/462 (5%)
+--
+>WP_073093098.1 chromosomal replication initiator protein DnaA [Thermosyntropha 
+lipolytica]
+Length=437
+
+ Score = 347 bits (889),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 172/339 (51%), Positives = 249/339 (73%), Gaps = 1/339 (0%)
+--
+>WP_011529153.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Deinococcus]
+Length=470
+
+ Score = 348 bits (892),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 196/430 (46%), Positives = 279/430 (65%), Gaps = 14/430 (3%)
+--
+>WP_122013731.1 chromosomal replication initiator protein DnaA [Thermoanaerobacterales 
+bacterium SK-G1]
+Length=454
+
+ Score = 347 bits (889),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 175/339 (52%), Positives = 250/339 (74%), Gaps = 1/339 (0%)
+--
+>WP_054876687.1 chromosomal replication initiator protein DnaA [Oxobacter pfennigii]
+Length=448
+
+ Score = 347 bits (889),  Expect = 2e-110, Method: Compositional matrix adjust.
+ Identities = 188/424 (44%), Positives = 282/424 (67%), Gaps = 16/424 (4%)
+ Frame = +1
+--
+>WP_032116815.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+CL-2]
+Length=453
+
+ Score = 347 bits (889),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 187/423 (44%), Positives = 283/423 (67%), Gaps = 21/423 (5%)
+--
+>WP_074366595.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+N3C]
+Length=451
+
+ Score = 346 bits (888),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 183/425 (43%), Positives = 286/425 (67%), Gaps = 15/425 (4%)
+--
+>WP_120765150.1 chromosomal replication initiator protein DnaA [Thermoanaerobacteraceae 
+bacterium SP2]
+Length=454
+
+ Score = 347 bits (889),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 174/337 (52%), Positives = 250/337 (74%), Gaps = 1/337 (0%)
+--
+>WP_027637262.1 chromosomal replication initiator protein DnaA [Clostridium butyricum]
+Length=450
+
+ Score = 346 bits (888),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 184/426 (43%), Positives = 286/426 (67%), Gaps = 14/426 (3%)
+ Frame = +1
+--
+>WP_138204216.1 chromosomal replication initiator protein DnaA [Haloimpatiens 
+lingqiaonensis]
+Length=449
+
+ Score = 346 bits (888),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 181/425 (43%), Positives = 285/425 (67%), Gaps = 15/425 (4%)
+--
+>WP_043853453.1 chromosomal replication initiator protein DnaA [Clostridium butyricum]
+Length=450
+
+ Score = 346 bits (888),  Expect = 4e-110, Method: Compositional matrix adjust.
+ Identities = 182/425 (43%), Positives = 287/425 (68%), Gaps = 14/425 (3%)
+ Frame = +1
+--
+>WP_012691920.1 chromosomal replication initiator protein DnaA [Deinococcus deserti]
+Length=456
+
+ Score = 346 bits (888),  Expect = 5e-110, Method: Compositional matrix adjust.
+ Identities = 201/473 (42%), Positives = 297/473 (63%), Gaps = 19/473 (4%)
+ Frame = +1
+--
+>WP_006000556.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+acetoxidans]
+Length=444
+
+ Score = 345 bits (886),  Expect = 5e-110, Method: Compositional matrix adjust.
+ Identities = 172/334 (51%), Positives = 246/334 (74%), Gaps = 0/334 (0%)
+--
+>WP_008909332.1 chromosomal replication initiator protein DnaA [Caloramator australicus]
+Length=445
+
+ Score = 345 bits (886),  Expect = 5e-110, Method: Compositional matrix adjust.
+ Identities = 173/340 (51%), Positives = 249/340 (73%), Gaps = 1/340 (0%)
+ Frame = +1
+--
+>WP_072909088.1 chromosomal replication initiator protein DnaA [Malonomonas rubra]
+Length=450
+
+ Score = 346 bits (887),  Expect = 5e-110, Method: Compositional matrix adjust.
+ Identities = 191/414 (46%), Positives = 281/414 (68%), Gaps = 9/414 (2%)
+ Frame = +1
+--
+>WP_119360276.1 chromosomal replication initiator protein DnaA [Meiothermus luteus]
+Length=439
+
+ Score = 345 bits (886),  Expect = 5e-110, Method: Compositional matrix adjust.
+ Identities = 180/362 (50%), Positives = 251/362 (69%), Gaps = 12/362 (3%)
+ Frame = +1
+--
+>WP_083771698.1 chromosomal replication initiator protein DnaA [Meiothermus silvanus]
+Length=457
+
+ Score = 346 bits (887),  Expect = 5e-110, Method: Compositional matrix adjust.
+ Identities = 176/351 (50%), Positives = 248/351 (71%), Gaps = 5/351 (1%)
+ Frame = +1
+--
+>WP_002582819.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=450
+
+ Score = 345 bits (886),  Expect = 6e-110, Method: Compositional matrix adjust.
+ Identities = 182/425 (43%), Positives = 286/425 (67%), Gaps = 14/425 (3%)
+--
+>WP_103896396.1 chromosomal replication initiator protein DnaA [Caloramator fervidus]
+Length=445
+
+ Score = 345 bits (886),  Expect = 7e-110, Method: Compositional matrix adjust.
+ Identities = 171/340 (50%), Positives = 251/340 (74%), Gaps = 1/340 (0%)
+ Frame = +1
+--
+>WP_024614018.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+Ade.TY]
+Length=454
+
+ Score = 345 bits (886),  Expect = 7e-110, Method: Compositional matrix adjust.
+ Identities = 181/423 (43%), Positives = 289/423 (68%), Gaps = 10/423 (2%)
+--
+>WP_003406672.1 chromosomal replication initiator protein DnaA [Clostridium butyricum]
+Length=450
+
+ Score = 345 bits (886),  Expect = 8e-110, Method: Compositional matrix adjust.
+ Identities = 182/425 (43%), Positives = 286/425 (67%), Gaps = 14/425 (3%)
+ Frame = +1
+--
+>WP_090748316.1 chromosomal replication initiator protein DnaA [Bacillus persicus]
+Length=448
+
+ Score = 345 bits (885),  Expect = 9e-110, Method: Compositional matrix adjust.
+ Identities = 197/460 (43%), Positives = 290/460 (63%), Gaps = 21/460 (5%)
+ Frame = +1
+--
+>WP_003333984.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Brevibacillus]
+Length=453
+
+ Score = 345 bits (885),  Expect = 9e-110, Method: Compositional matrix adjust.
+ Identities = 199/466 (43%), Positives = 292/466 (63%), Gaps = 31/466 (7%)
+--
+>WP_139902016.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+SYSU GA15002T]
+Length=447
+
+ Score = 345 bits (885),  Expect = 1e-109, Method: Compositional matrix adjust.
+ Identities = 182/430 (42%), Positives = 285/430 (66%), Gaps = 19/430 (4%)
+--
+>WP_122960434.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+centrosporus]
+Length=453
+
+ Score = 345 bits (885),  Expect = 1e-109, Method: Compositional matrix adjust.
+ Identities = 197/460 (43%), Positives = 288/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_092271097.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Brevibacillus]
+Length=453
+
+ Score = 345 bits (885),  Expect = 1e-109, Method: Compositional matrix adjust.
+ Identities = 197/460 (43%), Positives = 287/460 (62%), Gaps = 19/460 (4%)
+--
+>WP_114799058.1 chromosomal replication initiator protein DnaA [Meiothermus sp. 
+QL-1]
+Length=439
+
+ Score = 345 bits (884),  Expect = 1e-109, Method: Compositional matrix adjust.
+ Identities = 176/358 (49%), Positives = 249/358 (70%), Gaps = 4/358 (1%)
+--
+>WP_027888184.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Meiothermus]
+Length=439
+
+ Score = 344 bits (883),  Expect = 1e-109, Method: Compositional matrix adjust.
+ Identities = 172/358 (48%), Positives = 250/358 (70%), Gaps = 4/358 (1%)
+--
+>WP_073340377.1 chromosomal replication initiator protein DnaA [Clostridium grantii]
+Length=450
+
+ Score = 345 bits (884),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 183/421 (43%), Positives = 282/421 (67%), Gaps = 16/421 (4%)
+ Frame = +1
+--
+>WP_060669394.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 345 bits (884),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_042262936.1 chromosomal replication initiator protein DnaA, partial [Clostridium 
+perfringens]
+Length=437
+
+ Score = 344 bits (882),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+--
+>WP_113758153.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+laterosporus]
+Length=453
+
+ Score = 345 bits (884),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 196/465 (42%), Positives = 292/465 (63%), Gaps = 29/465 (6%)
+--
+>WP_025748739.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Caldicoprobacter]
+Length=443
+
+ Score = 344 bits (883),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 174/340 (51%), Positives = 246/340 (72%), Gaps = 1/340 (0%)
+--
+>WP_116477625.1 chromosomal replication initiator protein DnaA [candidate division 
+NC10 bacterium]
+Length=450
+
+ Score = 344 bits (883),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 176/370 (48%), Positives = 257/370 (69%), Gaps = 6/370 (2%)
+--
+>WP_090013072.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+DSM 8431]
+Length=451
+
+ Score = 344 bits (883),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 181/417 (43%), Positives = 284/417 (68%), Gaps = 13/417 (3%)
+--
+>WP_079440850.1 chromosomal replication initiator protein DnaA [Clostridium chromiireducens]
+Length=449
+
+ Score = 344 bits (883),  Expect = 2e-109, Method: Compositional matrix adjust.
+ Identities = 181/424 (43%), Positives = 285/424 (67%), Gaps = 15/424 (4%)
+ Frame = +1
+--
+>WP_133015129.1 chromosomal replication initiator protein DnaA [Clostridium cuniculi]
+Length=452
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 169/341 (50%), Positives = 254/341 (74%), Gaps = 1/341 (0%)
+ Frame = +1
+--
+>WP_008419046.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+LS]
+Length=449
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 178/426 (42%), Positives = 283/426 (66%), Gaps = 15/426 (4%)
+--
+>WP_131441829.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 344 bits (883),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_107138447.1 chromosomal replication initiator protein DnaA [Deinococcus sp. 
+OD32]
+Length=457
+
+ Score = 344 bits (883),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 199/463 (43%), Positives = 286/463 (62%), Gaps = 16/463 (3%)
+--
+>WP_034806190.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Exiguobacterium]
+Length=458
+
+ Score = 344 bits (883),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 197/464 (42%), Positives = 286/464 (62%), Gaps = 14/464 (3%)
+--
+>WP_066826142.1 chromosomal replication initiator protein DnaA [Clostridium tepidiprofundi]
+Length=451
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 187/430 (43%), Positives = 291/430 (68%), Gaps = 15/430 (3%)
+ Frame = +1
+--
+>WP_148806119.1 chromosomal replication initiator protein DnaA [Dictyoglomus 
+sp. ob1-4]
+Length=441
+
+ Score = 343 bits (881),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 173/336 (51%), Positives = 247/336 (74%), Gaps = 0/336 (0%)
+--
+>WP_003466065.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_096517078.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_060796116.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_011391551.1 chromosomal replication initiator protein DnaA [Moorella thermoacetica]
+ YP_428885.1 chromosomal replication initiation protein [Moorella thermoacetica 
+ATCC 39073]
+Length=442
+
+ Score = 343 bits (881),  Expect = 3e-109, Method: Compositional matrix adjust.
+--
+>WP_003451025.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 344 bits (882),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 258/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_102399229.1 chromosomal replication initiator protein DnaA [Haloimpatiens 
+massiliensis]
+Length=449
+
+ Score = 343 bits (881),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 181/424 (43%), Positives = 283/424 (67%), Gaps = 15/424 (4%)
+--
+>WP_119969758.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+JN500901]
+Length=449
+
+ Score = 343 bits (881),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 190/429 (44%), Positives = 292/429 (68%), Gaps = 23/429 (5%)
+--
+>WP_012582428.1 chromosomal replication initiator protein DnaA [Dictyoglomus 
+turgidum]
+ YP_002351956.1 chromosomal replication initiator protein DnaA [Dictyoglomus 
+turgidum DSM 6724]
+Length=443
+
+--
+>WP_027877873.1 chromosomal replication initiator protein DnaA [Meiothermus cerbereus]
+Length=439
+
+ Score = 343 bits (880),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 175/358 (49%), Positives = 249/358 (70%), Gaps = 4/358 (1%)
+ Frame = +1
+--
+>WP_103373996.1 chromosomal replication initiator protein DnaA [Sulfobacillus 
+sp. hq2]
+Length=461
+
+ Score = 344 bits (882),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 190/452 (42%), Positives = 284/452 (63%), Gaps = 43/452 (10%)
+--
+>WP_106060444.1 chromosomal replication initiator protein DnaA [Clostridium vincentii]
+Length=450
+
+ Score = 343 bits (881),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 185/425 (44%), Positives = 285/425 (67%), Gaps = 30/425 (7%)
+ Frame = +1
+--
+>WP_018671240.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Brevibacillus]
+Length=453
+
+ Score = 343 bits (881),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 197/466 (42%), Positives = 293/466 (63%), Gaps = 31/466 (7%)
+--
+>WP_072832742.1 chromosomal replication initiator protein DnaA [Clostridium collagenovorans]
+Length=450
+
+ Score = 343 bits (881),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 183/421 (43%), Positives = 286/421 (68%), Gaps = 18/421 (4%)
+ Frame = +1
+--
+>WP_143597516.1 chromosomal replication initiator protein DnaA [Thermoflexus 
+hugenholtzii]
+Length=443
+
+ Score = 343 bits (880),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 176/353 (50%), Positives = 248/353 (70%), Gaps = 5/353 (1%)
+--
+>WP_011591196.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 343 bits (881),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 257/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_063387746.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Aeribacillus]
+Length=454
+
+ Score = 343 bits (881),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 190/464 (41%), Positives = 294/464 (63%), Gaps = 22/464 (5%)
+--
+>WP_152889833.1 chromosomal replication initiator protein DnaA [Clostridium tarantellae]
+Length=450
+
+ Score = 343 bits (880),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 181/426 (42%), Positives = 282/426 (66%), Gaps = 14/426 (3%)
+ Frame = +1
+--
+>WP_007439964.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[unclassified Candidatus Arthromitus]
+Length=452
+
+ Score = 343 bits (881),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 171/342 (50%), Positives = 255/342 (75%), Gaps = 1/342 (0%)
+--
+>WP_136008219.1 chromosomal replication initiator protein DnaA [Clostridium sartagoforme]
+Length=451
+
+ Score = 343 bits (880),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 184/419 (44%), Positives = 286/419 (68%), Gaps = 17/419 (4%)
+ Frame = +1
+--
+>WP_089972209.1 chromosomal replication initiator protein DnaA [Clostridium gasigenes]
+Length=455
+
+ Score = 343 bits (881),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 185/419 (44%), Positives = 286/419 (68%), Gaps = 13/419 (3%)
+ Frame = +1
+--
+>WP_013456637.1 chromosomal replication initiator protein DnaA [Oceanithermus 
+profundus]
+Length=442
+
+ Score = 343 bits (879),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 170/340 (50%), Positives = 245/340 (72%), Gaps = 0/340 (0%)
+--
+>WP_025648329.1 chromosomal replication initiator protein DnaA [Clostridium perfringens]
+Length=457
+
+ Score = 343 bits (880),  Expect = 6e-109, Method: Compositional matrix adjust.
+ Identities = 170/342 (50%), Positives = 257/342 (75%), Gaps = 3/342 (1%)
+ Frame = +1
+--
+>WP_143110982.1 chromosomal replication initiator protein DnaA [Moorella thermoacetica]
+Length=442
+
+ Score = 343 bits (879),  Expect = 6e-109, Method: Compositional matrix adjust.
+ Identities = 184/420 (44%), Positives = 271/420 (65%), Gaps = 23/420 (5%)
+ Frame = +1
+--
+>WP_010169391.1 chromosomal replication initiator protein DnaA [Bacillus coahuilensis]
+Length=447
+
+ Score = 343 bits (879),  Expect = 7e-109, Method: Compositional matrix adjust.
+ Identities = 188/459 (41%), Positives = 287/459 (63%), Gaps = 19/459 (4%)
+ Frame = +1
+--
+>WP_043816302.1 chromosomal replication initiator protein DnaA [Deinococcus maricopensis]
+Length=463
+
+ Score = 343 bits (881),  Expect = 7e-109, Method: Compositional matrix adjust.
+ Identities = 204/466 (44%), Positives = 291/466 (62%), Gaps = 16/466 (3%)
+ Frame = +1
+--
+>WP_035293156.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+KNHs214]
+Length=449
+
+ Score = 343 bits (879),  Expect = 7e-109, Method: Compositional matrix adjust.
+ Identities = 169/344 (49%), Positives = 250/344 (73%), Gaps = 1/344 (0%)
+--
+>WP_081360864.1 chromosomal replication initiator protein DnaA [Moorella thermoacetica]
+Length=442
+
+ Score = 342 bits (878),  Expect = 8e-109, Method: Compositional matrix adjust.
+ Identities = 183/420 (44%), Positives = 273/420 (65%), Gaps = 23/420 (5%)
+ Frame = +1
+--
+>WP_141602096.1 chromosomal replication initiator protein DnaA [Ureibacillus 
+terrenus]
+Length=447
+
+ Score = 343 bits (879),  Expect = 8e-109, Method: Compositional matrix adjust.
+ Identities = 188/458 (41%), Positives = 290/458 (63%), Gaps = 20/458 (4%)
+--
+>WP_039681503.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Deinococcus]
+Length=461
+
+ Score = 343 bits (880),  Expect = 8e-109, Method: Compositional matrix adjust.
+ Identities = 199/463 (43%), Positives = 285/463 (62%), Gaps = 12/463 (3%)
+--
+>WP_103313365.1 chromosomal replication initiator protein DnaA [Deinococcus koreensis]
+Length=459
+
+ Score = 343 bits (880),  Expect = 8e-109, Method: Compositional matrix adjust.
+ Identities = 204/471 (43%), Positives = 284/471 (60%), Gaps = 30/471 (6%)
+ Frame = +1
+--
+>WP_077860459.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+BL-8]
+Length=449
+
+ Score = 343 bits (879),  Expect = 8e-109, Method: Compositional matrix adjust.
+ Identities = 179/426 (42%), Positives = 288/426 (68%), Gaps = 15/426 (4%)
+--
+>WP_072966111.1 chromosomal replication initiator protein DnaA [Caminicella sporogenes]
+Length=445
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 165/325 (51%), Positives = 242/325 (74%), Gaps = 1/325 (0%)
+ Frame = +1
+--
+>WP_131923484.1 chromosomal replication initiator protein DnaA [Hazenella coriacea]
+Length=448
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 188/460 (41%), Positives = 291/460 (63%), Gaps = 21/460 (5%)
+ Frame = +1
+--
+>WP_072332204.1 chromosomal replication initiator protein DnaA [Thermoactinomyces 
+sp. DSM 45891]
+Length=480
+
+ Score = 343 bits (881),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 187/449 (42%), Positives = 284/449 (63%), Gaps = 18/449 (4%)
+--
+>WP_027716053.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+sp. TF]
+Length=450
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 180/357 (50%), Positives = 247/357 (69%), Gaps = 6/357 (2%)
+--
+>WP_055746009.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+choshinensis]
+Length=453
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 195/460 (42%), Positives = 289/460 (63%), Gaps = 19/460 (4%)
+--
+>WP_077840259.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=449
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 179/417 (43%), Positives = 288/417 (69%), Gaps = 15/417 (4%)
+--
+>WP_050606337.1 chromosomal replication initiator protein DnaA [Clostridium niameyense]
+Length=449
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 169/337 (50%), Positives = 250/337 (74%), Gaps = 1/337 (0%)
+ Frame = +1
+--
+>WP_059032079.1 chromosomal replication initiator protein DnaA [Tepidanaerobacter 
+syntrophicus]
+Length=455
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 188/433 (43%), Positives = 288/433 (67%), Gaps = 13/433 (3%)
+--
+>WP_073006166.1 chromosomal replication initiator protein DnaA [Clostridium amylolyticum]
+Length=451
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 180/430 (42%), Positives = 288/430 (67%), Gaps = 15/430 (3%)
+ Frame = +1
+--
+>WP_115791896.1 chromosomal replication initiator protein DnaA [Ammonifex thiophilus]
+Length=444
+
+ Score = 342 bits (877),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 173/338 (51%), Positives = 243/338 (72%), Gaps = 3/338 (1%)
+ Frame = +1
+--
+>WP_149679438.1 chromosomal replication initiator protein DnaA [Thermoclostridium 
+caenicola]
+Length=443
+
+ Score = 342 bits (877),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 184/418 (44%), Positives = 277/418 (66%), Gaps = 22/418 (5%)
+--
+>WP_109206870.1 chromosomal replication initiator protein DnaA [Moorella sp. 
+Hama-1]
+Length=442
+
+ Score = 342 bits (877),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 185/420 (44%), Positives = 268/420 (64%), Gaps = 23/420 (5%)
+--
+>WP_072896316.1 chromosomal replication initiator protein DnaA [Clostridium fallax]
+Length=452
+
+ Score = 342 bits (877),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 171/340 (50%), Positives = 251/340 (74%), Gaps = 1/340 (0%)
+ Frame = +1
+--
+>WP_093882364.1 chromosomal replication initiator protein DnaA [Syntrophus gentianae]
+Length=458
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 172/408 (42%), Positives = 272/408 (67%), Gaps = 22/408 (5%)
+ Frame = +1
+--
+>WP_026883402.1 chromosomal replication initiator protein DnaA [Clostridium akagii]
+Length=447
+
+ Score = 342 bits (877),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 188/423 (44%), Positives = 287/423 (68%), Gaps = 23/423 (5%)
+ Frame = +1
+--
+>WP_094234812.1 chromosomal replication initiator protein DnaA [Tumebacillus 
+algifaecis]
+Length=455
+
+ Score = 342 bits (878),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 169/348 (49%), Positives = 251/348 (72%), Gaps = 1/348 (0%)
+--
+>WP_014094027.1 chromosomal replication initiator protein DnaA [Candidatus Arthromitus 
+sp. SFB-rat-Yit]
+Length=452
+
+ Score = 342 bits (877),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 171/342 (50%), Positives = 254/342 (74%), Gaps = 1/342 (0%)
+--
+>WP_026887755.1 chromosomal replication initiator protein DnaA [Clostridium beijerinckii]
+Length=449
+
+ Score = 342 bits (877),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 176/417 (42%), Positives = 283/417 (68%), Gaps = 15/417 (4%)
+ Frame = +1
+--
+>WP_092080081.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+thiophila]
+Length=447
+
+ Score = 342 bits (877),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 187/449 (42%), Positives = 277/449 (62%), Gaps = 29/449 (6%)
+--
+>WP_126424600.1 chromosomal replication initiator protein DnaA [Brevibacillus 
+sp. SCSIO 07484]
+Length=452
+
+ Score = 342 bits (877),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 194/465 (42%), Positives = 293/465 (63%), Gaps = 29/465 (6%)
+--
+>WP_012547485.1 chromosomal replication initiator protein DnaA [Dictyoglomus 
+thermophilum]
+Length=441
+
+ Score = 341 bits (875),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 195/461 (42%), Positives = 291/461 (63%), Gaps = 31/461 (7%)
+--
+>WP_027099037.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=451
+
+ Score = 342 bits (876),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 185/425 (44%), Positives = 283/425 (67%), Gaps = 13/425 (3%)
+--
+>WP_079428467.1 chromosomal replication initiator protein DnaA [Clostridium oryzae]
+Length=447
+
+ Score = 342 bits (876),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 177/421 (42%), Positives = 286/421 (68%), Gaps = 19/421 (5%)
+ Frame = +1
+--
+>WP_119864092.1 chromosomal replication initiator protein DnaA [Clostridium isatidis]
+Length=455
+
+ Score = 342 bits (876),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 169/340 (50%), Positives = 250/340 (74%), Gaps = 1/340 (0%)
+ Frame = +1
+--
+>WP_013702821.1 chromosomal replication initiator protein DnaA [Marinithermus 
+hydrothermalis]
+Length=448
+
+ Score = 342 bits (876),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 177/344 (51%), Positives = 244/344 (71%), Gaps = 5/344 (1%)
+--
+>WP_017210024.1 unnamed protein product
+Length=449
+
+ Score = 342 bits (876),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 177/417 (42%), Positives = 283/417 (68%), Gaps = 15/417 (4%)
+ Frame = +1
+--
+>WP_147147388.1 chromosomal replication initiator protein DnaA [Oceanithermus 
+desulfurans]
+Length=442
+
+ Score = 341 bits (875),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 200/468 (43%), Positives = 289/468 (62%), Gaps = 34/468 (7%)
+--
+>WP_114165094.1 chromosomal replication initiator protein DnaA [Exiguobacterium 
+sp. TNDT2]
+Length=457
+
+ Score = 342 bits (876),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 198/464 (43%), Positives = 282/464 (61%), Gaps = 15/464 (3%)
+--
+>WP_099221665.1 chromosomal replication initiator protein DnaA [Listeria costaricensis]
+Length=450
+
+ Score = 341 bits (875),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 169/363 (47%), Positives = 256/363 (71%), Gaps = 2/363 (1%)
+ Frame = +1
+--
+>WP_058293230.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=449
+
+ Score = 341 bits (875),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 183/419 (44%), Positives = 284/419 (68%), Gaps = 19/419 (5%)
+--
+>WP_013012302.1 chromosomal replication initiator protein DnaA [Meiothermus ruber]
+Length=439
+
+ Score = 341 bits (874),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 171/358 (48%), Positives = 249/358 (70%), Gaps = 4/358 (1%)
+ Frame = +1
+--
+>WP_104992093.1 chromosomal replication initiator protein DnaA [Deinococcus sp. 
+NW-56]
+Length=458
+
+ Score = 342 bits (876),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 197/465 (42%), Positives = 287/465 (62%), Gaps = 19/465 (4%)
+--
+>WP_009167654.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+DL-VIII]
+Length=449
+
+ Score = 341 bits (875),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 179/425 (42%), Positives = 288/425 (68%), Gaps = 15/425 (4%)
+--
+>WP_078788980.1 chromosomal replication initiator protein DnaA [Geobacter thiogenes]
+Length=457
+
+ Score = 342 bits (876),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 191/407 (47%), Positives = 267/407 (66%), Gaps = 25/407 (6%)
+ Frame = +1
+--
+>WP_132769648.1 chromosomal replication initiator protein DnaA [Tepidibacillus 
+fermentans]
+Length=456
+
+ Score = 341 bits (875),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 193/466 (41%), Positives = 292/466 (63%), Gaps = 28/466 (6%)
+--
+>WP_078810292.1 chromosomal replication initiator protein DnaA [Selenihalanaerobacter 
+shriftii]
+Length=450
+
+ Score = 341 bits (875),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 193/463 (42%), Positives = 291/463 (63%), Gaps = 27/463 (6%)
+--
+>WP_054936883.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Moorella]
+Length=442
+
+ Score = 341 bits (874),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 180/420 (43%), Positives = 268/420 (64%), Gaps = 23/420 (5%)
+--
+>WP_092347256.1 chromosomal replication initiator protein DnaA [Desulfuromusa 
+kysingii]
+Length=448
+
+ Score = 341 bits (875),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 191/463 (41%), Positives = 291/463 (63%), Gaps = 27/463 (6%)
+--
+>WP_019536875.1 chromosomal replication initiator protein DnaA [Paenibacillus 
+ginsengihumi]
+Length=452
+
+ Score = 341 bits (875),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 183/425 (43%), Positives = 277/425 (65%), Gaps = 36/425 (8%)
+--
+>WP_092054955.1 chromosomal replication initiator protein DnaA [Desulfuromonas 
+acetexigens]
+Length=454
+
+ Score = 341 bits (875),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 174/334 (52%), Positives = 244/334 (73%), Gaps = 0/334 (0%)
+--
+>WP_011967366.1 chromosomal replication initiator protein DnaA [Clostridium beijerinckii]
+Length=449
+
+ Score = 341 bits (874),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 165/340 (49%), Positives = 254/340 (75%), Gaps = 1/340 (0%)
+ Frame = +1
+--
+>WP_073154447.1 chromosomal replication initiator protein DnaA [Seinonella peptonophila]
+Length=448
+
+ Score = 341 bits (874),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 161/339 (47%), Positives = 251/339 (74%), Gaps = 1/339 (0%)
+ Frame = +1
+--
+>WP_024371093.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Exiguobacterium]
+Length=459
+
+ Score = 341 bits (875),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 200/470 (43%), Positives = 287/470 (61%), Gaps = 25/470 (5%)
+--
+>WP_010279243.1 chromosomal replication initiator protein DnaA [Paenibacillus 
+senegalensis]
+Length=453
+
+ Score = 341 bits (874),  Expect = 4e-108, Method: Compositional matrix adjust.
+ Identities = 178/419 (42%), Positives = 278/419 (66%), Gaps = 16/419 (4%)
+--
+>WP_026824742.1 chromosomal replication initiator protein DnaA [Exiguobacterium 
+marinum]
+Length=458
+
+ Score = 341 bits (874),  Expect = 5e-108, Method: Compositional matrix adjust.
+ Identities = 198/464 (43%), Positives = 284/464 (61%), Gaps = 15/464 (3%)
+--
+>WP_077830445.1 chromosomal replication initiator protein DnaA [Clostridium beijerinckii]
+Length=449
+
+ Score = 340 bits (873),  Expect = 5e-108, Method: Compositional matrix adjust.
+ Identities = 179/417 (43%), Positives = 287/417 (69%), Gaps = 15/417 (4%)
+ Frame = +1
+--
+>WP_029477218.1 chromosomal replication initiator protein DnaA [Deinococcus frigens]
+Length=461
+
+ Score = 341 bits (874),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 192/463 (41%), Positives = 282/463 (61%), Gaps = 12/463 (3%)
+ Frame = +1
+--
+>WP_049179320.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=451
+
+ Score = 340 bits (873),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 185/425 (44%), Positives = 283/425 (67%), Gaps = 13/425 (3%)
+--
+>WP_143318189.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+HBUAS56017]
+Length=449
+
+ Score = 340 bits (873),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 183/425 (43%), Positives = 283/425 (67%), Gaps = 15/425 (4%)
+--
+>WP_119339618.1 chromosomal replication initiator protein DnaA [Meiothermus hypogaeus]
+Length=451
+
+ Score = 340 bits (873),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 173/358 (48%), Positives = 249/358 (70%), Gaps = 4/358 (1%)
+ Frame = +1
+--
+>WP_130805448.1 chromosomal replication initiator protein DnaA [Senegalia massiliensis]
+Length=449
+
+ Score = 340 bits (873),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 187/419 (45%), Positives = 281/419 (67%), Gaps = 17/419 (4%)
+ Frame = +1
+--
+>WP_053337700.1 chromosomal replication initiator protein DnaA [Clostridium botulinum]
+Length=445
+
+ Score = 340 bits (872),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 179/424 (42%), Positives = 288/424 (68%), Gaps = 19/424 (4%)
+ Frame = +1
+--
+>WP_021282902.1 chromosomal replication initiator protein DnaA [Clostridium sp. 
+BL8]
+Length=449
+
+ Score = 340 bits (873),  Expect = 7e-108, Method: Compositional matrix adjust.
+ Identities = 181/421 (43%), Positives = 283/421 (67%), Gaps = 17/421 (4%)
+--
+>WP_152871569.1 chromosomal replication initiator protein DnaA [Deinococcus sp. 
+SDU3-2]
+Length=449
+
+ Score = 340 bits (872),  Expect = 7e-108, Method: Compositional matrix adjust.
+ Identities = 193/426 (45%), Positives = 273/426 (64%), Gaps = 14/426 (3%)
+--
+>WP_010298341.1 chromosomal replication initiator protein DnaA [Clostridium senegalense]
+Length=449
+
+ Score = 340 bits (872),  Expect = 8e-108, Method: Compositional matrix adjust.
+ Identities = 184/420 (44%), Positives = 276/420 (66%), Gaps = 15/420 (4%)
+ Frame = +1
+--
+>WP_072992624.1 chromosomal replication initiator protein DnaA [Clostridium cavendishii]
+Length=451
+
+ Score = 340 bits (872),  Expect = 8e-108, Method: Compositional matrix adjust.
+ Identities = 181/424 (43%), Positives = 281/424 (66%), Gaps = 13/424 (3%)
+ Frame = +1
+--
+>WP_016207954.1 MULTISPECIES: chromosomal replication initiator protein DnaA 
+[Clostridium]
+Length=452
+
+ Score = 340 bits (872),  Expect = 9e-108, Method: Compositional matrix adjust.
+ Identities = 165/339 (49%), Positives = 252/339 (74%), Gaps = 1/339 (0%)
+--
+>WP_061328442.1 chromosomal replication initiator protein DnaA [Clostridium botulinum]
+Length=448
+
+ Score = 340 bits (872),  Expect = 9e-108, Method: Compositional matrix adjust.
+ Identities = 165/338 (49%), Positives = 252/338 (75%), Gaps = 1/338 (0%)
+ Frame = +1
+--
+>WP_066889317.1 chromosomal replication initiator protein DnaA [Clostridium nigeriense]
+Length=451
+
+ Score = 340 bits (872),  Expect = 9e-108, Method: Compositional matrix adjust.
+ Identities = 166/339 (49%), Positives = 251/339 (74%), Gaps = 1/339 (0%)
+ Frame = +1
+--
+>WP_106344096.1 chromosomal replication initiator protein DnaA [Planifilum fimeticola]
+Length=449
+
+ Score = 340 bits (871),  Expect = 1e-107, Method: Compositional matrix adjust.
+ Identities = 174/373 (47%), Positives = 258/373 (69%), Gaps = 12/373 (3%)
+ Frame = +1
+--
+>WP_022743383.1 chromosomal replication initiator protein DnaA [Clostridium saccharobutylicum]
+Length=450
+
+ Score = 340 bits (871),  Expect = 1e-107, Method: Compositional matrix adjust.
+ Identities = 165/340 (49%), Positives = 253/340 (74%), Gaps = 1/340 (0%)
+ Frame = +1

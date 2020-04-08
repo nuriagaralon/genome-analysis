@@ -1,0 +1,2273 @@
+BLASTX 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: NCBI Protein Reference Sequences
+           155,334,636 sequences; 58,941,098,972 total letters
+
+
+
+Query= ENA|OBMB01000001|OBMB01000001.1 Leptospirillum ferriphilum isolate
+pb_238 genome assembly, contig: unitig_0_quiver
+
+Length=1740
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+WP_143468932.1 dTMP kinase [Leptospirillum ferriphilum]               431        6e-147
+WP_036082512.1 hypothetical protein [Leptospirillum ferriphilum]      421        1e-139
+WP_099590442.1 hypothetical protein [Leptospirillum ferriphilum]      308        9e-100
+WP_036082510.1 hypothetical protein [Leptospirillum ferriphilum]      200        9e-71 
+WP_052157864.1 dTMP kinase [Leptospirillum ferriphilum]               238        7e-70 
+WP_099590700.1 hypothetical protein [Leptospirillum ferriphilum]      185        2e-52 
+WP_099590441.1 hypothetical protein [Leptospirillum ferriphilum]      180        3e-51 
+WP_099590698.1 hypothetical protein [Leptospirillum ferriphilum]      98.2       6e-37 
+WP_099590699.1 hypothetical protein [Leptospirillum ferriphilum]      116        1e-27 
+WP_006001863.1 dTMP kinase [Desulfuromonas acetoxidans]               119        4e-27 
+WP_004513302.1 dTMP kinase [Geobacter metallireducens]                118        1e-26 
+WP_066726679.1 dTMP kinase [Desulfuromonas sp. DDH964]                116        6e-26 
+WP_106807760.1 dTMP kinase [Candidatus Sulfotelmatobacter kueseliae]  114        2e-25 
+WP_010942869.1 dTMP kinase [Geobacter sulfurreducens]                 113        7e-25 
+WP_134322136.1 dTMP kinase [Cumulibacter sp. G-1]                     112        1e-24 
+WP_035614343.1 dTMP kinase [Haloferula sp. BvORR071]                  112        1e-24 
+WP_053550782.1 dTMP kinase [Desulfuromonas soudanensis]               112        2e-24 
+WP_149755191.1 dTMP kinase [Roseivivax sediminis]                     112        2e-24 
+WP_051487555.1 dTMP kinase [Roseivivax marinus]                       112        2e-24 
+WP_027714330.1 dTMP kinase [Desulfuromonas sp. TF]                    111        3e-24 
+WP_039643820.1 dTMP kinase [Geobacter soli]                           111        4e-24 
+WP_066357242.1 dTMP kinase [Geobacter anodireducens]                  111        4e-24 
+WP_037261039.1 dTMP kinase [Roseivivax halodurans]                    110        5e-24 
+WP_050662644.1 dTMP kinase [Roseovarius tolerans]                     110        5e-24 
+WP_129742720.1 dTMP kinase [Candidatus Gastranaerophilales bacter...  110        6e-24 
+WP_119333035.1 dTMP kinase [Geobacter sulfurreducens]                 110        6e-24 
+WP_009539994.1 dTMP kinase [Caenispirillum salinarum]                 110        1e-23 
+WP_111837158.1 MULTISPECIES: dTMP kinase [Actinomyces]                99.8       2e-23 
+WP_011179369.1 dTMP kinase [Bartonella quintana]                      108        3e-23 
+WP_014924067.1 dTMP kinase [Bartonella quintana]                      108        3e-23 
+WP_078695297.1 dTMP kinase [Caloramator quimbayensis]                 108        4e-23 
+WP_038647950.1 dTMP kinase [Spiroplasma culicicola]                   108        4e-23 
+WP_101790648.1 dTMP kinase [Nonomuraea indica]                        102        4e-23 
+WP_076649841.1 dTMP kinase [Pontibaca methylaminivorans]              108        5e-23 
+WP_097081751.1 dTMP kinase [Rhodobacter sp. JA431]                    107        5e-23 
+WP_080454949.1 dTMP kinase [Roseovarius sp. A-2]                      107        6e-23 
+WP_023175430.1 dTMP kinase [Gloeobacter kilaueensis]                  107        7e-23 
+WP_022481663.1 dTMP kinase [Candidatus Gastranaerophilales bacter...  107        7e-23 
+WP_067138628.1 dTMP kinase [Microtetraspora malaysiensis]             100        8e-23 
+WP_105319563.1 dTMP kinase [Rhodobacteraceae bacterium WD3A24]        107        8e-23 
+WP_093245502.1 dTMP kinase [Ruminococcaceae bacterium YAD3003]        107        8e-23 
+WP_066945653.1 dTMP kinase [Microtetraspora fusca]                    100        8e-23 
+WP_097805981.1 dTMP kinase [Pelagimonas varians]                      107        9e-23 
+WP_152176923.1 dTMP kinase [Tetrasphaera sp. F2B08]                   107        1e-22 
+WP_011939980.1 dTMP kinase [Geobacter uraniireducens]                 107        1e-22 
+WP_074785224.1 dTMP kinase [Roseovarius tolerans]                     107        1e-22 
+WP_107967614.1 dTMP kinase [Sphingomonas oleivorans]                  106        1e-22 
+WP_126416293.1 dTMP kinase [Trueperella bialowiezensis]               96.3       1e-22 
+WP_108799339.1 dTMP kinase [Rhodobacteraceae bacterium Alg231-04]     107        1e-22 
+WP_059177212.1 dTMP kinase [Thermodesulfovibrio aggregans]            97.1       1e-22 
+WP_090029679.1 dTMP kinase [Lutimaribacter saemankumensis]            107        1e-22 
+WP_153429204.1 dTMP kinase [Gluconobacter sp. AC10]                   103        1e-22 
+WP_067186032.1 dTMP kinase [Microtetraspora niveoalba]                101        1e-22 
+WP_108885135.1 dTMP kinase [Primorskyibacter insulae]                 106        1e-22 
+WP_069115750.1 dTMP kinase [Spiroplasma helicoides]                   106        1e-22 
+WP_058280315.1 dTMP kinase [Ruegeria denitrificans]                   106        1e-22 
+WP_137697240.1 dTMP kinase [Ruminiclostridium sp. MA18]               106        2e-22 
+WP_043768011.1 dTMP kinase [Roseivivax isoporae]                      106        2e-22 
+WP_050523501.1 dTMP kinase [Pseudorhodobacter wandonensis]            106        2e-22 
+WP_107496343.1 dTMP kinase [Thalassobius sp. I31.1]                   106        2e-22 
+WP_066687716.1 dTMP kinase [Caulobacter sp. CCH9-E1]                  106        2e-22 
+WP_077974641.1 dTMP kinase [Chlamydia gallinacea]                     100        2e-22 
+WP_113155189.1 dTMP kinase [Nitratireductor sp. OM-1]                 106        2e-22 
+WP_149789078.1 dTMP kinase [Lutimaribacter pacificus]                 106        2e-22 
+WP_076485667.1 dTMP kinase [Rhodobacter aestuarii]                    105        2e-22 
+WP_113788430.1 dTMP kinase [Ruegeria sp. A3M17]                       105        3e-22 
+WP_144103635.1 dTMP kinase [Candidatus Melainabacteria bacterium]     104        3e-22 
+WP_008226349.1 dTMP kinase [Roseobacter sp. GAI101]                   105        3e-22 
+WP_009144416.1 dTMP kinase [Phascolarctobacterium succinatutens]      105        3e-22 
+WP_061290948.1 dTMP kinase [Herbidospora cretacea]                    105        3e-22 
+WP_103910333.1 dTMP kinase [Thalassococcus halodurans]                105        3e-22 
+WP_152461848.1 dTMP kinase [Roseivivax sp. THAF30]                    105        3e-22 
+WP_068928137.1 dTMP kinase [Planobispora rosea]                       97.4       3e-22 
+WP_093173577.1 dTMP kinase [Sinosporangium album]                     96.7       3e-22 
+WP_055482466.1 dTMP kinase [Microbispora sp. GMKU363]                 99.0       3e-22 
+WP_146888078.1 dTMP kinase [Acetobacter oeni]                         102        3e-22 
+WP_070190051.1 dTMP kinase [Humibacillus sp. DSM 29435]               105        3e-22 
+WP_062498220.1 dTMP kinase [Gluconobacter oxydans]                    101        3e-22 
+WP_058246364.1 dTMP kinase [Tropicibacter naphthalenivorans]          105        3e-22 
+WP_117868431.1 dTMP kinase [Ruegeria sp. AD91A]                       105        3e-22 
+WP_051456377.1 dTMP kinase [Caldicoprobacter oshimai]                 105        3e-22 
+WP_148035682.1 dTMP kinase [Nonomuraea sp. C10]                       101        4e-22 
+WP_013079243.1 dTMP kinase [Caulobacter segnis]                       105        4e-22 
+WP_041112514.1 dTMP kinase [Gluconobacter oxydans]                    101        4e-22 
+WP_105236301.1 dTMP kinase [Rhodobacteraceae bacterium]               105        4e-22 
+WP_087593897.1 dTMP kinase [Rhodobacteraceae bacterium WFHF2C18]      105        4e-22 
+WP_152458555.1 dTMP kinase [Ruegeria sp. THAF33]                      105        4e-22 
+WP_078705371.1 dTMP kinase [Bartonella sp. WD16.2]                    105        4e-22 
+WP_125158391.1 dTMP kinase [Caulobacter sp. 602-1]                    105        4e-22 
+WP_017326939.1 dTMP kinase [Synechococcus sp. PCC 7336]               105        4e-22 
+WP_093031799.1 dTMP kinase [Ruegeria marina]                          105        4e-22 
+WP_154596049.1 dTMP kinase [Aeromicrobium sp. zg-629]                 105        5e-22 
+WP_076626524.1 dTMP kinase [Tateyamaria omphalii]                     105        5e-22 
+WP_068304847.1 dTMP kinase [Pararhodobacter sp. CCB-MM2]              105        5e-22 
+WP_062449889.1 dTMP kinase [Gluconobacter oxydans]                    100        5e-22 
+WP_099535617.1 dTMP kinase [Caulobacter sp. X]                        105        5e-22 
+WP_038525184.1 dTMP kinase [Bartonella henselae]                      105        5e-22 
+WP_068335470.1 dTMP kinase [Ruegeria profundi]                        105        5e-22 
+WP_101780317.1 dTMP kinase [Spiroplasma monobiae]                     105        5e-22 
+WP_055192079.1 dTMP kinase [Aliiroseovarius crassostreae]             105        5e-22 
+WP_019878650.1 dTMP kinase [Succinispira mobilis]                     104        5e-22 
+WP_109643923.1 MULTISPECIES: dTMP kinase [unclassified Ruminococc...  104        5e-22 
+WP_040095279.1 dTMP kinase [Geoalkalibacter ferrihydriticus]          100        5e-22 
+WP_092282349.1 dTMP kinase [Caldicoprobacter faecalis]                104        5e-22 
+WP_083454843.1 dTMP kinase [Tetrasphaera japonica]                    105        6e-22 
+WP_035162561.1 dTMP kinase [Caloranaerobacter azorensis]              105        6e-22 
+WP_116564506.1 dTMP kinase [Caulobacter radicis]                      96.7       6e-22 
+WP_085636082.1 dTMP kinase [Marivita geojedonensis]                   104        6e-22 
+WP_137247962.1 dTMP kinase [Herbidospora sp. NEAU-GS14]               104        6e-22 
+WP_111170398.1 dTMP kinase [Desertiactinospora gelatinilytica]        98.6       6e-22 
+WP_011190050.1 dTMP kinase [Desulfotalea psychrophila]                104        6e-22 
+WP_085791248.1 dTMP kinase [Roseivivax jejudonensis]                  104        7e-22 
+WP_062430381.1 dTMP kinase [Herbidospora daliensis]                   104        7e-22 
+WP_136805266.1 dTMP kinase [Desulfopila sp. IMCC35005]                104        7e-22 
+WP_011180740.1 dTMP kinase [Bartonella henselae]                      104        7e-22 
+WP_064822049.1 dTMP kinase [Rhizobium phaseoli]                       105        7e-22 
+WP_093914673.1 dTMP kinase [Sulfitobacter marinus]                    104        7e-22 
+WP_129695607.1 dTMP kinase [Candidatus Gastranaerophilales bacter...  104        7e-22 
+WP_156074525.1 dTMP kinase [Rhodobacteraceae bacterium]               104        7e-22 
+WP_142261276.1 dTMP kinase [Thermopolyspora flexuosa]                 97.8       7e-22 
+WP_043056695.1 dTMP kinase [Enteractinococcus helveticum]             104        7e-22 
+WP_062356554.1 dTMP kinase [Herbidospora yilanensis]                  104        7e-22 
+WP_062336547.1 dTMP kinase [Herbidospora sakaeratensis]               104        7e-22 
+WP_109857660.1 dTMP kinase [Ensifer adhaerens]                        105        7e-22 
+WP_105044571.1 dTMP kinase [Rubritalea profundi]                      104        8e-22 
+WP_099911474.1 dTMP kinase [Puniceibacterium antarcticum]             104        8e-22 
+WP_116489647.1 dTMP kinase [Caulobacter radicis]                      96.7       8e-22 
+WP_108887947.1 dTMP kinase [Rhodobacteraceae bacterium Alg231-30]     104        8e-22 
+WP_050528816.1 dTMP kinase [Pseudaestuariivita atlantica]             104        8e-22 
+WP_142565333.1 dTMP kinase [Microbispora sp. KK1-11]                  97.8       8e-22 
+WP_021828347.1 dTMP kinase [Chlamydia gallinacea]                     98.2       8e-22 
+WP_054003217.1 dTMP kinase [Shimia sp. SK013]                         104        8e-22 
+WP_112534212.1 dTMP kinase [Rhizobiales bacterium]                    104        8e-22 
+WP_011569564.1 dTMP kinase [Roseobacter denitrificans]                104        8e-22 
+WP_139575677.1 dTMP kinase [Microbispora sp. CR1-09]                  97.8       8e-22 
+WP_009571416.1 MULTISPECIES: dTMP kinase [Rhodobacteraceae]           104        8e-22 
+WP_050518698.1 dTMP kinase [Pseudorhodobacter antarcticus]            104        9e-22 
+WP_073037409.1 dTMP kinase [Roseovarius pacificus]                    104        9e-22 
+WP_142624879.1 dTMP kinase [Microbispora hainanensis]                 97.4       9e-22 
+WP_093013407.1 dTMP kinase [Roseivivax halotolerans]                  104        9e-22 
+WP_013769651.1 dTMP kinase [Cellulomonas fimi]                        104        9e-22 
+WP_070064942.1 dTMP kinase [Wolbachia pipientis]                      103        9e-22 
+WP_099442937.1 dTMP kinase [Caulobacter sp. BP25]                     103        1e-21 
+WP_037178198.1 dTMP kinase [Rhizobium sp. YR519]                      104        1e-21 
+WP_155527257.1 dTMP kinase [Rhodobacteraceae bacterium]               103        1e-21 
+WP_102268606.1 dTMP kinase [Massilicoli timonensis]                   104        1e-21 
+WP_030452780.1 dTMP kinase [Herbidospora cretacea]                    103        1e-21 
+WP_085805704.1 dTMP kinase [Roseovarius albus]                        103        1e-21 
+WP_064789221.1 MULTISPECIES: dTMP kinase [Thalassospira]              99.4       1e-21 
+WP_124236565.1 dTMP kinase [Aeromicrobium camelliae]                  103        1e-21 
+WP_030507895.1 dTMP kinase [Microbispora rosea]                       97.1       1e-21 
+WP_076439194.1 dTMP kinase [Microbispora rosea]                       97.1       1e-21 
+WP_066366667.1 dTMP kinase [Herbidospora mongoliensis]                104        1e-21 
+WP_109101852.1 dTMP kinase [Caulobacter sp. 774]                      96.3       1e-21 
+WP_073195793.1 dTMP kinase [Caloranaerobacter azorensis]              103        1e-21 
+WP_101717415.1 dTMP kinase [Caulobacter zeae]                         97.1       1e-21 
+WP_121632175.1 dTMP kinase [Tropicibacter sp. LMIT003]                103        1e-21 
+WP_068900479.1 dTMP kinase [Planomonospora sphaerica]                 95.5       1e-21 
+WP_146826358.1 dTMP kinase [Aeromicrobium flavum]                     104        1e-21 
+WP_099577991.1 dTMP kinase [Caulobacter sp. FWC2]                     103        1e-21 
+WP_086450085.1 dTMP kinase [Marivivens niveibacter]                   103        1e-21 
+WP_155341423.1 dTMP kinase [Acrocarpospora corrugata]                 99.8       1e-21 
+WP_050527707.1 dTMP kinase [Pseudorhodobacter aquimaris]              103        1e-21 
+WP_079320780.1 dTMP kinase [Microbispora sp. GKU 823]                 97.1       1e-21 
+WP_137194478.1 dTMP kinase [Pseudorhodobacter sp. S12M18]             103        1e-21 
+WP_022715614.1 dTMP kinase [Rhizobium mongolense]                     104        1e-21 
+WP_037245274.1 dTMP kinase [Roseovarius sp. MCTG156(2b)]              103        1e-21 
+WP_099590697.1 hypothetical protein [Leptospirillum ferriphilum]      74.7       1e-21 
+WP_127523724.1 dTMP kinase [Mesorhizobium sp. Z1-4]                   104        1e-21 
+WP_007814093.1 dTMP kinase [Roseobacter sp. AzwK-3b]                  103        1e-21 
+WP_100916068.1 dTMP kinase [Spiroplasma floricola]                    103        1e-21 
+WP_020833845.1 dTMP kinase [Spiroplasma taiwanense]                   103        1e-21 
+WP_010851303.1 dTMP kinase [Tetrasphaera elongata]                    103        1e-21 
+WP_010703748.1 dTMP kinase [Bartonella schoenbuchensis]               103        1e-21 
+WP_106262588.1 dTMP kinase [Donghicola tyrosinivorans]                103        2e-21 
+WP_149779038.1 dTMP kinase [Roseovarius litoreus]                     103        2e-21 
+WP_109310413.1 dTMP kinase [Ruegeria sp. AU67]                        103        2e-21 
+WP_138463090.1 MULTISPECIES: dTMP kinase [Microbispora]               95.9       2e-21 
+WP_142573653.1 dTMP kinase [Microbispora bryophytorum]                96.7       2e-21 
+WP_089407992.1 dTMP kinase [Granulicella rosea]                       103        2e-21 
+WP_072335717.1 dTMP kinase [Desulfovibrio piger]                      98.6       2e-21 
+WP_149280032.1 dTMP kinase [Acetobacter sp. KACC 21233]               103        2e-21 
+WP_039524314.1 dTMP kinase [Ruegeria sp. ANG-S4]                      103        2e-21 
+WP_114113269.1 dTMP kinase [Thalassospira profundimaris]              99.8       2e-21 
+WP_111697831.1 dTMP kinase [Microbispora triticiradicis]              95.9       2e-21 
+WP_142651889.1 MULTISPECIES: dTMP kinase [unclassified Microbispora]  96.7       2e-21 
+WP_027260710.1 dTMP kinase [Sedimentitalea nanhaiensis]               103        2e-21 
+WP_058274424.1 dTMP kinase [Ruegeria atlantica]                       103        2e-21 
+WP_088370386.1 dTMP kinase [endosymbiont 'TC1' of Trimyema compre...  103        2e-21 
+WP_050602736.1 dTMP kinase [Ruegeria sp. 6PALISEP08]                  103        2e-21 
+WP_058349797.1 dTMP kinase [Caulobacter vibrioides]                   95.1       2e-21 
+WP_049556538.1 dTMP kinase [Nonomuraea sp. SBT364]                    99.0       2e-21 
+WP_039683174.1 dTMP kinase [Tateyamaria sp. ANG-S1]                   103        2e-21 
+WP_058279655.1 dTMP kinase [Ruegeria atlantica]                       103        2e-21 
+WP_087861238.1 dTMP kinase [Brevefilum fermentans]                    98.6       2e-21 
+WP_108861556.1 dTMP kinase [Ruegeria sp. Alg231-54]                   103        2e-21 
+WP_025044202.1 dTMP kinase [Sulfitobacter geojensis]                  103        2e-21 
+WP_062954879.1 MULTISPECIES: dTMP kinase [Thalassospira]              99.0       2e-21 
+WP_054463686.1 dTMP kinase [Phaeobacter sp. 11ANDIMAR09]              103        2e-21 
+WP_150939646.1 dTMP kinase [Microbispora sp. Gxj-6]                   95.9       2e-21 
+WP_037307790.1 dTMP kinase [Ruegeria halocynthiae]                    103        2e-21 
+WP_101246217.1 dTMP kinase [Thalassospira lohafexi]                   99.4       2e-21 
+WP_113824968.1 dTMP kinase [Phaeobacter gallaeciensis]                103        2e-21 
+WP_073375410.1 dTMP kinase [Desulfofustis glycolicus]                 103        2e-21 
+WP_110794890.1 dTMP kinase [Rhodobacteraceae bacterium FSX-11]        103        2e-21 
+WP_071972258.1 dTMP kinase [Sulfitobacter sp. AM1-D1]                 103        2e-21 
+WP_119750990.1 dTMP kinase [Paracoccus sp. 1011MAR3C25]               102        2e-21 
+WP_064223110.1 dTMP kinase [Sulfitobacter geojensis]                  103        2e-21 
+WP_018979594.1 dTMP kinase [Saccharibacter floricola]                 89.7       2e-21 
+WP_101715870.1 dTMP kinase [Caulobacter flavus]                       95.1       2e-21 
+WP_103539683.1 dTMP kinase [Streptomyces sp. SM9]                     100        2e-21 
+WP_154068758.1 dTMP kinase [Rhodobacteraceae bacterium]               103        2e-21 
+WP_041247155.1 dTMP kinase [Komagataeibacter medellinensis]           97.8       2e-21 
+WP_079417171.1 dTMP kinase [Paenibacillus ferrarius]                  103        2e-21 
+WP_038147708.1 dTMP kinase [Thioclava atlantica]                      102        2e-21 
+WP_082154920.1 dTMP kinase [Jiangella alkaliphila]                    95.1       2e-21 
+WP_071454136.1 dTMP kinase [Gloeomargarita lithophora]                103        2e-21 
+WP_153471351.1 dTMP kinase [Komagataeibacter medellinensis]           97.8       2e-21 
+WP_101656693.1 dTMP kinase [Amylibacter cionae]                       102        2e-21 
+WP_058284263.1 dTMP kinase [Leisingera aquaemixtae]                   103        2e-21 
+WP_058864283.1 dTMP kinase [Ponticoccus marisrubri]                   102        3e-21 
+WP_144022748.1 dTMP kinase [Asanoa hainanensis]                       92.8       3e-21 
+WP_033182687.1 dTMP kinase [Rhizobium leguminosarum]                  103        3e-21 
+WP_020835946.1 dTMP kinase [Spiroplasma diminutum]                    102        3e-21 
+WP_115366214.1 dTMP kinase [Altererythrobacter sp. HME9302]           103        3e-21 
+WP_141889780.1 dTMP kinase [Leisingera aquaemixtae]                   103        3e-21 
+WP_074068140.1 dTMP kinase [Rhizobium gallicum]                       103        3e-21 
+WP_078689757.1 dTMP kinase [Bartonella schoenbuchensis]               103        3e-21 
+WP_034459308.1 dTMP kinase [Bartonella koehlerae]                     103        3e-21 
+WP_012557713.1 dTMP kinase [Rhizobium leguminosarum]                  103        3e-21 
+WP_081780037.1 dTMP kinase [Lactobacillus apodemi]                    103        3e-21 
+WP_065860376.1 dTMP kinase [Cutibacterium granulosum]                 104        3e-21 
+WP_103890820.1 dTMP kinase [Streptomyces yanglinensis]                102        3e-21 
+WP_134297013.1 dTMP kinase [Spiroplasma gladiatoris]                  102        3e-21 
+WP_142634830.1 dTMP kinase [Ruegeria faecimaris]                      102        3e-21 
+WP_005865229.1 dTMP kinase [Bartonella alsatica]                      102        3e-21 
+WP_099244397.1 dTMP kinase [Tropicibacter phthalicicus]               102        3e-21 
+WP_097589118.1 dTMP kinase [Rhizobium sp. J15]                        103        3e-21 
+WP_085828046.1 dTMP kinase [Roseovarius gaetbuli]                     102        3e-21 
+WP_119927200.1 dTMP kinase [Streptosporangiaceae bacterium YIM 75...  102        3e-21 
+WP_011048439.1 dTMP kinase [Ruegeria pomeroyi]                        102        3e-21 
+WP_028507274.1 dTMP kinase [Ruminococcaceae bacterium AB4001]         102        3e-21 
+WP_074640536.1 dTMP kinase [Celeribacter baekdonensis]                102        3e-21 
+WP_014099587.1 dTMP kinase [Chloracidobacterium thermophilum]         95.9       3e-21 
+WP_084432020.1 dTMP kinase [Actinobaculum sp. oral taxon 183]         102        3e-21 
+WP_079102016.1 dTMP kinase [Streptomyces thermoautotrophicus]         99.4       3e-21 
+WP_138389155.1 dTMP kinase [Rhizobium sp. JKLM12A2]                   103        3e-21 
+WP_055532467.1 dTMP kinase [Streptomyces graminilatus]                99.4       3e-21 
+WP_089882452.1 dTMP kinase [Citreimonas salinaria]                    102        4e-21 
+WP_012634610.1 dTMP kinase [Ruminiclostridium cellulolyticum]         102        4e-21 
+WP_108693007.1 dTMP kinase [Pelagivirga sediminicola]                 102        4e-21 
+WP_062457298.1 dTMP kinase [Gluconobacter oxydans]                    98.2       4e-21 
+WP_116947626.1 dTMP kinase [Jiangella sp. KE2-3]                      95.1       4e-21 
+WP_055508743.1 MULTISPECIES: dTMP kinase [Nonomuraea]                 99.0       4e-21 
+WP_024285807.1 dTMP kinase [Cellulomonas sp. KRMCY2]                  102        4e-21 
+WP_071440981.1 dTMP kinase [Traorella massiliensis]                   96.3       4e-21 
+WP_093276579.1 dTMP kinase [Psychrobacillus sp. OK032]                103        4e-21 
+WP_124342354.1 dTMP kinase [Cellulomonas sp. TKZ-21]                  103        4e-21 
+WP_119658297.1 dTMP kinase [Jiangella sp. NEAU-YY265]                 94.7       4e-21 
+WP_007400375.1 MULTISPECIES: dTMP kinase [Acetobacteraceae]           98.2       4e-21 
+WP_138016414.1 dTMP kinase [Pelagicola litoralis]                     102        4e-21 
+WP_021104029.1 dTMP kinase [Cutibacterium granulosum]                 103        4e-21 
+WP_058334217.1 dTMP kinase [Phaeobacter sp. CECT 5382]                102        4e-21 
+WP_058239397.1 dTMP kinase [Shimia marina]                            102        4e-21 
+WP_121999029.1 dTMP kinase [Rhodobacteraceae bacterium EL53]          102        4e-21 
+WP_029531211.1 dTMP kinase [Rhizobium phaseoli]                       102        4e-21 
+WP_067551623.1 MULTISPECIES: dTMP kinase [Rhodobacteraceae]           102        4e-21 
+WP_113705352.1 dTMP kinase [Nonomuraea sp. NEAU-YG30]                 97.1       5e-21 
+WP_132662485.1 dTMP kinase [Rhizobium azibense]                       102        5e-21 
+WP_007532540.1 dTMP kinase [Rhizobium mesoamericanum]                 102        5e-21 
+WP_110121246.1 MULTISPECIES: dTMP kinase [unclassified Caulobacter]   94.0       5e-21 
+WP_090269128.1 dTMP kinase [Litorimicrobium taeanense]                102        5e-21 
+WP_033069677.1 dTMP kinase [Thalassospira australica]                 100        5e-21 
+WP_152497859.1 dTMP kinase [Roseovarius sp. THAF8]                    102        5e-21 
+WP_102830240.1 dTMP kinase [Bartonella bovis]                         102        5e-21 
+WP_067924744.1 MULTISPECIES: dTMP kinase [unclassified Sulfitobac...  102        5e-21 
+WP_052218299.1 dTMP kinase [Thermincola ferriacetica]                 102        5e-21 
+WP_073195812.1 dTMP kinase [Roseovarius marisflavi]                   102        5e-21 
+WP_123487848.1 dTMP kinase [Granulicella sp. GAS466]                  102        5e-21 
+WP_155855374.1 dTMP kinase [Actinotalea ferrariae]                    100        5e-21 
+WP_007477296.1 dTMP kinase [Bartonella melophagi]                     102        5e-21 
+WP_048849680.1 dTMP kinase [Tanticharoenia sakaeratensis]             102        5e-21 
+WP_156005230.1 dTMP kinase [Spiroplasma tabanidicola]                 102        5e-21 
+WP_113259186.1 dTMP kinase [Roseovarius sp. TE539]                    102        5e-21 
+WP_114077244.1 dTMP kinase [Paracoccus sp. SC2-6]                     102        5e-21 
+WP_080880755.1 dTMP kinase [Nitrospira sp. ND1]                       103        5e-21 
+WP_035062484.1 dTMP kinase [Cellulomonas bogoriensis]                 102        5e-21 
+WP_092588630.1 dTMP kinase [Rhizobium loessense]                      102        5e-21 
+WP_153617478.1 dTMP kinase [Rhodobacteraceae bacterium]               102        5e-21 
+WP_125483578.1 dTMP kinase [Edaphobacter aggregans]                   102        5e-21 
+WP_092695535.1 dTMP kinase [Roseivivax roseus]                        102        5e-21 
+WP_039132493.1 dTMP kinase [Leisingera sp. ANG-Vp]                    102        5e-21 
+WP_008554353.1 dTMP kinase [Leisingera daeponensis]                   102        5e-21 
+WP_129422371.1 dTMP kinase [Rhizobium leguminosarum]                  102        5e-21 
+WP_094047931.1 dTMP kinase [Spiroplasma corruscae]                    102        5e-21 
+WP_066072481.1 dTMP kinase [[Clostridium] paradoxum]                  102        5e-21 
+WP_133706147.1 dTMP kinase [Rhizobium sp. BK333]                      102        6e-21 
+WP_120226079.1 dTMP kinase [Thalassospira sp. DSM 26710]              97.1       6e-21 
+WP_155356521.1 dTMP kinase [Acrocarpospora macrocephala]              97.4       6e-21 
+WP_109987804.1 dTMP kinase [Ochrobactrum sp. POC9]                    102        6e-21 
+WP_155410016.1 dTMP kinase [Rhodospirillaceae bacterium]              93.2       6e-21 
+WP_013962541.1 dTMP kinase [Roseobacter litoralis]                    102        6e-21 
+WP_063089568.1 MULTISPECIES: dTMP kinase [unclassified Thalassosp...  97.4       6e-21 
+WP_148199124.1 dTMP kinase [Rhizobiales bacterium]                    102        6e-21 
+WP_155348424.1 dTMP kinase [Acrocarpospora pleiomorpha]               97.4       6e-21 
+WP_122113747.1 dTMP kinase [Paracoccus sp. 4-2]                       101        6e-21 
+WP_086809885.1 dTMP kinase [Streptomyces reticuliscabiei]             98.2       6e-21 
+WP_053206409.1 dTMP kinase [Jiangella muralis]                        95.1       6e-21 
+WP_120501425.1 dTMP kinase [Roseovarius sp. EL26]                     102        6e-21 
+WP_068519061.1 dTMP kinase [Thalassospira sp. MCCC 1A02491]           97.8       6e-21 
+WP_008526335.1 dTMP kinase [Rhizobium sp. Pop5]                       102        6e-21 
+WP_074063160.1 dTMP kinase [Rhizobium etli]                           102        6e-21 
+WP_019218615.1 dTMP kinase [Bartonella florencae]                     102        6e-21 
+WP_028753220.1 dTMP kinase [Rhizobium leucaenae]                      102        6e-21 
+WP_064648122.1 dTMP kinase [Rhizobium sp. WYCCWR10014]                102        6e-21 
+WP_124965410.1 dTMP kinase [Gemmobacter sp. YIM 102744-1]             101        6e-21 
+WP_093258242.1 dTMP kinase [Thermostaphylospora chromogena]           94.0       6e-21 
+WP_088393948.1 dTMP kinase [Rhizobium esperanzae]                     102        6e-21 
+WP_006006837.1 dTMP kinase [Desulfovibrio piger]                      95.1       6e-21 
+WP_132552960.1 dTMP kinase [Rhizobium azibense]                       102        6e-21 
+WP_016483446.1 dTMP kinase [Chthonomonas calidirosea]                 102        6e-21 
+WP_104006734.1 dTMP kinase [Jhaorihella thermophila]                  102        6e-21 
+WP_107718856.1 dTMP kinase [Celeribacter baekdonensis]                101        7e-21 
+WP_115518692.1 dTMP kinase [Pseudolabrys sp. GY_H]                    92.8       7e-21 
+WP_010701195.1 dTMP kinase [Bartonella bovis]                         102        7e-21 
+WP_013249445.1 dTMP kinase [Nitrospira defluvii]                      102        7e-21 
+WP_086800106.1 dTMP kinase [Streptomyces scabiei]                     98.6       7e-21 
+WP_028749320.1 dTMP kinase [Rhizobium mesoamericanum]                 102        7e-21 
+WP_075047871.1 dTMP kinase [Spiroplasma turonicum]                    101        7e-21 
+WP_142643832.1 dTMP kinase [Psychrobacillus sp. Z8]                   102        7e-21 
+WP_035034243.1 dTMP kinase [Aquabacterium sp. NJ1]                    94.0       7e-21 
+WP_155877690.1 dTMP kinase [Desulfuromonas sp. AOP6]                  102        7e-21 
+WP_015856399.1 dTMP kinase [Bartonella grahamii]                      101        7e-21 
+WP_037894229.1 dTMP kinase [Streptomyces sp. Tu 6176]                 100        7e-21 
+WP_094021731.1 dTMP kinase [Maliponia aquimaris]                      101        7e-21 
+WP_114099824.1 dTMP kinase [Thalassospira profundimaris]              100        7e-21 
+WP_141351122.1 dTMP kinase [Gluconobacter sphaericus]                 101        7e-21 
+WP_069691599.1 dTMP kinase [Bosea vaviloviae]                         102        7e-21 
+WP_130407505.1 dTMP kinase [Thalassococcus sp. S3]                    101        8e-21 
+WP_058315584.1 dTMP kinase [Thalassobius activus]                     101        8e-21 
+WP_148184270.1 dTMP kinase [Rhizobiales bacterium]                    102        8e-21 
+WP_092165654.1 dTMP kinase [Bosea sp. OK403]                          102        8e-21 
+WP_134829320.1 dTMP kinase [Leisingera sp. NJS201]                    101        8e-21 
+WP_129371651.1 dTMP kinase [Leisingera sp. NJS204]                    101        8e-21 
+WP_113118603.1 dTMP kinase [Rhizobiales bacterium]                    102        8e-21 
+WP_037202146.1 MULTISPECIES: dTMP kinase [Rhizobium]                  102        8e-21 
+WP_088649668.1 dTMP kinase [Marinibacterium profundimaris]            102        8e-21 
+WP_085629136.1 MULTISPECIES: dTMP kinase [Marivita]                   101        8e-21 
+WP_062438397.1 dTMP kinase [Thalassobacillus sp. TM-1]                101        8e-21 
+WP_022571980.1 dTMP kinase [Rhodobacteraceae bacterium HIMB11]        101        8e-21 
+WP_135503870.1 dTMP kinase [Roseovarius aestuariivivens]              101        8e-21 
+WP_120635870.1 dTMP kinase [Ruegeria sp. EL01]                        101        8e-21 
+WP_036484001.1 dTMP kinase [Nitratireductor basaltis]                 101        8e-21 
+WP_020675803.1 dTMP kinase [Geopsychrobacter electrodiphilus]         101        8e-21 
+WP_099833474.1 dTMP kinase [Moraxella osloensis]                      86.7       9e-21 
+WP_089213461.1 dTMP kinase [Streptosporangium subroseum]              91.3       9e-21 
+WP_085504843.1 dTMP kinase [Thalassobacillus devorans]                101        9e-21 
+WP_139914933.1 dTMP kinase [Corallococcus exiguus]                    102        9e-21 
+WP_018660096.1 dTMP kinase [Thermobrachium celere]                    101        9e-21 
+WP_097599352.1 dTMP kinase [Rhizobium sp. L9]                         102        9e-21 
+WP_154664505.1 dTMP kinase [Gemmobacter nectariphilus]                101        9e-21 
+WP_015273222.1 dTMP kinase [Liberibacter crescens]                    94.7       9e-21 
+WP_085592200.1 dTMP kinase [Thalassospira sp. MCCC 1A01428]           99.8       9e-21 
+WP_104018347.1 dTMP kinase [Roseovarius nitratireducens]              101        9e-21 
+WP_047995676.1 dTMP kinase [Puniceibacterium sp. IMCC21224]           101        9e-21 
+WP_138315792.1 dTMP kinase [Candidatus Rhodoluna limnophila]          101        9e-21 
+WP_086648424.1 dTMP kinase [Gluconobacter sp. DsW_056]                101        9e-21 
+WP_029874136.1 dTMP kinase [Rhizobium leguminosarum]                  102        9e-21 
+WP_044829107.1 dTMP kinase [Thalassospira sp. HJ]                     99.0       9e-21 
+WP_002557549.1 dTMP kinase [Mycoplasma flocculare]                    101        9e-21 
+WP_097612684.1 dTMP kinase [Rhizobium sp. C5]                         102        9e-21 
+WP_008891041.1 dTMP kinase [Thalassospira profundimaris]              96.7       9e-21 
+WP_025416201.1 dTMP kinase [Rhizobium leguminosarum]                  101        9e-21 
+WP_023788791.1 dTMP kinase [Spiroplasma apis]                         101        9e-21 
+WP_138275760.1 dTMP kinase [Candidatus Rhodoluna limnophila]          101        9e-21 
+WP_011652038.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_039562900.1 dTMP kinase [Pseudomonas flexibilis]                   95.9       1e-20 
+WP_037092756.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_109172859.1 dTMP kinase [Thioclava sp. NG1]                        101        1e-20 
+WP_012895565.1 dTMP kinase [Streptosporangium roseum]                 93.2       1e-20 
+WP_036324531.1 dTMP kinase [Microbispora sp. ATCC PTA-5024]           94.7       1e-20 
+WP_123915174.1 dTMP kinase [Georgenia muralis]                        96.3       1e-20 
+WP_039605773.1 dTMP kinase [Pseudomonas flexibilis]                   95.9       1e-20 
+WP_039163570.1 dTMP kinase [Leisingera sp. ANG-M1]                    101        1e-20 
+WP_130852945.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_047622876.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_089419721.1 MULTISPECIES: dTMP kinase [Sulfitobacter]              101        1e-20 
+WP_086566394.1 dTMP kinase [Streptosporangium minutum]                93.2       1e-20 
+WP_078663333.1 dTMP kinase [Bartonella sp. WD12.1]                    101        1e-20 
+WP_017960510.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_020049995.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_047405395.1 dTMP kinase [Caulobacter sp. OV484]                    101        1e-20 
+WP_125845622.1 dTMP kinase [Rhizobium pisi]                           102        1e-20 
+WP_094085935.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_018494595.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_099307650.1 dTMP kinase [Zhengella mangrovi]                       102        1e-20 
+WP_078574411.1 dTMP kinase [Thioclava marina]                         100        1e-20 
+WP_110815924.1 dTMP kinase [Psychrobacter sp. YP14]                   92.4       1e-20 
+WP_028035125.1 dTMP kinase [Chelativorans sp. J32]                    101        1e-20 
+WP_013119010.1 dTMP kinase [Thermincola potens]                       101        1e-20 
+WP_017988380.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_130825491.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_076366823.1 dTMP kinase [Rhodobacter vinaykumarii]                 101        1e-20 
+WP_032987255.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_064802675.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_152844807.1 dTMP kinase [Thioclava sp. JE_KL1]                     100        1e-20 
+WP_085849571.1 dTMP kinase [Pacificibacter marinus]                   101        1e-20 
+WP_066634229.1 dTMP kinase [Desulfofarcimen intricatum]               94.7       1e-20 
+WP_129431780.1 dTMP kinase [Roseovarius sp. A46]                      101        1e-20 
+WP_114102937.1 dTMP kinase [Thalassospira profundimaris]              100        1e-20 
+WP_088720124.1 MULTISPECIES: dTMP kinase [unclassified Thioclava]     100        1e-20 
+WP_151519307.1 dTMP kinase [Rhizobium sp. PEPV16]                     101        1e-20 
+WP_017964352.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_011959422.1 dTMP kinase [Psychrobacter sp. PRwf-1]                 92.4       1e-20 
+WP_075776908.1 MULTISPECIES: dTMP kinase [Thioclava]                  100        1e-20 
+WP_111506712.1 dTMP kinase [Streptacidiphilus pinicola]               98.2       1e-20 
+WP_047638124.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_072638419.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_154087106.1 dTMP kinase [Rhodobacteraceae bacterium]               100        1e-20 
+WP_019221779.1 dTMP kinase [Bartonella senegalensis]                  101        1e-20 
+WP_054183113.1 dTMP kinase [Rhizobium acidisoli]                      101        1e-20 
+WP_097628860.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_152474235.1 dTMP kinase [Roseovarius sp. THAF9]                    100        1e-20 
+WP_071469101.1 dTMP kinase [Roseinatronobacter thiooxidans]           101        1e-20 
+WP_133487924.1 dTMP kinase [Aliiroseovarius marinus]                  100        1e-20 
+WP_013385182.1 dTMP kinase [Ketogulonicigenium vulgare]               100        1e-20 
+WP_003579332.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_088722519.1 MULTISPECIES: dTMP kinase [unclassified Thioclava]     100        1e-20 
+WP_074380681.1 dTMP kinase [Bartonella doshiae]                       101        1e-20 
+WP_020713488.1 dTMP kinase [Acidobacteriaceae bacterium KBS 89]       101        1e-20 
+WP_058242946.1 dTMP kinase [Thalassobius autumnalis]                  101        1e-20 
+WP_151652499.1 dTMP kinase [Ochrobactrum tritici]                     101        1e-20 
+WP_041678649.1 dTMP kinase [Rhizobium etli]                           101        1e-20 
+WP_022730833.1 dTMP kinase [Thalassospira lucentensis]                100        1e-20 
+WP_011251621.1 dTMP kinase [Gluconobacter oxydans]                    98.2       1e-20 
+WP_056722627.1 dTMP kinase [Caulobacter sp. Root655]                  95.1       1e-20 
+WP_149776817.1 dTMP kinase [Ruegeria intermedia]                      101        1e-20 
+WP_003586402.1 dTMP kinase [Rhizobium leguminosarum]                  101        1e-20 
+WP_031158106.1 dTMP kinase [Streptosporangium roseum]                 92.8       1e-20 
+WP_093892012.1 dTMP kinase [Streptosporangium canum]                  92.8       1e-20 
+WP_092362996.1 dTMP kinase [Cribrihabitans marinus]                   101        1e-20 
+WP_056437593.1 dTMP kinase [Caulobacter sp. Root1455]                 92.0       1e-20 
+WP_050058011.1 dTMP kinase [Silvibacterium bohemicum]                 101        1e-20 
+WP_027236826.1 dTMP kinase [Leisingera caerulea]                      101        1e-20 
+WP_095134985.1 dTMP kinase [Anaeromicrobium sediminis]                100        1e-20 
+WP_052434944.1 dTMP kinase [Streptacidiphilus melanogenes]            97.1       1e-20 
+WP_138934391.1 dTMP kinase [Roseovarius sp. MK6-18]                   100        1e-20 
+WP_039619772.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_095356153.1 dTMP kinase [Moraxella osloensis]                      87.0       1e-20 
+WP_085816134.1 dTMP kinase [Roseovarius halotolerans]                 100        1e-20 
+WP_038688985.1 dTMP kinase [Rhizobium sp. IE4771]                     101        1e-20 
+WP_096770774.1 dTMP kinase [Rhizobium sophoriradicis]                 101        1e-20 
+WP_030905912.1 dTMP kinase [Streptosporangium amethystogenes]         92.4       1e-20 
+WP_009175733.1 dTMP kinase [Silicibacter sp. TrichCH4B]               100        1e-20 
+WP_066605101.1 dTMP kinase [Celeribacter halophilus]                  100        1e-20 
+WP_098411606.1 dTMP kinase [Thioclava sp. ES.031]                     100        1e-20 
+WP_078529865.1 dTMP kinase [Thioclava sp. L04-15]                     100        1e-20 
+WP_055242108.1 dTMP kinase [Arthrobacter sp. Edens01]                 100        1e-20 
+WP_056463881.1 dTMP kinase [Caulobacter sp. Root487D2Y]               92.0       1e-20 
+WP_064842828.1 dTMP kinase [Rhizobium phaseoli]                       101        1e-20 
+WP_113062710.1 dTMP kinase [Oligella urethralis]                      94.4       1e-20 
+WP_028955940.1 dTMP kinase [Sulfitobacter sp. 20_GPM-1509m]           100        1e-20 
+WP_114090777.1 dTMP kinase [Thalassospira profundimaris]              101        1e-20 
+WP_109774676.1 dTMP kinase [Quadrisphaera granulorum]                 105        1e-20 
+WP_064827597.1 dTMP kinase [Rhizobium phaseoli]                       101        1e-20 
+WP_156258363.1 dTMP kinase [Oceanobacillus sp. HTM 045]               101        1e-20 
+WP_058264221.1 dTMP kinase [Thalassobius gelatinovorus]               100        1e-20 
+WP_132858395.1 dTMP kinase [Shimia isoporae]                          100        1e-20 
+WP_048768216.1 dTMP kinase [Oligella urethralis]                      94.4       1e-20 
+WP_011341425.1 dTMP kinase [Pelobacter carbinolicus]                  100        1e-20 
+WP_037114043.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_063475631.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_087008618.1 dTMP kinase [Gulosibacter sp. 10]                      93.6       1e-20 
+WP_011524027.1 dTMP kinase [Candidatus Koribacter versatilis]         100        1e-20 
+WP_127112639.1 dTMP kinase [Thalassobius sp. ZQ172]                   100        1e-20 
+WP_077806009.1 dTMP kinase [Neoasaia chiangmaiensis]                  91.7       1e-20 
+WP_076774871.1 dTMP kinase [Enhydrobacter sp. H5]                     87.0       1e-20 
+WP_110704890.1 dTMP kinase [Streptosporangium sp. 'caverna']          91.3       1e-20 
+WP_028757350.1 MULTISPECIES: dTMP kinase [Rhizobium]                  101        1e-20 
+WP_093039043.1 dTMP kinase [Roseovarius azorensis]                    100        1e-20 
+WP_145207849.1 dTMP kinase [Rhodobacteraceae bacterium PT6CLA]        100        1e-20 
+WP_132102993.1 dTMP kinase [Jiangella sp. 8K307]                      99.4       1e-20 
+WP_097579321.1 dTMP kinase [Rhizobium sp. H4]                         101        1e-20 
+WP_043137738.1 dTMP kinase [Mameliella alba]                          100        1e-20 
+WP_052274680.1 dTMP kinase [Halocynthiibacter arcticus]               101        1e-20 
+WP_037127811.1 dTMP kinase [Rhizobium sp. CF394]                      101        2e-20 
+WP_124088668.1 dTMP kinase [Xinfangfangia sp. CIP 111625]             100        2e-20 
+WP_018026642.1 MULTISPECIES: dTMP kinase [Oligella]                   94.4       2e-20 
+WP_135980263.1 dTMP kinase [Erysipelotrichaceae bacterium]            100        2e-20 
+WP_078541822.1 dTMP kinase [Thioclava sp. DLFJ5-1]                    100        2e-20 
+WP_065280004.1 dTMP kinase [Rhizobium leguminosarum]                  101        2e-20 
+WP_058289989.1 dTMP kinase [Epibacterium multivorans]                 100        2e-20 
+WP_056051715.1 MULTISPECIES: dTMP kinase [unclassified Caulobacter]   100        2e-20 
+WP_078520230.1 dTMP kinase [Thioclava sp. F28-4]                      100        2e-20 
+WP_026758856.1 dTMP kinase [Sediminimonas qiaohouensis]               100        2e-20 
+WP_078601662.1 dTMP kinase [Thioclava sp. DLFJ4-1]                    100        2e-20 
+WP_106473975.1 dTMP kinase [Rhodobacteraceae bacterium SH-1]          100        2e-20 
+WP_101964339.1 dTMP kinase [Moraxella osloensis]                      87.0       2e-20 
+WP_111258051.1 dTMP kinase [Jiangella anatolica]                      93.6       2e-20 
+WP_038127458.1 dTMP kinase [Thioclava indica]                         100        2e-20 
+
+
+>WP_143468932.1 dTMP kinase, partial [Leptospirillum ferriphilum]
+Length=211
+
+ Score = 431 bits (1108),  Expect = 6e-147, Method: Compositional matrix adjust.
+ Identities = 210/211 (99%), Positives = 211/211 (100%), Gaps = 0/211 (0%)
+ Frame = -3
+--
+>WP_036082512.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=420
+
+ Score = 421 bits (1081),  Expect = 1e-139, Method: Compositional matrix adjust.
+ Identities = 218/248 (88%), Positives = 222/248 (90%), Gaps = 8/248 (3%)
+ Frame = -1
+--
+>WP_099590442.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=152
+
+ Score = 308 bits (790),  Expect = 9e-100, Method: Compositional matrix adjust.
+ Identities = 152/152 (100%), Positives = 152/152 (100%), Gaps = 0/152 (0%)
+ Frame = -1
+--
+>WP_036082510.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=164
+
+ Score = 200 bits (508),  Expect(2) = 9e-71, Method: Compositional matrix adjust.
+ Identities = 102/117 (87%), Positives = 106/117 (91%), Gaps = 1/117 (1%)
+ Frame = -2
+--
+>WP_052157864.1 dTMP kinase [Leptospirillum ferriphilum]
+Length=337
+
+ Score = 238 bits (607),  Expect = 7e-70, Method: Compositional matrix adjust.
+ Identities = 122/157 (78%), Positives = 126/157 (80%), Gaps = 6/157 (4%)
+ Frame = -3
+--
+>WP_099590700.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=131
+
+ Score = 185 bits (469),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 91/108 (84%), Positives = 95/108 (88%), Gaps = 3/108 (3%)
+ Frame = -3
+--
+>WP_099590441.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=88
+
+ Score = 180 bits (457),  Expect = 3e-51, Method: Compositional matrix adjust.
+ Identities = 88/88 (100%), Positives = 88/88 (100%), Gaps = 0/88 (0%)
+ Frame = -3
+--
+>WP_099590698.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=88
+
+ Score = 98.2 bits (243),  Expect(2) = 6e-37, Method: Compositional matrix adjust.
+ Identities = 48/49 (98%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+ Frame = -3
+--
+>WP_099590699.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=76
+
+ Score = 116 bits (290),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 61/73 (84%), Positives = 64/73 (88%), Gaps = 1/73 (1%)
+ Frame = -2
+--
+>WP_006001863.1 dTMP kinase [Desulfuromonas acetoxidans]
+Length=216
+
+ Score = 119 bits (299),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 63/138 (46%), Positives = 87/138 (63%), Gaps = 11/138 (8%)
+ Frame = -3
+--
+>WP_004513302.1 dTMP kinase [Geobacter metallireducens]
+Length=217
+
+ Score = 118 bits (295),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 62/135 (46%), Positives = 83/135 (61%), Gaps = 9/135 (7%)
+ Frame = -3
+--
+>WP_066726679.1 dTMP kinase [Desulfuromonas sp. DDH964]
+Length=215
+
+ Score = 116 bits (290),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 61/156 (39%), Positives = 89/156 (57%), Gaps = 9/156 (6%)
+ Frame = -3
+--
+>WP_106807760.1 dTMP kinase [Candidatus Sulfotelmatobacter kueseliae]
+Length=220
+
+ Score = 114 bits (286),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 60/138 (43%), Positives = 82/138 (59%), Gaps = 9/138 (7%)
+ Frame = -3
+--
+>WP_010942869.1 dTMP kinase [Geobacter sulfurreducens]
+ NP_953278.1 thymidylate kinase [Geobacter sulfurreducens PCA]
+Length=213
+
+ Score = 113 bits (282),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 60/136 (44%), Positives = 79/136 (58%), Gaps = 9/136 (7%)
+--
+>WP_134322136.1 dTMP kinase [Cumulibacter sp. G-1]
+Length=215
+
+ Score = 112 bits (281),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 62/141 (44%), Positives = 87/141 (62%), Gaps = 8/141 (6%)
+ Frame = -3
+--
+>WP_035614343.1 dTMP kinase [Haloferula sp. BvORR071]
+Length=202
+
+ Score = 112 bits (280),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 65/157 (41%), Positives = 96/157 (61%), Gaps = 10/157 (6%)
+ Frame = -3
+--
+>WP_053550782.1 dTMP kinase [Desulfuromonas soudanensis]
+Length=214
+
+ Score = 112 bits (279),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 61/140 (44%), Positives = 83/140 (59%), Gaps = 15/140 (11%)
+ Frame = -3
+--
+>WP_149755191.1 dTMP kinase [Roseivivax sediminis]
+Length=211
+
+ Score = 112 bits (279),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 66/159 (42%), Positives = 87/159 (55%), Gaps = 16/159 (10%)
+ Frame = -3
+--
+>WP_051487555.1 dTMP kinase [Roseivivax marinus]
+Length=217
+
+ Score = 112 bits (279),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 65/159 (41%), Positives = 88/159 (55%), Gaps = 16/159 (10%)
+ Frame = -3
+--
+>WP_027714330.1 dTMP kinase [Desulfuromonas sp. TF]
+Length=215
+
+ Score = 111 bits (277),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 63/147 (43%), Positives = 86/147 (59%), Gaps = 14/147 (10%)
+ Frame = -3
+--
+>WP_039643820.1 dTMP kinase [Geobacter soli]
+Length=213
+
+ Score = 111 bits (277),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 59/135 (44%), Positives = 79/135 (59%), Gaps = 9/135 (7%)
+ Frame = -3
+--
+>WP_066357242.1 dTMP kinase [Geobacter anodireducens]
+Length=213
+
+ Score = 111 bits (277),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 59/135 (44%), Positives = 79/135 (59%), Gaps = 9/135 (7%)
+ Frame = -3
+--
+>WP_037261039.1 dTMP kinase [Roseivivax halodurans]
+Length=211
+
+ Score = 110 bits (276),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 63/155 (41%), Positives = 85/155 (55%), Gaps = 10/155 (6%)
+ Frame = -3
+--
+>WP_050662644.1 dTMP kinase [Roseovarius tolerans]
+Length=208
+
+ Score = 110 bits (275),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 56/111 (50%), Positives = 72/111 (65%), Gaps = 8/111 (7%)
+ Frame = -3
+--
+>WP_129742720.1 dTMP kinase [Candidatus Gastranaerophilales bacterium]
+Length=202
+
+ Score = 110 bits (274),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 62/148 (42%), Positives = 82/148 (55%), Gaps = 8/148 (5%)
+ Frame = -3
+--
+>WP_119333035.1 dTMP kinase [Geobacter sulfurreducens]
+Length=213
+
+ Score = 110 bits (275),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 59/136 (43%), Positives = 78/136 (57%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_009539994.1 dTMP kinase [Caenispirillum salinarum]
+Length=234
+
+ Score = 110 bits (275),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 58/153 (38%), Positives = 86/153 (56%), Gaps = 9/153 (6%)
+ Frame = -3
+--
+>WP_111837158.1 MULTISPECIES: dTMP kinase [Actinomyces]
+Length=262
+
+ Score = 99.8 bits (247),  Expect(2) = 2e-23, Method: Compositional matrix adjust.
+ Identities = 55/141 (39%), Positives = 77/141 (55%), Gaps = 20/141 (14%)
+ Frame = -3
+--
+>WP_011179369.1 dTMP kinase [Bartonella quintana]
+Length=214
+
+ Score = 108 bits (271),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 60/139 (43%), Positives = 81/139 (58%), Gaps = 9/139 (6%)
+ Frame = -3
+--
+>WP_014924067.1 dTMP kinase [Bartonella quintana]
+Length=211
+
+ Score = 108 bits (270),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 60/139 (43%), Positives = 81/139 (58%), Gaps = 9/139 (6%)
+ Frame = -3
+--
+>WP_078695297.1 dTMP kinase [Caloramator quimbayensis]
+Length=204
+
+ Score = 108 bits (269),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 56/136 (41%), Positives = 78/136 (57%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_038647950.1 dTMP kinase [Spiroplasma culicicola]
+Length=212
+
+ Score = 108 bits (269),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 55/139 (40%), Positives = 79/139 (57%), Gaps = 8/139 (6%)
+ Frame = -3
+--
+>WP_101790648.1 dTMP kinase [Nonomuraea indica]
+Length=682
+
+ Score = 102 bits (253),  Expect(2) = 4e-23, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 77/123 (63%), Gaps = 10/123 (8%)
+ Frame = -3
+--
+>WP_076649841.1 dTMP kinase [Pontibaca methylaminivorans]
+Length=215
+
+ Score = 108 bits (269),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 53/105 (50%), Positives = 69/105 (66%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_097081751.1 dTMP kinase [Rhodobacter sp. JA431]
+Length=206
+
+ Score = 107 bits (268),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 58/139 (42%), Positives = 80/139 (58%), Gaps = 16/139 (12%)
+ Frame = -3
+--
+>WP_080454949.1 dTMP kinase [Roseovarius sp. A-2]
+Length=208
+
+ Score = 107 bits (267),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 53/107 (50%), Positives = 70/107 (65%), Gaps = 8/107 (7%)
+ Frame = -3
+--
+>WP_023175430.1 dTMP kinase [Gloeobacter kilaueensis]
+Length=207
+
+ Score = 107 bits (267),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 60/140 (43%), Positives = 81/140 (58%), Gaps = 8/140 (6%)
+ Frame = -3
+--
+>WP_022481663.1 dTMP kinase [Candidatus Gastranaerophilales bacterium]
+Length=210
+
+ Score = 107 bits (267),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 59/147 (40%), Positives = 86/147 (59%), Gaps = 8/147 (5%)
+ Frame = -3
+--
+>WP_067138628.1 dTMP kinase [Microtetraspora malaysiensis]
+Length=685
+
+ Score = 100 bits (249),  Expect(2) = 8e-23, Method: Compositional matrix adjust.
+ Identities = 55/129 (43%), Positives = 75/129 (58%), Gaps = 18/129 (14%)
+ Frame = -3
+--
+>WP_105319563.1 dTMP kinase [Rhodobacteraceae bacterium WD3A24]
+Length=212
+
+ Score = 107 bits (267),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 61/152 (40%), Positives = 87/152 (57%), Gaps = 16/152 (11%)
+ Frame = -3
+--
+>WP_093245502.1 dTMP kinase [Ruminococcaceae bacterium YAD3003]
+Length=207
+
+ Score = 107 bits (266),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 60/148 (41%), Positives = 81/148 (55%), Gaps = 9/148 (6%)
+ Frame = -3
+--
+>WP_066945653.1 dTMP kinase [Microtetraspora fusca]
+Length=685
+
+ Score = 100 bits (249),  Expect(2) = 8e-23, Method: Compositional matrix adjust.
+ Identities = 55/129 (43%), Positives = 75/129 (58%), Gaps = 18/129 (14%)
+ Frame = -3
+--
+>WP_097805981.1 dTMP kinase [Pelagimonas varians]
+Length=212
+
+ Score = 107 bits (266),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 62/137 (45%), Positives = 83/137 (61%), Gaps = 16/137 (12%)
+ Frame = -3
+--
+>WP_152176923.1 dTMP kinase [Tetrasphaera sp. F2B08]
+Length=209
+
+ Score = 107 bits (266),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 56/152 (37%), Positives = 87/152 (57%), Gaps = 12/152 (8%)
+ Frame = -3
+--
+>WP_011939980.1 dTMP kinase [Geobacter uraniireducens]
+Length=213
+
+ Score = 107 bits (266),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 55/136 (40%), Positives = 81/136 (60%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_074785224.1 dTMP kinase [Roseovarius tolerans]
+Length=208
+
+ Score = 107 bits (266),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 56/111 (50%), Positives = 71/111 (64%), Gaps = 8/111 (7%)
+ Frame = -3
+--
+>WP_107967614.1 dTMP kinase [Sphingomonas oleivorans]
+Length=204
+
+ Score = 106 bits (265),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 58/153 (38%), Positives = 88/153 (58%), Gaps = 9/153 (6%)
+ Frame = -3
+--
+>WP_126416293.1 dTMP kinase [Trueperella bialowiezensis]
+Length=233
+
+ Score = 96.3 bits (238),  Expect(2) = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/118 (36%), Positives = 76/118 (64%), Gaps = 6/118 (5%)
+ Frame = -3
+--
+>WP_108799339.1 dTMP kinase [Rhodobacteraceae bacterium Alg231-04]
+Length=211
+
+ Score = 107 bits (266),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 51/105 (49%), Positives = 70/105 (67%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_059177212.1 dTMP kinase [Thermodesulfovibrio aggregans]
+Length=208
+
+ Score = 97.1 bits (240),  Expect(2) = 1e-22, Method: Compositional matrix adjust.
+ Identities = 49/122 (40%), Positives = 71/122 (58%), Gaps = 7/122 (6%)
+ Frame = -3
+--
+>WP_090029679.1 dTMP kinase [Lutimaribacter saemankumensis]
+Length=212
+
+ Score = 107 bits (266),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 57/118 (48%), Positives = 76/118 (64%), Gaps = 11/118 (9%)
+ Frame = -3
+--
+>WP_153429204.1 dTMP kinase [Gluconobacter sp. AC10]
+Length=214
+
+ Score = 103 bits (256),  Expect(2) = 1e-22, Method: Compositional matrix adjust.
+ Identities = 52/124 (42%), Positives = 79/124 (64%), Gaps = 7/124 (6%)
+ Frame = -3
+--
+>WP_067186032.1 dTMP kinase [Microtetraspora niveoalba]
+Length=685
+
+ Score = 101 bits (251),  Expect(2) = 1e-22, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 72/125 (58%), Gaps = 16/125 (13%)
+ Frame = -3
+--
+>WP_108885135.1 dTMP kinase [Primorskyibacter insulae]
+Length=208
+
+ Score = 106 bits (265),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 57/124 (46%), Positives = 79/124 (64%), Gaps = 11/124 (9%)
+ Frame = -3
+--
+>WP_069115750.1 dTMP kinase [Spiroplasma helicoides]
+Length=212
+
+ Score = 106 bits (265),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 55/139 (40%), Positives = 81/139 (58%), Gaps = 8/139 (6%)
+ Frame = -3
+--
+>WP_058280315.1 dTMP kinase [Ruegeria denitrificans]
+Length=207
+
+ Score = 106 bits (264),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 54/109 (50%), Positives = 70/109 (64%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_137697240.1 dTMP kinase [Ruminiclostridium sp. MA18]
+Length=206
+
+ Score = 106 bits (264),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 61/153 (40%), Positives = 84/153 (55%), Gaps = 9/153 (6%)
+ Frame = -3
+--
+>WP_043768011.1 dTMP kinase [Roseivivax isoporae]
+Length=212
+
+ Score = 106 bits (265),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 56/111 (50%), Positives = 71/111 (64%), Gaps = 8/111 (7%)
+ Frame = -3
+--
+>WP_050523501.1 dTMP kinase [Pseudorhodobacter wandonensis]
+Length=210
+
+ Score = 106 bits (264),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 61/156 (39%), Positives = 87/156 (56%), Gaps = 9/156 (6%)
+ Frame = -3
+--
+>WP_107496343.1 dTMP kinase [Thalassobius sp. I31.1]
+Length=207
+
+ Score = 106 bits (264),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 68/105 (65%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_066687716.1 dTMP kinase [Caulobacter sp. CCH9-E1]
+Length=208
+
+ Score = 106 bits (264),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 61/152 (40%), Positives = 82/152 (54%), Gaps = 9/152 (6%)
+ Frame = -3
+--
+>WP_077974641.1 dTMP kinase [Chlamydia gallinacea]
+Length=208
+
+ Score = 100 bits (249),  Expect(2) = 2e-22, Method: Compositional matrix adjust.
+ Identities = 51/115 (44%), Positives = 69/115 (60%), Gaps = 7/115 (6%)
+ Frame = -3
+--
+>WP_113155189.1 dTMP kinase [Nitratireductor sp. OM-1]
+Length=221
+
+ Score = 106 bits (265),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 61/146 (42%), Positives = 80/146 (55%), Gaps = 14/146 (10%)
+ Frame = -3
+--
+>WP_149789078.1 dTMP kinase [Lutimaribacter pacificus]
+Length=212
+
+ Score = 106 bits (264),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 57/118 (48%), Positives = 75/118 (64%), Gaps = 11/118 (9%)
+ Frame = -3
+--
+>WP_076485667.1 dTMP kinase [Rhodobacter aestuarii]
+Length=206
+
+ Score = 105 bits (263),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 58/139 (42%), Positives = 79/139 (57%), Gaps = 16/139 (12%)
+ Frame = -3
+--
+>WP_113788430.1 dTMP kinase [Ruegeria sp. A3M17]
+Length=208
+
+ Score = 105 bits (263),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_144103635.1 dTMP kinase [Candidatus Melainabacteria bacterium]
+Length=214
+
+ Score = 104 bits (259),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 75/109 (69%), Gaps = 9/109 (8%)
+ Frame = -3
+--
+>WP_008226349.1 dTMP kinase [Roseobacter sp. GAI101]
+Length=210
+
+ Score = 105 bits (263),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 57/140 (41%), Positives = 81/140 (58%), Gaps = 10/140 (7%)
+ Frame = -3
+--
+>WP_009144416.1 dTMP kinase [Phascolarctobacterium succinatutens]
+Length=211
+
+ Score = 105 bits (263),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 51/116 (44%), Positives = 72/116 (62%), Gaps = 7/116 (6%)
+ Frame = -3
+--
+>WP_061290948.1 dTMP kinase [Herbidospora cretacea]
+Length=676
+
+ Score = 105 bits (262),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 54/123 (44%), Positives = 78/123 (63%), Gaps = 10/123 (8%)
+ Frame = -3
+--
+>WP_103910333.1 dTMP kinase [Thalassococcus halodurans]
+Length=208
+
+ Score = 105 bits (262),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 54/103 (52%), Positives = 69/103 (67%), Gaps = 8/103 (8%)
+ Frame = -3
+--
+>WP_152461848.1 dTMP kinase [Roseivivax sp. THAF30]
+Length=213
+
+ Score = 105 bits (263),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 51/108 (47%), Positives = 73/108 (68%), Gaps = 8/108 (7%)
+ Frame = -3
+--
+>WP_068928137.1 dTMP kinase [Planobispora rosea]
+Length=688
+
+ Score = 97.4 bits (241),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 50/118 (42%), Positives = 70/118 (59%), Gaps = 16/118 (14%)
+ Frame = -3
+--
+>WP_093173577.1 dTMP kinase [Sinosporangium album]
+Length=688
+
+ Score = 96.7 bits (239),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 51/121 (42%), Positives = 70/121 (58%), Gaps = 16/121 (13%)
+ Frame = -3
+--
+>WP_055482466.1 dTMP kinase [Microbispora sp. GMKU363]
+Length=695
+
+ Score = 99.0 bits (245),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 54/123 (44%), Positives = 73/123 (59%), Gaps = 10/123 (8%)
+ Frame = -3
+--
+>WP_146888078.1 dTMP kinase [Acetobacter oeni]
+Length=226
+
+ Score = 102 bits (254),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 54/105 (51%), Positives = 66/105 (63%), Gaps = 7/105 (7%)
+ Frame = -3
+--
+>WP_070190051.1 dTMP kinase [Humibacillus sp. DSM 29435]
+Length=223
+
+ Score = 105 bits (263),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 58/134 (43%), Positives = 81/134 (60%), Gaps = 7/134 (5%)
+ Frame = -3
+--
+>WP_062498220.1 dTMP kinase [Gluconobacter oxydans]
+Length=214
+
+ Score = 101 bits (252),  Expect(2) = 3e-22, Method: Compositional matrix adjust.
+ Identities = 51/124 (41%), Positives = 78/124 (63%), Gaps = 7/124 (6%)
+ Frame = -3
+--
+>WP_058246364.1 dTMP kinase [Tropicibacter naphthalenivorans]
+Length=204
+
+ Score = 105 bits (262),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 52/104 (50%), Positives = 69/104 (66%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_117868431.1 dTMP kinase [Ruegeria sp. AD91A]
+Length=208
+
+ Score = 105 bits (262),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 71/109 (65%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_051456377.1 dTMP kinase [Caldicoprobacter oshimai]
+Length=210
+
+ Score = 105 bits (262),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 57/137 (42%), Positives = 82/137 (60%), Gaps = 9/137 (7%)
+ Frame = -3
+--
+>WP_148035682.1 dTMP kinase [Nonomuraea sp. C10]
+Length=680
+
+ Score = 101 bits (251),  Expect(2) = 4e-22, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 76/123 (62%), Gaps = 10/123 (8%)
+ Frame = -3
+--
+>WP_013079243.1 dTMP kinase [Caulobacter segnis]
+Length=208
+
+ Score = 105 bits (262),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 57/136 (42%), Positives = 79/136 (58%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_041112514.1 dTMP kinase [Gluconobacter oxydans]
+Length=214
+
+ Score = 101 bits (252),  Expect(2) = 4e-22, Method: Compositional matrix adjust.
+ Identities = 51/124 (41%), Positives = 78/124 (63%), Gaps = 7/124 (6%)
+ Frame = -3
+--
+>WP_105236301.1 dTMP kinase [Rhodobacteraceae bacterium]
+Length=206
+
+ Score = 105 bits (261),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 52/104 (50%), Positives = 69/104 (66%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_087593897.1 dTMP kinase [Rhodobacteraceae bacterium WFHF2C18]
+Length=208
+
+ Score = 105 bits (261),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 54/110 (49%), Positives = 69/110 (63%), Gaps = 8/110 (7%)
+ Frame = -3
+--
+>WP_152458555.1 dTMP kinase [Ruegeria sp. THAF33]
+Length=208
+
+ Score = 105 bits (261),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 59/140 (42%), Positives = 81/140 (58%), Gaps = 12/140 (9%)
+ Frame = -3
+--
+>WP_078705371.1 dTMP kinase [Bartonella sp. WD16.2]
+Length=214
+
+ Score = 105 bits (262),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 59/141 (42%), Positives = 78/141 (55%), Gaps = 17/141 (12%)
+ Frame = -3
+--
+>WP_125158391.1 dTMP kinase [Caulobacter sp. 602-1]
+Length=208
+
+ Score = 105 bits (261),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 61/152 (40%), Positives = 81/152 (53%), Gaps = 9/152 (6%)
+ Frame = -3
+--
+>WP_017326939.1 dTMP kinase [Synechococcus sp. PCC 7336]
+Length=225
+
+ Score = 105 bits (262),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 56/136 (41%), Positives = 82/136 (60%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_093031799.1 dTMP kinase [Ruegeria marina]
+Length=211
+
+ Score = 105 bits (261),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 71/109 (65%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_154596049.1 dTMP kinase [Aeromicrobium sp. zg-629]
+Length=220
+
+ Score = 105 bits (262),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 61/163 (37%), Positives = 87/163 (53%), Gaps = 9/163 (6%)
+ Frame = -3
+--
+>WP_076626524.1 dTMP kinase [Tateyamaria omphalii]
+Length=211
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 55/109 (50%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_068304847.1 dTMP kinase [Pararhodobacter sp. CCB-MM2]
+Length=210
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 51/105 (49%), Positives = 70/105 (67%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_062449889.1 dTMP kinase [Gluconobacter oxydans]
+Length=214
+
+ Score = 100 bits (250),  Expect(2) = 5e-22, Method: Compositional matrix adjust.
+ Identities = 51/124 (41%), Positives = 78/124 (63%), Gaps = 7/124 (6%)
+ Frame = -3
+--
+>WP_099535617.1 dTMP kinase [Caulobacter sp. X]
+Length=208
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 59/152 (39%), Positives = 82/152 (54%), Gaps = 9/152 (6%)
+ Frame = -3
+--
+>WP_038525184.1 dTMP kinase [Bartonella henselae]
+Length=215
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 57/140 (41%), Positives = 81/140 (58%), Gaps = 10/140 (7%)
+ Frame = -3
+--
+>WP_068335470.1 dTMP kinase [Ruegeria profundi]
+Length=207
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 54/109 (50%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_101780317.1 dTMP kinase [Spiroplasma monobiae]
+Length=209
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 54/134 (40%), Positives = 78/134 (58%), Gaps = 8/134 (6%)
+ Frame = -3
+--
+>WP_055192079.1 dTMP kinase [Aliiroseovarius crassostreae]
+Length=216
+
+ Score = 105 bits (261),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 54/104 (52%), Positives = 69/104 (66%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_019878650.1 dTMP kinase [Succinispira mobilis]
+Length=205
+
+ Score = 104 bits (260),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 54/131 (41%), Positives = 78/131 (60%), Gaps = 8/131 (6%)
+ Frame = -3
+--
+>WP_109643923.1 MULTISPECIES: dTMP kinase [unclassified Ruminococcaceae (miscellaneous)]
+Length=206
+
+ Score = 104 bits (260),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 60/148 (41%), Positives = 79/148 (53%), Gaps = 9/148 (6%)
+ Frame = -3
+--
+>WP_040095279.1 dTMP kinase [Geoalkalibacter ferrihydriticus]
+Length=216
+
+ Score = 100 bits (250),  Expect(2) = 5e-22, Method: Compositional matrix adjust.
+ Identities = 53/118 (45%), Positives = 74/118 (63%), Gaps = 8/118 (7%)
+ Frame = -3
+--
+>WP_092282349.1 dTMP kinase [Caldicoprobacter faecalis]
+Length=210
+
+ Score = 104 bits (260),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 57/136 (42%), Positives = 82/136 (60%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_083454843.1 dTMP kinase [Tetrasphaera japonica]
+Length=235
+
+ Score = 105 bits (262),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 51/125 (41%), Positives = 78/125 (62%), Gaps = 6/125 (5%)
+ Frame = -3
+--
+>WP_035162561.1 dTMP kinase [Caloranaerobacter azorensis]
+Length=214
+
+ Score = 105 bits (261),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 55/149 (37%), Positives = 83/149 (56%), Gaps = 9/149 (6%)
+ Frame = -3
+--
+>WP_116564506.1 dTMP kinase [Caulobacter radicis]
+Length=209
+
+ Score = 96.7 bits (239),  Expect(2) = 6e-22, Method: Compositional matrix adjust.
+ Identities = 54/126 (43%), Positives = 73/126 (58%), Gaps = 8/126 (6%)
+ Frame = -3
+--
+>WP_085636082.1 dTMP kinase [Marivita geojedonensis]
+Length=208
+
+ Score = 104 bits (260),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 58/124 (47%), Positives = 76/124 (61%), Gaps = 11/124 (9%)
+ Frame = -3
+--
+>WP_137247962.1 dTMP kinase [Herbidospora sp. NEAU-GS14]
+Length=676
+
+ Score = 104 bits (259),  Expect(2) = 6e-22, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 75/125 (60%), Gaps = 16/125 (13%)
+ Frame = -3
+--
+>WP_111170398.1 dTMP kinase [Desertiactinospora gelatinilytica]
+Length=698
+
+ Score = 98.6 bits (244),  Expect(2) = 6e-22, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 71/117 (61%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_011190050.1 dTMP kinase [Desulfotalea psychrophila]
+Length=202
+
+ Score = 104 bits (259),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 62/134 (46%), Positives = 81/134 (60%), Gaps = 11/134 (8%)
+ Frame = -3
+--
+>WP_085791248.1 dTMP kinase [Roseivivax jejudonensis]
+Length=212
+
+ Score = 104 bits (260),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 53/107 (50%), Positives = 69/107 (64%), Gaps = 8/107 (7%)
+ Frame = -3
+--
+>WP_062430381.1 dTMP kinase [Herbidospora daliensis]
+Length=676
+
+ Score = 104 bits (259),  Expect(2) = 7e-22, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 75/125 (60%), Gaps = 16/125 (13%)
+ Frame = -3
+--
+>WP_136805266.1 dTMP kinase [Desulfopila sp. IMCC35005]
+Length=211
+
+ Score = 104 bits (260),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 61/133 (46%), Positives = 77/133 (58%), Gaps = 17/133 (13%)
+ Frame = -3
+--
+>WP_011180740.1 dTMP kinase [Bartonella henselae]
+Length=215
+
+ Score = 104 bits (260),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 57/143 (40%), Positives = 82/143 (57%), Gaps = 10/143 (7%)
+ Frame = -3
+--
+>WP_064822049.1 dTMP kinase [Rhizobium phaseoli]
+Length=226
+
+ Score = 105 bits (261),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 60/151 (40%), Positives = 85/151 (56%), Gaps = 9/151 (6%)
+ Frame = -3
+--
+>WP_093914673.1 dTMP kinase [Sulfitobacter marinus]
+Length=208
+
+ Score = 104 bits (259),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_129695607.1 dTMP kinase [Candidatus Gastranaerophilales bacterium]
+Length=199
+
+ Score = 104 bits (259),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 58/146 (40%), Positives = 83/146 (57%), Gaps = 8/146 (5%)
+ Frame = -3
+--
+>WP_156074525.1 dTMP kinase [Rhodobacteraceae bacterium]
+Length=208
+
+ Score = 104 bits (259),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 71/109 (65%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_142261276.1 dTMP kinase [Thermopolyspora flexuosa]
+Length=687
+
+ Score = 97.8 bits (242),  Expect(2) = 7e-22, Method: Compositional matrix adjust.
+ Identities = 52/125 (42%), Positives = 73/125 (58%), Gaps = 8/125 (6%)
+ Frame = -3
+--
+>WP_043056695.1 dTMP kinase [Enteractinococcus helveticum]
+Length=215
+
+ Score = 104 bits (260),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 54/136 (40%), Positives = 82/136 (60%), Gaps = 10/136 (7%)
+ Frame = -3
+--
+>WP_062356554.1 dTMP kinase [Herbidospora yilanensis]
+Length=676
+
+ Score = 104 bits (259),  Expect(2) = 7e-22, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 75/125 (60%), Gaps = 16/125 (13%)
+ Frame = -3
+--
+>WP_062336547.1 dTMP kinase [Herbidospora sakaeratensis]
+Length=676
+
+ Score = 104 bits (259),  Expect(2) = 7e-22, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 75/125 (60%), Gaps = 16/125 (13%)
+ Frame = -3
+--
+>WP_109857660.1 dTMP kinase [Ensifer adhaerens]
+Length=243
+
+ Score = 105 bits (262),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 56/141 (40%), Positives = 80/141 (57%), Gaps = 8/141 (6%)
+ Frame = -3
+--
+>WP_105044571.1 dTMP kinase [Rubritalea profundi]
+Length=202
+
+ Score = 104 bits (259),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 64/156 (41%), Positives = 84/156 (54%), Gaps = 10/156 (6%)
+ Frame = -3
+--
+>WP_099911474.1 dTMP kinase [Puniceibacterium antarcticum]
+Length=213
+
+ Score = 104 bits (260),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 55/109 (50%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_116489647.1 dTMP kinase [Caulobacter radicis]
+Length=209
+
+ Score = 96.7 bits (239),  Expect(2) = 8e-22, Method: Compositional matrix adjust.
+ Identities = 54/126 (43%), Positives = 73/126 (58%), Gaps = 8/126 (6%)
+ Frame = -3
+--
+>WP_108887947.1 dTMP kinase [Rhodobacteraceae bacterium Alg231-30]
+Length=207
+
+ Score = 104 bits (259),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 52/104 (50%), Positives = 69/104 (66%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_050528816.1 dTMP kinase [Pseudaestuariivita atlantica]
+Length=210
+
+ Score = 104 bits (259),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 55/109 (50%), Positives = 71/109 (65%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_142565333.1 dTMP kinase [Microbispora sp. KK1-11]
+Length=687
+
+ Score = 97.8 bits (242),  Expect(2) = 8e-22, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_021828347.1 dTMP kinase [Chlamydia gallinacea]
+Length=208
+
+ Score = 98.2 bits (243),  Expect(2) = 8e-22, Method: Compositional matrix adjust.
+ Identities = 50/115 (43%), Positives = 69/115 (60%), Gaps = 7/115 (6%)
+ Frame = -3
+--
+>WP_054003217.1 dTMP kinase [Shimia sp. SK013]
+Length=212
+
+ Score = 104 bits (259),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 70/105 (67%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_112534212.1 dTMP kinase [Rhizobiales bacterium]
+Length=227
+
+ Score = 104 bits (260),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 63/157 (40%), Positives = 86/157 (55%), Gaps = 10/157 (6%)
+ Frame = -3
+--
+>WP_011569564.1 dTMP kinase [Roseobacter denitrificans]
+Length=212
+
+ Score = 104 bits (259),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 52/108 (48%), Positives = 71/108 (66%), Gaps = 8/108 (7%)
+ Frame = -3
+--
+>WP_139575677.1 dTMP kinase [Microbispora sp. CR1-09]
+Length=687
+
+ Score = 97.8 bits (242),  Expect(2) = 8e-22, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_009571416.1 MULTISPECIES: dTMP kinase [Rhodobacteraceae]
+Length=211
+
+ Score = 104 bits (259),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 55/139 (40%), Positives = 81/139 (58%), Gaps = 16/139 (12%)
+ Frame = -3
+--
+>WP_050518698.1 dTMP kinase [Pseudorhodobacter antarcticus]
+Length=216
+
+ Score = 104 bits (259),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 56/144 (39%), Positives = 84/144 (58%), Gaps = 9/144 (6%)
+ Frame = -3
+--
+>WP_073037409.1 dTMP kinase [Roseovarius pacificus]
+Length=208
+
+ Score = 104 bits (259),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 70/109 (64%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_142624879.1 dTMP kinase [Microbispora hainanensis]
+Length=687
+
+ Score = 97.4 bits (241),  Expect(2) = 9e-22, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_093013407.1 dTMP kinase [Roseivivax halotolerans]
+Length=213
+
+ Score = 104 bits (259),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 51/108 (47%), Positives = 72/108 (67%), Gaps = 8/108 (7%)
+ Frame = -3
+--
+>WP_013769651.1 dTMP kinase [Cellulomonas fimi]
+Length=230
+
+ Score = 104 bits (260),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 52/115 (45%), Positives = 74/115 (64%), Gaps = 6/115 (5%)
+ Frame = -3
+--
+>WP_070064942.1 dTMP kinase [Wolbachia pipientis]
+Length=194
+
+ Score = 103 bits (257),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 55/115 (48%), Positives = 74/115 (64%), Gaps = 7/115 (6%)
+ Frame = -3
+--
+>WP_099442937.1 dTMP kinase [Caulobacter sp. BP25]
+Length=208
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 58/136 (43%), Positives = 77/136 (57%), Gaps = 9/136 (7%)
+ Frame = -3
+--
+>WP_037178198.1 dTMP kinase [Rhizobium sp. YR519]
+Length=227
+
+ Score = 104 bits (260),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 63/157 (40%), Positives = 86/157 (55%), Gaps = 10/157 (6%)
+ Frame = -3
+--
+>WP_155527257.1 dTMP kinase [Rhodobacteraceae bacterium]
+Length=208
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_102268606.1 dTMP kinase [Massilicoli timonensis]
+Length=214
+
+ Score = 104 bits (259),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 64/152 (42%), Positives = 89/152 (59%), Gaps = 15/152 (10%)
+ Frame = -3
+--
+>WP_030452780.1 dTMP kinase [Herbidospora cretacea]
+Length=676
+
+ Score = 103 bits (257),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 75/125 (60%), Gaps = 16/125 (13%)
+ Frame = -3
+--
+>WP_085805704.1 dTMP kinase [Roseovarius albus]
+Length=208
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 54/108 (50%), Positives = 70/108 (65%), Gaps = 8/108 (7%)
+ Frame = -3
+--
+>WP_064789221.1 MULTISPECIES: dTMP kinase [Thalassospira]
+Length=218
+
+ Score = 99.4 bits (246),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 51/122 (42%), Positives = 74/122 (61%), Gaps = 8/122 (7%)
+ Frame = -3
+--
+>WP_124236565.1 dTMP kinase [Aeromicrobium camelliae]
+Length=214
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 50/118 (42%), Positives = 74/118 (63%), Gaps = 8/118 (7%)
+ Frame = -3
+--
+>WP_030507895.1 dTMP kinase [Microbispora rosea]
+Length=687
+
+ Score = 97.1 bits (240),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_076439194.1 dTMP kinase [Microbispora rosea]
+Length=687
+
+ Score = 97.1 bits (240),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_066366667.1 dTMP kinase [Herbidospora mongoliensis]
+Length=676
+
+ Score = 104 bits (259),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 53/121 (44%), Positives = 74/121 (61%), Gaps = 8/121 (7%)
+ Frame = -3
+--
+>WP_109101852.1 dTMP kinase [Caulobacter sp. 774]
+Length=209
+
+ Score = 96.3 bits (238),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 54/126 (43%), Positives = 73/126 (58%), Gaps = 8/126 (6%)
+ Frame = -3
+--
+>WP_073195793.1 dTMP kinase [Caloranaerobacter azorensis]
+Length=214
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 56/149 (38%), Positives = 83/149 (56%), Gaps = 9/149 (6%)
+ Frame = -3
+--
+>WP_101717415.1 dTMP kinase [Caulobacter zeae]
+Length=209
+
+ Score = 97.1 bits (240),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 54/126 (43%), Positives = 73/126 (58%), Gaps = 8/126 (6%)
+ Frame = -3
+--
+>WP_121632175.1 dTMP kinase [Tropicibacter sp. LMIT003]
+Length=204
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 52/104 (50%), Positives = 70/104 (67%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_068900479.1 dTMP kinase [Planomonospora sphaerica]
+Length=686
+
+ Score = 95.5 bits (236),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 59/179 (33%), Positives = 91/179 (51%), Gaps = 29/179 (16%)
+ Frame = -3
+--
+>WP_146826358.1 dTMP kinase [Aeromicrobium flavum]
+Length=220
+
+ Score = 104 bits (259),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 61/163 (37%), Positives = 87/163 (53%), Gaps = 9/163 (6%)
+ Frame = -3
+--
+>WP_099577991.1 dTMP kinase [Caulobacter sp. FWC2]
+Length=208
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 59/152 (39%), Positives = 83/152 (55%), Gaps = 9/152 (6%)
+ Frame = -3
+--
+>WP_086450085.1 dTMP kinase [Marivivens niveibacter]
+Length=205
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 52/104 (50%), Positives = 67/104 (64%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_155341423.1 dTMP kinase [Acrocarpospora corrugata]
+Length=684
+
+ Score = 99.8 bits (247),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 54/127 (43%), Positives = 77/127 (61%), Gaps = 18/127 (14%)
+ Frame = -3
+--
+>WP_050527707.1 dTMP kinase [Pseudorhodobacter aquimaris]
+Length=210
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 56/157 (36%), Positives = 87/157 (55%), Gaps = 9/157 (6%)
+ Frame = -3
+--
+>WP_079320780.1 dTMP kinase [Microbispora sp. GKU 823]
+Length=687
+
+ Score = 97.1 bits (240),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_137194478.1 dTMP kinase [Pseudorhodobacter sp. S12M18]
+Length=210
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 57/157 (36%), Positives = 87/157 (55%), Gaps = 9/157 (6%)
+ Frame = -3
+--
+>WP_022715614.1 dTMP kinase [Rhizobium mongolense]
+Length=227
+
+ Score = 104 bits (259),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 60/153 (39%), Positives = 85/153 (56%), Gaps = 9/153 (6%)
+ Frame = -3
+--
+>WP_037245274.1 dTMP kinase [Roseovarius sp. MCTG156(2b)]
+Length=208
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_099590697.1 hypothetical protein [Leptospirillum ferriphilum]
+Length=75
+
+ Score = 74.7 bits (182),  Expect(2) = 1e-21, Method: Compositional matrix adjust.
+ Identities = 35/39 (90%), Positives = 37/39 (95%), Gaps = 0/39 (0%)
+ Frame = -1
+--
+>WP_127523724.1 dTMP kinase [Mesorhizobium sp. Z1-4]
+Length=224
+
+ Score = 104 bits (259),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 62/146 (42%), Positives = 78/146 (53%), Gaps = 14/146 (10%)
+ Frame = -3
+--
+>WP_007814093.1 dTMP kinase [Roseobacter sp. AzwK-3b]
+Length=208
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 68/109 (62%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_100916068.1 dTMP kinase [Spiroplasma floricola]
+Length=209
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 51/134 (38%), Positives = 79/134 (59%), Gaps = 8/134 (6%)
+ Frame = -3
+--
+>WP_020833845.1 dTMP kinase [Spiroplasma taiwanense]
+Length=209
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 53/139 (38%), Positives = 79/139 (57%), Gaps = 8/139 (6%)
+ Frame = -3
+--
+>WP_010851303.1 dTMP kinase [Tetrasphaera elongata]
+Length=207
+
+ Score = 103 bits (257),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 58/156 (37%), Positives = 90/156 (58%), Gaps = 12/156 (8%)
+ Frame = -3
+--
+>WP_010703748.1 dTMP kinase [Bartonella schoenbuchensis]
+Length=214
+
+ Score = 103 bits (258),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 58/141 (41%), Positives = 78/141 (55%), Gaps = 17/141 (12%)
+ Frame = -3
+--
+>WP_106262588.1 dTMP kinase [Donghicola tyrosinivorans]
+Length=213
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 68/105 (65%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_149779038.1 dTMP kinase [Roseovarius litoreus]
+Length=208
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 68/109 (62%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_109310413.1 dTMP kinase [Ruegeria sp. AU67]
+Length=208
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_138463090.1 MULTISPECIES: dTMP kinase [Microbispora]
+Length=687
+
+ Score = 95.9 bits (237),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/121 (41%), Positives = 70/121 (58%), Gaps = 16/121 (13%)
+ Frame = -3
+--
+>WP_142573653.1 dTMP kinase [Microbispora bryophytorum]
+Length=687
+
+ Score = 96.7 bits (239),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/130 (41%), Positives = 75/130 (58%), Gaps = 14/130 (11%)
+ Frame = -3
+--
+>WP_089407992.1 dTMP kinase [Granulicella rosea]
+Length=223
+
+ Score = 103 bits (258),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/121 (44%), Positives = 74/121 (61%), Gaps = 12/121 (10%)
+ Frame = -3
+--
+>WP_072335717.1 dTMP kinase [Desulfovibrio piger]
+Length=217
+
+ Score = 98.6 bits (244),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 51/109 (47%), Positives = 67/109 (61%), Gaps = 16/109 (15%)
+ Frame = -3
+--
+>WP_149280032.1 dTMP kinase [Acetobacter sp. KACC 21233]
+Length=212
+
+ Score = 103 bits (257),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/116 (46%), Positives = 75/116 (65%), Gaps = 7/116 (6%)
+ Frame = -3
+--
+>WP_039524314.1 dTMP kinase [Ruegeria sp. ANG-S4]
+Length=207
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 54/109 (50%), Positives = 67/109 (61%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_114113269.1 dTMP kinase [Thalassospira profundimaris]
+Length=218
+
+ Score = 99.8 bits (247),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/119 (44%), Positives = 74/119 (62%), Gaps = 8/119 (7%)
+ Frame = -3
+--
+>WP_111697831.1 dTMP kinase [Microbispora triticiradicis]
+Length=687
+
+ Score = 95.9 bits (237),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/121 (41%), Positives = 70/121 (58%), Gaps = 16/121 (13%)
+ Frame = -3
+--
+>WP_142651889.1 MULTISPECIES: dTMP kinase [unclassified Microbispora]
+Length=687
+
+ Score = 96.7 bits (239),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 70/117 (60%), Gaps = 8/117 (7%)
+ Frame = -3
+--
+>WP_027260710.1 dTMP kinase [Sedimentitalea nanhaiensis]
+Length=212
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 70/105 (67%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_058274424.1 dTMP kinase [Ruegeria atlantica]
+Length=208
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_088370386.1 dTMP kinase [endosymbiont 'TC1' of Trimyema compressum]
+Length=202
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 54/132 (41%), Positives = 77/132 (58%), Gaps = 8/132 (6%)
+ Frame = -3
+--
+>WP_050602736.1 dTMP kinase [Ruegeria sp. 6PALISEP08]
+Length=208
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_058349797.1 dTMP kinase [Caulobacter vibrioides]
+Length=209
+
+ Score = 95.1 bits (235),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/122 (43%), Positives = 71/122 (58%), Gaps = 8/122 (7%)
+ Frame = -3
+--
+>WP_049556538.1 dTMP kinase [Nonomuraea sp. SBT364]
+Length=680
+
+ Score = 99.0 bits (245),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 75/123 (61%), Gaps = 10/123 (8%)
+ Frame = -3
+--
+>WP_039683174.1 dTMP kinase [Tateyamaria sp. ANG-S1]
+Length=211
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 54/109 (50%), Positives = 68/109 (62%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_058279655.1 dTMP kinase [Ruegeria atlantica]
+Length=208
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_087861238.1 dTMP kinase [Brevefilum fermentans]
+Length=206
+
+ Score = 98.6 bits (244),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/116 (45%), Positives = 73/116 (63%), Gaps = 8/116 (7%)
+ Frame = -3
+--
+>WP_108861556.1 dTMP kinase [Ruegeria sp. Alg231-54]
+Length=208
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_025044202.1 dTMP kinase [Sulfitobacter geojensis]
+Length=209
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 67/109 (61%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_062954879.1 MULTISPECIES: dTMP kinase [Thalassospira]
+Length=218
+
+ Score = 99.0 bits (245),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 51/119 (43%), Positives = 72/119 (61%), Gaps = 8/119 (7%)
+ Frame = -3
+--
+>WP_054463686.1 dTMP kinase [Phaeobacter sp. 11ANDIMAR09]
+Length=222
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/106 (47%), Positives = 71/106 (67%), Gaps = 8/106 (8%)
+ Frame = -3
+--
+>WP_150939646.1 dTMP kinase [Microbispora sp. Gxj-6]
+Length=687
+
+ Score = 95.9 bits (237),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/121 (41%), Positives = 70/121 (58%), Gaps = 16/121 (13%)
+ Frame = -3
+--
+>WP_037307790.1 dTMP kinase [Ruegeria halocynthiae]
+Length=208
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 70/109 (64%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_101246217.1 dTMP kinase [Thalassospira lohafexi]
+Length=218
+
+ Score = 99.4 bits (246),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/119 (44%), Positives = 74/119 (62%), Gaps = 8/119 (7%)
+ Frame = -3
+--
+>WP_113824968.1 dTMP kinase [Phaeobacter gallaeciensis]
+Length=215
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 69/105 (66%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_073375410.1 dTMP kinase [Desulfofustis glycolicus]
+Length=204
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 56/131 (43%), Positives = 77/131 (59%), Gaps = 11/131 (8%)
+ Frame = -3
+--
+>WP_110794890.1 dTMP kinase [Rhodobacteraceae bacterium FSX-11]
+Length=216
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 69/105 (66%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_071972258.1 dTMP kinase [Sulfitobacter sp. AM1-D1]
+Length=212
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 51/109 (47%), Positives = 70/109 (64%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_119750990.1 dTMP kinase [Paracoccus sp. 1011MAR3C25]
+Length=198
+
+ Score = 102 bits (255),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 57/136 (42%), Positives = 77/136 (57%), Gaps = 16/136 (12%)
+ Frame = -3
+--
+>WP_064223110.1 dTMP kinase [Sulfitobacter geojensis]
+Length=209
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/109 (49%), Positives = 67/109 (61%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_018979594.1 dTMP kinase [Saccharibacter floricola]
+Length=218
+
+ Score = 89.7 bits (221),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 49/110 (45%), Positives = 69/110 (63%), Gaps = 7/110 (6%)
+ Frame = -3
+--
+>WP_101715870.1 dTMP kinase [Caulobacter flavus]
+Length=209
+
+ Score = 95.1 bits (235),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/122 (43%), Positives = 71/122 (58%), Gaps = 8/122 (7%)
+ Frame = -3
+--
+>WP_103539683.1 dTMP kinase, partial [Streptomyces sp. SM9]
+Length=818
+
+ Score = 100 bits (249),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/147 (35%), Positives = 80/147 (54%), Gaps = 16/147 (11%)
+ Frame = -3
+--
+>WP_154068758.1 dTMP kinase [Rhodobacteraceae bacterium]
+Length=208
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 54/109 (50%), Positives = 70/109 (64%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_041247155.1 dTMP kinase [Komagataeibacter medellinensis]
+Length=213
+
+ Score = 97.8 bits (242),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/116 (43%), Positives = 71/116 (61%), Gaps = 7/116 (6%)
+ Frame = -3
+--
+>WP_079417171.1 dTMP kinase [Paenibacillus ferrarius]
+Length=219
+
+ Score = 103 bits (257),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 73/123 (59%), Gaps = 8/123 (7%)
+ Frame = -3
+--
+>WP_038147708.1 dTMP kinase [Thioclava atlantica]
+Length=204
+
+ Score = 102 bits (255),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 51/104 (49%), Positives = 68/104 (65%), Gaps = 8/104 (8%)
+ Frame = -3
+--
+>WP_082154920.1 dTMP kinase [Jiangella alkaliphila]
+Length=247
+
+ Score = 95.1 bits (235),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 49/115 (43%), Positives = 68/115 (59%), Gaps = 6/115 (5%)
+ Frame = -3
+--
+>WP_071454136.1 dTMP kinase [Gloeomargarita lithophora]
+Length=209
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 53/133 (40%), Positives = 82/133 (62%), Gaps = 6/133 (5%)
+ Frame = -3
+--
+>WP_153471351.1 dTMP kinase [Komagataeibacter medellinensis]
+Length=213
+
+ Score = 97.8 bits (242),  Expect(2) = 2e-21, Method: Compositional matrix adjust.
+ Identities = 49/105 (47%), Positives = 66/105 (63%), Gaps = 7/105 (7%)
+ Frame = -3
+--
+>WP_101656693.1 dTMP kinase [Amylibacter cionae]
+Length=207
+
+ Score = 102 bits (255),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 58/140 (41%), Positives = 77/140 (55%), Gaps = 16/140 (11%)
+ Frame = -3
+--
+>WP_058284263.1 dTMP kinase [Leisingera aquaemixtae]
+Length=215
+
+ Score = 103 bits (256),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 51/107 (48%), Positives = 70/107 (65%), Gaps = 8/107 (7%)
+ Frame = -3
+--
+>WP_058864283.1 dTMP kinase [Ponticoccus marisrubri]
+Length=206
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 53/111 (48%), Positives = 71/111 (64%), Gaps = 8/111 (7%)
+ Frame = -3
+--
+>WP_144022748.1 dTMP kinase [Asanoa hainanensis]
+Length=736
+
+ Score = 92.8 bits (229),  Expect(2) = 3e-21, Method: Compositional matrix adjust.
+ Identities = 48/120 (40%), Positives = 72/120 (60%), Gaps = 7/120 (6%)
+ Frame = -3
+--
+>WP_033182687.1 dTMP kinase [Rhizobium leguminosarum]
+Length=226
+
+ Score = 103 bits (257),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 58/151 (38%), Positives = 83/151 (55%), Gaps = 9/151 (6%)
+ Frame = -3
+--
+>WP_020835946.1 dTMP kinase [Spiroplasma diminutum]
+Length=209
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 51/134 (38%), Positives = 79/134 (59%), Gaps = 8/134 (6%)
+ Frame = -3
+--
+>WP_115366214.1 dTMP kinase [Altererythrobacter sp. HME9302]
+Length=212
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 56/121 (46%), Positives = 78/121 (64%), Gaps = 9/121 (7%)
+ Frame = -3
+--
+>WP_141889780.1 dTMP kinase [Leisingera aquaemixtae]
+Length=215
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 51/107 (48%), Positives = 70/107 (65%), Gaps = 8/107 (7%)
+ Frame = -3
+--
+>WP_074068140.1 dTMP kinase [Rhizobium gallicum]
+Length=227
+
+ Score = 103 bits (257),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 63/157 (40%), Positives = 85/157 (54%), Gaps = 10/157 (6%)
+ Frame = -3
+--
+>WP_078689757.1 dTMP kinase [Bartonella schoenbuchensis]
+Length=214
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 57/141 (40%), Positives = 78/141 (55%), Gaps = 17/141 (12%)
+ Frame = -3
+--
+>WP_034459308.1 dTMP kinase [Bartonella koehlerae]
+Length=216
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 58/140 (41%), Positives = 79/140 (56%), Gaps = 10/140 (7%)
+ Frame = -3
+--
+>WP_012557713.1 dTMP kinase [Rhizobium leguminosarum]
+Length=226
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 63/158 (40%), Positives = 86/158 (54%), Gaps = 10/158 (6%)
+ Frame = -3
+--
+>WP_081780037.1 dTMP kinase [Lactobacillus apodemi]
+Length=222
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 53/142 (37%), Positives = 81/142 (57%), Gaps = 9/142 (6%)
+ Frame = -3
+--
+>WP_065860376.1 dTMP kinase [Cutibacterium granulosum]
+Length=263
+
+ Score = 104 bits (259),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 58/166 (35%), Positives = 85/166 (51%), Gaps = 17/166 (10%)
+ Frame = -3
+--
+>WP_103890820.1 dTMP kinase [Streptomyces yanglinensis]
+Length=1075
+
+ Score = 102 bits (253),  Expect(2) = 3e-21, Method: Compositional matrix adjust.
+ Identities = 51/139 (37%), Positives = 78/139 (56%), Gaps = 8/139 (6%)
+ Frame = -3
+--
+>WP_134297013.1 dTMP kinase [Spiroplasma gladiatoris]
+Length=212
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 54/139 (39%), Positives = 76/139 (55%), Gaps = 8/139 (6%)
+ Frame = -3
+--
+>WP_142634830.1 dTMP kinase [Ruegeria faecimaris]
+Length=207
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 54/109 (50%), Positives = 68/109 (62%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_005865229.1 dTMP kinase [Bartonella alsatica]
+Length=211
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 55/141 (39%), Positives = 78/141 (55%), Gaps = 17/141 (12%)
+ Frame = -3
+--
+>WP_099244397.1 dTMP kinase [Tropicibacter phthalicicus]
+Length=212
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 67/105 (64%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_097589118.1 dTMP kinase [Rhizobium sp. J15]
+Length=227
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 62/158 (39%), Positives = 85/158 (54%), Gaps = 10/158 (6%)
+ Frame = -3
+--
+>WP_085828046.1 dTMP kinase [Roseovarius gaetbuli]
+Length=208
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 52/109 (48%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_119927200.1 dTMP kinase [Streptosporangiaceae bacterium YIM 75507]
+Length=683
+
+ Score = 102 bits (255),  Expect(2) = 3e-21, Method: Compositional matrix adjust.
+ Identities = 54/123 (44%), Positives = 74/123 (60%), Gaps = 10/123 (8%)
+ Frame = -3
+--
+>WP_011048439.1 dTMP kinase [Ruegeria pomeroyi]
+Length=211
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 50/109 (46%), Positives = 71/109 (65%), Gaps = 8/109 (7%)
+ Frame = -3
+--
+>WP_028507274.1 dTMP kinase [Ruminococcaceae bacterium AB4001]
+Length=206
+
+ Score = 102 bits (254),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 60/148 (41%), Positives = 79/148 (53%), Gaps = 9/148 (6%)
+ Frame = -3
+--
+>WP_074640536.1 dTMP kinase [Celeribacter baekdonensis]
+Length=210
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 55/139 (40%), Positives = 80/139 (58%), Gaps = 16/139 (12%)
+ Frame = -3
+--
+>WP_014099587.1 dTMP kinase [Chloracidobacterium thermophilum]
+Length=218
+
+ Score = 95.9 bits (237),  Expect(2) = 3e-21, Method: Compositional matrix adjust.
+ Identities = 52/114 (46%), Positives = 69/114 (61%), Gaps = 8/114 (7%)
+ Frame = -3
+--
+>WP_084432020.1 dTMP kinase [Actinobaculum sp. oral taxon 183]
+Length=212
+
+ Score = 102 bits (255),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 59/135 (44%), Positives = 78/135 (58%), Gaps = 7/135 (5%)
+ Frame = -3
+--
+>WP_079102016.1 dTMP kinase [Streptomyces thermoautotrophicus]
+Length=943
+
+ Score = 99.4 bits (246),  Expect(2) = 3e-21, Method: Compositional matrix adjust.
+ Identities = 50/123 (41%), Positives = 75/123 (61%), Gaps = 8/123 (7%)
+ Frame = -3
+--
+>WP_138389155.1 dTMP kinase [Rhizobium sp. JKLM12A2]
+Length=226
+
+ Score = 103 bits (256),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 62/158 (39%), Positives = 86/158 (54%), Gaps = 10/158 (6%)
+ Frame = -3
+--
+>WP_055532467.1 dTMP kinase, partial [Streptomyces graminilatus]
+Length=769
+
+ Score = 99.4 bits (246),  Expect(2) = 3e-21, Method: Compositional matrix adjust.
+ Identities = 54/152 (36%), Positives = 81/152 (53%), Gaps = 27/152 (18%)
+ Frame = -3
+--
+>WP_089882452.1 dTMP kinase [Citreimonas salinaria]
+Length=212
+
+ Score = 102 bits (255),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 52/105 (50%), Positives = 68/105 (65%), Gaps = 8/105 (8%)
+ Frame = -3
+--
+>WP_012634610.1 dTMP kinase [Ruminiclostridium cellulolyticum]
+Length=206
+
+ Score = 102 bits (254),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 59/155 (38%), Positives = 85/155 (55%), Gaps = 10/155 (6%)
+ Frame = -3
