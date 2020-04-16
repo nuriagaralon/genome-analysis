@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 01:00:00
-#SBATCH -J 0203_trimmedqc_fastqc
+#SBATCH -J 0204_reftrimmedqc_fastqc
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user nuria.garrigaalonso.5928@student.uu.se
 
@@ -14,6 +14,6 @@ module load FastQC
 
 # running FastQC
 fastqc -t 4\
- -o ~/genome-analysis/analyses/02_diff_expression/03_qc_fastqc \
- -d ~/genome-analysis/analyses/02_diff_expression/03_qc_fastqc \
-~/genome-analysis/analyses/02_diff_expression/02_preproc_trimmomatic/*.fastq.gz
+ -o ~/genome-analysis/analyses/02_diff_expression/04_refqc_fastqc \
+ -d ~/genome-analysis/analyses/02_diff_expression/04_refqc_fastqc \
+~/genome-analysis/data/RNA_trimmed_reads/*.fastq.gz
