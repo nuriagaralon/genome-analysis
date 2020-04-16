@@ -1,0 +1,24 @@
+emapper_version	2.0
+original_file	lferr.faa
+job_input	/data/shared/emapper_jobs/user_data/MM_gdy1ddmj/query_seqs.fa
+job_output	query_seqs.fa
+job_output_dir	/data/shared/emapper_jobs/user_data/MM_gdy1ddmj
+email	nuria.garrigaalonso.5928@student.uu.se
+job_name	MM_gdy1ddmj
+job_path	/data/shared/emapper_jobs/user_data/MM_gdy1ddmj
+nseqs	2525
+nsites	761544
+seq_type	aa
+job_cpus	10
+database	none
+go_evidence	non-electronic
+search_mode	diamond
+orthology_type	all
+seed_evalue	0.001
+seed_score	60
+query_cov	20
+subject_cov	0
+tax_scope	2
+emapper_flags	
+date_created	04/08/20
+cmdline	python2 "$EMAPPERPATH"/emapper.py --cpu "10"        -i "/data/shared/emapper_jobs/user_data/MM_gdy1ddmj/query_seqs.fa" --output "query_seqs.fa"        --output_dir "/data/shared/emapper_jobs/user_data/MM_gdy1ddmj"        -m "diamond" -d "none"        --tax_scope "2"        --go_evidence "non-electronic"        --target_orthologs "all"        --seed_ortholog_evalue 0.001        --seed_ortholog_score 60        --query-cover 20        --subject-cover 0        --override                --temp_dir "/data/shared/emapper_jobs/user_data/MM_gdy1ddmj"
