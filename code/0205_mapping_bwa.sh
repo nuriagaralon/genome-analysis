@@ -10,16 +10,22 @@
 
 # Load modules
 module load bioinfo-tools
-module load bwa
+module load bwa samtools
 
 # Variables
-REF = "~/genome-analysis/analyses/01_genome_assembly/lferriphilum_genome.fasta"
-TRIMREADS = "~/genome-analysis/data/RNA_trimmed_reads/"
+REF = ~/genome-analysis/analyses/01_genome_assembly/lferriphilum_genome.fasta
+TRIMREADS = ~/genome-analysis/data/RNA_trimmed_reads/
 
 # Run BWA indexing
 bwa index $REF -p lferrdb
 
-# Run BWA MEM
+# Run BWA MEM for each experiment (two files of paired reads)
+# and pipe it to SAMtools which creates a bam file and sorts it
+
+for F in ERR2036629 ERR2036630 ERR2036631 ERR2036632 ERR2036633 \
+ERR2117288 ERR2117289 ERR2117290 ERR2117291 ERR2117292
+do
 bwa mem -t 4 lferrdb \
-
-
+$TRIMREADS${F}_P1.trim.fastq.gz $TRIMREADS${F}_P2.trim.fastq.gz |
+samtools view -S -b | samtools sort -o ${F}.sorted.bam
+done
