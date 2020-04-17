@@ -13,8 +13,10 @@ module load bioinfo-tools
 module load bwa samtools
 
 # Variables
-REF = ~/genome-analysis/analyses/01_genome_assembly/lferriphilum_genome.fasta
-TRIMREADS = ~/genome-analysis/data/RNA_trimmed_reads/
+REF=~/genome-analysis/analyses/01_genome_assembly/lferriphilum_genome.fasta
+TRIMREADS=~/genome-analysis/data/RNA_trimmed_reads/
+
+cd ~/genome-analysis/analyses/02_diff_expression/05_mapping_bwa/
 
 # Run BWA indexing
 bwa index $REF -p lferrdb
