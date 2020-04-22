@@ -1,0 +1,10 @@
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036629_1.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117288_1.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036629_2.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117288_2.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036630_1.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117289_1.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036630_2.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117289_2.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036631_1.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117290_1.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036631_2.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117290_2.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036632_1.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117291_1.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036632_2.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117291_2.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036633_1.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117292_1.fastq.gz: 100.0 perc similarity
+/home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2036633_2.fastq.gz vs /home/nuga5928/genome-analysis/data/RNA_raw_data/ERR2117292_2.fastq.gz: 100.0 perc similarity

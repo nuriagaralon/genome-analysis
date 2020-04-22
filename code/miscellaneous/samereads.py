@@ -19,4 +19,4 @@ with gzip.open(sys.argv[1], 'rt') as f1, gzip.open(sys.argv[2], 'rt') as f2:
 
 perc = (same/total)*100
 
-print(perc)
+print(f'{sys.argv[1]} vs {sys.argv[2]}: {perc} perc similarity')
