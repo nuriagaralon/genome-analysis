@@ -19,6 +19,6 @@ cd ~/genome-analysis/analyses/02_diff_expression/07_count_htseq/
 
 for F in ERR2036629 ERR2036630 ERR2036631 ERR2036632 ERR2036633
 do
-htseq-count -f bam -r pos -s no -t CDS -i ID \
+htseq-count -f bam -r pos -s reverse -t CDS -i ID \
 $BAM${F}.sorted.bam lferr_nofasta.gff > ${F}.txt
 done
