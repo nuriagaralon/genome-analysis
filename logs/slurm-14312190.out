@@ -1,0 +1,10 @@
+New V5 databases are available: nr_v5 nt_v5 refseq_protein_v5 refseq_rna_v5, see 'module help blast/2.9.0+' for more information
+
+
+Building a new DB, current time: 05/13/2020 12:14:11
+New DB name:   /domus/h1/nuga5928/genome-analysis/analyses/02_diff_expression/08_diffexpr_deseq2/lferr_prot
+New DB title:  ../../01_genome_assembly/09_annotation_prokka/lferr.faa
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 2525 sequences in 0.0997219 seconds.

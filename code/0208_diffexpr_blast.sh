@@ -16,7 +16,7 @@ module load blast
 cd ~/genome-analysis/analyses/02_diff_expression/08_diffexpr_deseq2/
 
 # make database
-makeblastdb -in ../../01_genome_assembly/09_annotation_prokka -dbtype prot -out lferr_prot -parse_seqids
+makeblastdb -in ../../01_genome_assembly/09_annotation_prokka/lferr.faa -dbtype prot -out lferr_prot -parse_seqids
 
 # Run blast and reformat
 blastp -db lferr_prot \
