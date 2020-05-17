@@ -1,0 +1,87 @@
+
+diff_check		21
+diff_idk		145
+unequal_prokka_check	21
+empty_nohyp_egEC	3
+unequal_eggnog_prEC	7
+unequal_prokka_egEC	11
+
+diff_check
+	locus_tag	gene	EC_number	Preferred_name	EC
+1	LFT_00088	tenI	5.3.99.10	thiE	2.5.1.3,2.7.1.49,2.7.4.7	thiamine phosphate synthase
+5	LFT_00643	gnu	5.1.3.26	dfrA	1.1.1.219 	NAD-dependent epimerase/dehydratase family protein
+6	LFT_00716	hndA	1.12.1.3	nuoE	1.6.5.3	NADH-quinone oxidoreductase subunit NuoE
+11	LFT_01371	cimA	2.3.1.182	leuA2	2.3.3.13	citramalate synthase
+12	LFT_01503	hndC_4	1.12.1.3	nuoF2	1.6.5.3	 	NADH-quinone oxidoreductase subunit NuoF
+13	LFT_01543	chmD	1.1.1.364	uxs	4.1.1.35,4.2.1.46	SDR family oxidoreductase
+17	LFT_02115	hndC_5	1.12.1.3	nuoF	1.6.5.3	TPA: NADH-quinone oxidoreductase subunit NuoF
+18	LFT_02224	pds	1.3.5.5 	hpnE	1.17.8.1	FAD-dependent oxidoreductase
+21	LFT_02572	hpnR	2.1.1.- 	bchE	1.21.98.3	hopanoid C-3 methylase HpnR
+
+diff_idk
+	
+	locus_tag	gene	EC_number	Preferred_name	EC
+
+2	LFT_00036	yjcC	3.1.4.52	M1-600		EAL domain-containing protein
+3	LFT_00112	pyrE_2	2.4.2.10	comF		ComF family protein
+4	LFT_00181	ykuV_1	1.8.-.- 	wapA	 	redoxin domain-containing protein
+6	LFT_00307	lacA	2.3.1.18	yrdA	 	gamma carbonic anhydrase family protein
+8	LFT_00538	paaF	4.2.1.17	rpfF	 	putative enoyl-CoA hydratase/isomerase
+9	LFT_00563	kinE_1	2.7.13.3	prsK	 	hypothetical protein
+13	LFT_00663	traC	2.7.7.- 	yfjI	 	probable DNA primase
+18	LFT_01252	mshA_1	2.4.1.250	pelF	4.2.2.10	GT4 family glycosyltransferase PelF
+19	LFT_01307	iolG	1.1.1.18	gnnA	Gfo/Idh/MocA family oxidoreductase
+24	LFT_01500	mltD	4.2.2.- 	CP_0155		TPA: LysM peptidoglycan-binding domain-containing protein
+26	LFT_01617	cph1_1	2.7.13.3	MA20_18310	hypothetical CHASE3 domain-containing protein
+28	LFT_01629	bepA_8	3.4.-.- 	lysM	 	tetratricopeptide repeat protein
+29	LFT_01739	albA	1.21.98.-	hpnH	 	adenosyl-hopene transferase HpnH
+34	LFT_01976	sfrB	1.-.-.- 	pcmB	?	FAD-dependent oxidoreductase
+37	LFT_02166	dtd3	3.1.1.96	tatD	3.1.13.-  	TatD family hydrolase
+40	LFT_02268	gloB_2	3.1.2.6 	rnfB		MBL fold metallo-hydrolase
+42	LFT_02422	dsbD	1.8.1.8 	ccdA		cytochrome C biogenesis protein CcdA	
+43	LFT_02574	bepA_12	3.4.-.- 	bcr4			hypothetical protein
+49	LFT_00810	pqqB		phnP	2.3.1.181,3.1.4.55	MBL fold metallo hydrolase
+57	LFT_02286	yheS		MA20_28645	3.6.3.29,3.6.3.41	ABC transporter ATPase
+58	LFT_02494	rsxB		porE	1.2.7.1			pyruvate ferredoxin oxidoreductase
+75	LFT_00449	xre		XK27_07105	helix-turn-helix transcriptional regulator
+89	LFT_00869	ihfB		hup	integration host factor subunit beta
+94	LFT_00936	yrrB		pilF	 putative TPR-domain containing protein
+104	LFT_01250	rpaR		csgD	hypothetical autoinducer binding domain-containing protein
+106	LFT_01363	fixP		actE	cytochrome c
+108	LFT_01427	esiB_2		motX	hypothetical SEL1-like repeat protein
+109	LFT_01476	ytrF		salY	ABC transporter permeas
+116	LFT_01765	ycf3		pilF	conserved tetratricopeptide repeat protein
+140	LFT_02428	mkl		mlaF	ABC transporter ATP-binding protein
+143	LFT_02486	cbpA		dnaJ2	Putative heat shock protein DnaJ
+144	LFT_02545	spo0C		parB	ParB/RepB/Spo0J family partition protein 
+
+unequal_prokka_check	
+	locus_tag	gene	EC_number	EC
+1	LFT_00031	dosC	2.7.7.65	5.99.1.2	GGDEF domain-containing protein
+3	LFT_00289	dmpP	1.14.13.7	1.16.1.3,1.5.1.41 	putative oxidoreductase FAD/NAD(P)-binding protein
+6	LFT_00919	ptsP	2.7.3.9		4.6.1.1 	GAF sensor protein
+7	LFT_01023	exoX	3.1.11.-	2.7.7.7 	DUF3820 family protein
+8	LFT_01053	recD2	3.6.4.12	3.1.11.5 	AAA family ATPase
+13	LFT_01596	gmr_3	3.1.4.52	2.7.7.65	diguanylate cyclase
+14	LFT_01701	ndbB	1.6.5.12	1.8.5.4 	NAD(P)/FAD-dependent oxidoreductase
+15	LFT_01808	colD	2.6.1.54	1.17.1.1	DegT/DnrJ/EryC1/StrS family aminotransferase
+17	LFT_01863	menH	4.2.99.20	3.5.1.29	alpha/beta hydrolase
+18	LFT_01997	pkn1	2.7.11.1	1.14.99.50 	putative SUMF1/EgtB/PvdO family nonheme iron enzyme
+19	LFT_02222	estB_1	3.1.1.- 	3.4.16.4 	beta-lactamase-related serine hydrolase
+
+
+empty_nohyp_egEC
+	locus_tag	gene			EC_number	EC
+1	LFT_00422	putative signaling protein		2.1.1.80,3.1.1.61 (methyl)	EAL-domain containing protein (signaling)
+2	LFT_01938	putative signaling protein		2.1.1.80,3.1.1.61 (methyl)	EAL-domain containing protein (signaling)
+
+
+unequal_prokka_egEC
+
+	locus_tag	gene		EC
+1	LFT_00079	bamB_1		1.1.2.6,2.7.11.1,3.1.4.53 	PQQ-binding-like beta-propeller repeat protein
+11	LFT_02344	bamB_2		1.1.2.6	  PQQ-binding-like beta-propeller repeat protein
+9	LFT_01644	kstR2_2		2.1.1.107,4.2.1.75	TetR/AcrR family transcriptional regulator
+
+
+

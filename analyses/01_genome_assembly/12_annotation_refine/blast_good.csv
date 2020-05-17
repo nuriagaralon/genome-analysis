@@ -1,0 +1,54 @@
+,locus_tag,gene (BLAST),BLAST hit
+1,LFT_00088,thiE,thiamine phosphate synthase
+2,LFT_00643,NAD-dependent epimerase/dehydratase family protein,
+3,LFT_00716,nuoE,NADH-quinone oxidoreductase subunit NuoE
+4,LFT_01371,cimA,citramalate synthase
+5,LFT_01503,nuoF2,NADH-quinone oxidoreductase subunit NuoF
+6,LFT_01543,SDR family oxidoreductase,
+7,LFT_02115,nuoF,TPA: NADH-quinone oxidoreductase subunit NuoF
+8,LFT_02224,FAD-dependent oxidoreductase,
+9,LFT_02572,hpnR,hopanoid C-3 methylase HpnR
+10,LFT_00036,EAL domain-containing protein,
+11,LFT_00112,comF,ComF family protein
+12,LFT_00181,redoxin domain-containing protein,
+13,LFT_00307,gamma carbonic anhydrase family protein,
+14,LFT_00538,putative enoyl-CoA hydratase/isomerase,
+15,LFT_00663,probable DNA primase,
+16,LFT_01252,pelF,GT4 family glycosyltransferase PelF
+17,LFT_01307,Gfo/Idh/MocA family oxidoreductase,
+18,LFT_01500,TPA: LysM peptidoglycan-binding domain-containing protein,
+19,LFT_01617,hypothetical CHASE3 domain-containing protein,
+20,LFT_01629,tetratricopeptide repeat protein,
+21,LFT_01739,hpnH,adenosyl-hopene transferase HpnH
+22,LFT_01976,FAD-dependent oxidoreductase,
+23,LFT_02166,tatD,TatD family hydrolase
+24,LFT_02268,MBL fold metallo-hydrolase,
+25,LFT_02422,ccdA,cytochrome C biogenesis protein CcdA
+26,LFT_00810,MBL fold metallo hydrolase,
+27,LFT_02286,ABC transporter ATPase,
+28,LFT_02494,pyruvate ferredoxin oxidoreductase,
+29,LFT_00449,helix-turn-helix transcriptional regulator,
+30,LFT_00869,ihfB,integration host factor subunit beta
+31,LFT_01363,cytochrome c,
+32,LFT_01427,hypothetical SEL1-like repeat protein,
+33,LFT_01476,ABC transporter permeas,
+34,LFT_01765,conserved tetratricopeptide repeat protein,
+35,LFT_02428,ABC transporter ATP-binding protein,
+36,LFT_02486,dnaJ2,Putative heat shock protein DnaJ
+37,LFT_02545,spo0C,ParB/RepB/Spo0J family partition protein 
+38,LFT_00031,GGDEF domain-containing protein,
+39,LFT_00289,putative oxidoreductase FAD/NAD(P)-binding protein,
+40,LFT_00919,GAF sensor protein,
+41,LFT_01023,DUF3820 family protein,
+42,LFT_01053,AAA family ATPase,
+43,LFT_01596,diguanylate cyclase,
+44,LFT_01701,NAD(P)/FAD-dependent oxidoreductase,
+45,LFT_01808,DegT/DnrJ/EryC1/StrS family aminotransferase,
+46,LFT_01863,alpha/beta hydrolase,
+47,LFT_01997,putative SUMF1/EgtB/PvdO family nonheme iron enzyme,
+48,LFT_02222,beta-lactamase-related serine hydrolase,
+49,LFT_00422,putative signaling protein,EAL-domain containing protein (signaling)
+50,LFT_01938,putative signaling protein,EAL-domain containing protein (signaling)
+51,LFT_00079,bamB_1,PQQ-binding-like beta-propeller repeat protein
+52,LFT_02344,bamB_2,  PQQ-binding-like beta-propeller repeat protein
+53,LFT_01644,TetR/AcrR family transcriptional regulator,

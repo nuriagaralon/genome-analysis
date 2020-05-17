@@ -1,0 +1,44 @@
+good: annotations match
+
+okay_best: 1 annotation present, EC match
+okay_good: 1 annotation present, EC approximately match, or match from a list
+okay_okay: 1 annotation present, EC empty or only present for the present annotation, EC matches first two numbers
+
+diff_best: annotations different, EC match
+diff_okay: annotations different, EC approximately match, or match from a list
+
+diff_good: no EC, but annotations same even if different names
+
+Hypothetical proteins: empty_hyp	900
+
+
+Datasets:
+
+good 		good_ann		576
+		unequal_but_equal	214
+okay_best	unequal_prokka_good	23
+		unequal_eggnog_good	6
+		empty_nohyp_good	2
+okay_good	unequal_prokka_alsogood	21
+		unequal_eggnog_unequal	17
+		empty_nohyp_unequal	2
+okay_okay	unequal_prokka_empty	130
+		unequal_eggnog_empty	164
+		empty_nohyp_empty	27
+		empty_nohyp_prEC	16
+		unequal_eggnog_egEC	36
+		unequal_prokka_prEC	105
+diff_best	diff_good		34
+diff_okay	diff_alsogood		44
+TOTAL					1417
+Manual check:
+
+diff_check		21	Are the EC numbers similar? (not caught by R)
+diff_idk		145	Do the two annotated proteins do similar functions?
+unequal_prokka_check	21	Are the EC numbers similar? (not caught by R)
+empty_nohyp_egEC	3	Does the annotated protein do the function of the EC?
+unequal_eggnog_prEC	7	Does the annotated protein do the function of the EC?
+unequal_prokka_egEC	11	Does the annotated protein do the function of the EC?
+TOTAL			208
+
+GRAND TOTAL = 1417+208+900 = 2525
