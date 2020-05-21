@@ -55,6 +55,7 @@ res <- results(dds, contrast = c("Type","Chemostat","Mineral"))
 resOrder <- res[order(res$pvalue),]
 
 plotMA(res)
+# MA plot looks fine (the scatter from the center line is pretty symmetric)
 
 ## RESULTS PLOTS
 # Transform count data using the variance stablilizing transform
@@ -75,7 +76,7 @@ EnhancedVolcano(res,
                 lab = rownames(res),
                 x = 'log2FoldChange',
                 y = 'padj',
-                pCutoff = 0.001)
+                pCutoff = 0.01)
 
 # Heatmap
 
