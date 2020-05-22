@@ -132,5 +132,6 @@ p
 
 # Which functions do the genes in the heatmap have?
 setDT(classification, keep.rownames = "Gene")
-hmfunc <- merge(check_genes, classification)
+hmfunc <- left_join(check_genes, classification)
+hmfunc <- left_join(hmfunc, names)
 write.csv(hmfunc, file="heatmap_func.csv" )
