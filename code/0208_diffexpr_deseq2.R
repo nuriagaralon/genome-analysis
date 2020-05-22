@@ -93,6 +93,7 @@ ddsvst <- ddsvst[ddsvst$Gene %in% sigGenes,]
 
 # Convert the VST counts to long format for ggplot2
 ddsvst <- melt(ddsvst, id.vars=c("Gene"))
+check_genes <- distinct(select(ddsvst, Gene))
 
 # Change gene locus to name
 names = read.delim(file = path10, sep = ',', header = TRUE, row.names = 1, stringsAsFactors = FALSE)
@@ -128,3 +129,8 @@ p <- ggplot(class_df, aes(x = category, y = log2FoldChange)) +
   xlab("Generalized functional categories")
 
 p
+
+# Which functions do the genes in the heatmap have?
+setDT(classification, keep.rownames = "Gene")
+hmfunc <- merge(check_genes, classification)
+write.csv(hmfunc, file="heatmap_func.csv" )
