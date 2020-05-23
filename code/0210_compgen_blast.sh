@@ -24,5 +24,5 @@ blastp -db lferr_prot \
 -out compgen.txt \
 -num_threads 2 -outfmt 11
 
-blast_formatter -archive proteinclassif.txt -outfmt 0 -out compgen_pair.txt
-blast_formatter -archive proteinclassif.txt -outfmt 6 -out compgen_tab.txt 
+blast_formatter -archive compgen.txt -outfmt 0 -out compgen_pair.txt
+blast_formatter -archive compgen.txt -outfmt 6 -out compgen_tab.txt 
