@@ -22,7 +22,5 @@ makeblastdb -in ../../01_genome_assembly/09_annotation_prokka/lferr.faa -dbtype 
 blastp -db lferr_prot \
 -query aferr.faa \
 -out compgen.txt \
--num_threads 2 -outfmt 11
-
-blast_formatter -archive compgen.txt -outfmt 0 -out compgen_pair.txt
-blast_formatter -archive compgen.txt -outfmt 6 -out compgen_tab.txt 
+-max_target_seqs 1 \
+-num_threads 2 -outfmt 6\
