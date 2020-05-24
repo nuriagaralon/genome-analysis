@@ -1,5 +1,5 @@
-# ANNOTATION REFINEMENT
-# Comparison of Prokka and eggNOGmapper annotations, division in different tables by confidence.
+# COMPARATIVE GENOMICS
+# Comparison of Leptospirillum ferriphilum and Acidithiobacillus ferrooxidans
 
 # Load libraries
 library(data.table)
